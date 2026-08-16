@@ -8,3 +8,5 @@ Then open your site with `?v=3` once in Safari to force a fresh version, for exa
 Delete/re-add the Home Screen icon only if iOS keeps an old cached shell.
 
 Features: 115 original questions, A/B/C only, 60-second red timer, timeout = incorrect, explanation + CFA Institute verification link, persistent bottom-right Next button, score, streak, bookmarks. No swipe gesture is required.
+
+UI v4: top-left now shows only `ETHICS · 115 QUESTIONS`; answered/correct count removed from the header.
