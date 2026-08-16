@@ -1,22 +1,16 @@
-# Ethics Reel — Free PWA
+# Ethics Reel — functional V1
 
-This is the zero-cost installable web-app shell.
+This is the first functional free PWA build.
 
-## Important
-The included question is explicitly marked DEMO ONLY. It is for testing the timer/UI/install flow, not the final validated CFA Ethics question bank.
+- 20 original questions
+- 3 answer choices
+- 60-second timer per question
+- timeout counts as incorrect
+- explanation after every answer
+- official CFA Institute verification link after every question
+- Next Question button
+- swipe up after answering
+- score and streak stored locally
+- reshuffles after the 20-question cycle
 
-## Free deployment
-The simplest free route is GitHub Pages:
-1. Create a GitHub account.
-2. Create a new public repository named `ethics-reel`.
-3. Upload all files from this folder to the repository root.
-4. Open repository Settings → Pages.
-5. Under Build and deployment, choose "Deploy from a branch".
-6. Choose `main` and `/ (root)`, then Save.
-7. GitHub will publish the site at an HTTPS URL.
-8. Open that URL on iPhone Safari.
-9. Tap Share → Add to Home Screen → Add.
-10. "Ethics Reel" will appear on the Home Screen.
-
-## No Node.js required
-This version is plain HTML/CSS/JavaScript. You do not need npm, Expo, Xcode, a Mac, an Apple Developer account, or an OpenAI API key to install this prototype.
+Important: These are original practice questions, not CFA Institute exam questions. The app is not affiliated with or endorsed by CFA Institute.

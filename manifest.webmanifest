@@ -1,8 +1,8 @@
 {
   "name": "Ethics Reel",
   "short_name": "Ethics Reel",
-  "description": "CFA Ethics practice feed prototype",
-  "start_url": "./",
+  "description": "Original CFA Ethics practice feed",
+  "start_url": "./?v=2",
   "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",

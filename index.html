@@ -1,62 +1,55 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <meta name="apple-mobile-web-app-title" content="Ethics Reel" />
-  <link rel="manifest" href="./manifest.webmanifest" />
-  <link rel="apple-touch-icon" href="./icon-192.png" />
-  <link rel="stylesheet" href="./styles.css" />
-  <title>Ethics Reel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Ethics Reel">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<link rel="stylesheet" href="./styles.css">
+<title>Ethics Reel</title>
 </head>
 <body>
-  <main id="app">
-    <section class="screen">
-      <header class="topbar">
-        <button class="iconbtn" aria-label="Close">×</button>
-        <div class="timer" id="timer">01:00</div>
-        <button class="iconbtn" id="bookmark" aria-label="Bookmark">♡</button>
-      </header>
+<main class="screen" id="screen">
+  <header class="top">
+    <div class="stat" id="score">0/0</div>
+    <div class="timer" id="timer">01:00</div>
+    <button class="bookmark" id="bookmark" aria-label="Bookmark">♡</button>
+  </header>
 
-      <div class="badge">⚖️ Ethics · DEMO ONLY</div>
+  <div class="meta">
+    <span>⚖️ ETHICS</span>
+    <span class="dot">•</span>
+    <span id="difficulty">BRUTAL</span>
+    <span class="dot">•</span>
+    <span>2027 ALIGNED</span>
+  </div>
 
-      <div class="demo-warning">
-        Installation prototype only — this question is not part of the final study bank.
-      </div>
+  <article class="card" id="card">
+    <div class="qnum" id="qnum">QUESTION</div>
+    <p class="stem" id="stem"></p>
+    <div class="answers" id="answers"></div>
 
-      <article class="question-card">
-        <p class="stem">
-          A research analyst receives a material earnings figure from a company executive before public release.
-          Before trading, the analyst finds public industry data that points in the same direction.
-          Which action is most appropriate?
-        </p>
-
-        <div class="answers">
-          <button class="answer" data-index="0"><span>A</span>Trade because the public data independently supports the conclusion.</button>
-          <button class="answer" data-index="1"><span>B</span>Do not trade while the material company-specific information remains nonpublic.</button>
-          <button class="answer" data-index="2"><span>C</span>Trade only after telling the analyst's supervisor about the information.</button>
-        </div>
-
-        <div class="feedback hidden" id="feedback">
-          <div class="feedback-title" id="feedbackTitle"></div>
-          <p>
-            <strong>Demo explanation:</strong> public corroboration does not make material nonpublic company-specific information public.
-            This is only here to test the app experience; the final bank will be separately researched and validated.
-          </p>
-        </div>
-      </article>
-
-      <footer class="footer">
-        <span>DEMO</span>
-        <span>1 OF ∞</span>
-        <span>SWIPE ↑</span>
-      </footer>
+    <section class="feedback hidden" id="feedback">
+      <div class="result" id="result"></div>
+      <div class="standard" id="standard"></div>
+      <p class="explanation" id="explanation"></p>
+      <a id="source" class="source" href="#" target="_blank" rel="noopener">VERIFY WITH CFA INSTITUTE ↗</a>
+      <button class="next" id="next">NEXT QUESTION ↑</button>
+      <div class="swipe">or swipe up</div>
     </section>
-  </main>
+  </article>
 
-  <script src="./app.js"></script>
+  <footer>
+    <span id="streak">🔥 0</span>
+    <span>ORIGINAL QUESTIONS</span>
+    <span id="seen">1 / 20</span>
+  </footer>
+</main>
+<script src="./questions.js"></script>
+<script src="./app.js"></script>
 </body>
 </html>
