@@ -1,55 +1,16 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#ffffff">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Ethics Reel">
-<link rel="manifest" href="./manifest.webmanifest">
-<link rel="apple-touch-icon" href="./icon-192.png">
-<link rel="stylesheet" href="./styles.css">
-<title>Ethics Reel</title>
-</head>
-<body>
-<main class="screen" id="screen">
-  <header class="top">
-    <div class="stat" id="score">0/0</div>
-    <div class="timer" id="timer">01:00</div>
-    <button class="bookmark" id="bookmark" aria-label="Bookmark">♡</button>
-  </header>
-
-  <div class="meta">
-    <span>⚖️ ETHICS</span>
-    <span class="dot">•</span>
-    <span id="difficulty">BRUTAL</span>
-    <span class="dot">•</span>
-    <span>2027 ALIGNED</span>
-  </div>
-
-  <article class="card" id="card">
-    <div class="qnum" id="qnum">QUESTION</div>
-    <p class="stem" id="stem"></p>
-    <div class="answers" id="answers"></div>
-
-    <section class="feedback hidden" id="feedback">
-      <div class="result" id="result"></div>
-      <div class="standard" id="standard"></div>
-      <p class="explanation" id="explanation"></p>
-      <a id="source" class="source" href="#" target="_blank" rel="noopener">VERIFY WITH CFA INSTITUTE ↗</a>
-      <button class="next" id="next">NEXT QUESTION ↑</button>
-      <div class="swipe">or swipe up</div>
-    </section>
-  </article>
-
-  <footer>
-    <span id="streak">🔥 0</span>
-    <span>ORIGINAL QUESTIONS</span>
-    <span id="seen">1 / 20</span>
-  </footer>
-</main>
-<script src="./questions.js"></script>
-<script src="./app.js"></script>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Ethics Reel">
+<link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icon-192.png"><link rel="stylesheet" href="./styles.css">
+<title>Ethics Reel</title></head><body>
+<main class="screen">
+<header class="top"><div class="stat" id="score">0/0</div><div class="timer" id="timer">01:00</div><button class="bookmark" id="bookmark">♡</button></header>
+<div class="meta"><span>⚖️ ETHICS</span><span>•</span><span id="difficulty">BRUTAL</span><span>•</span><span>2027</span></div>
+<article class="card"><div class="qnum" id="qnum"></div><p class="stem" id="stem"></p><div class="answers" id="answers"></div>
+<section class="feedback hidden" id="feedback"><div class="result" id="result"></div><div class="standard" id="standard"></div><p class="explanation" id="explanation"></p><a id="source" class="source" href="#" target="_blank" rel="noopener">VERIFY RULE WITH CFA INSTITUTE ↗</a></section></article>
+<div class="spacer"></div>
+<nav class="bottom"><div class="bottomStat"><span id="streak">🔥 0</span><small id="seen">1 / 115</small></div><button class="next" id="next" disabled>NEXT QUESTION →</button></nav>
+<div class="disclaimer">Original practice questions. Not affiliated with or endorsed by CFA Institute.</div>
+</main><script src="./questions.js"></script><script src="./app.js"></script></body></html>

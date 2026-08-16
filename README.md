@@ -1,16 +1,10 @@
-# Ethics Reel — functional V1
+# Ethics Reel — 115-question build
 
-This is the first functional free PWA build.
+Upload every file in this folder to the root of your existing GitHub `ethics-reel` repository and commit the changes. GitHub Pages will redeploy automatically.
 
-- 20 original questions
-- 3 answer choices
-- 60-second timer per question
-- timeout counts as incorrect
-- explanation after every answer
-- official CFA Institute verification link after every question
-- Next Question button
-- swipe up after answering
-- score and streak stored locally
-- reshuffles after the 20-question cycle
+Then open your site with `?v=3` once in Safari to force a fresh version, for example:
+`https://YOUR-USERNAME.github.io/ethics-reel/?v=3`
 
-Important: These are original practice questions, not CFA Institute exam questions. The app is not affiliated with or endorsed by CFA Institute.
+Delete/re-add the Home Screen icon only if iOS keeps an old cached shell.
+
+Features: 115 original questions, A/B/C only, 60-second red timer, timeout = incorrect, explanation + CFA Institute verification link, persistent bottom-right Next button, score, streak, bookmarks. No swipe gesture is required.
