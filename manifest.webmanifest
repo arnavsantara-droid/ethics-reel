@@ -1,15 +1,24 @@
 {
-  "name": "CFA Reel",
-  "short_name": "CFA Reel",
-  "description": "Private CFA Level I 2027 practice app",
-  "start_url": "./index.html?v=20260817.03",
+  "name": "CFA Doomscroll",
+  "short_name": "CFA Doomscroll",
+  "description": "CFA Level I question practice built for doomscroll replacement.",
+  "start_url": "./?source=homescreen",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#050505",
+  "theme_color": "#050505",
   "icons": [
-    {"src":"icons/icon-180.png","sizes":"180x180","type":"image/png","purpose":"any"},
-    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    {
+      "src": "./app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./app-icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
