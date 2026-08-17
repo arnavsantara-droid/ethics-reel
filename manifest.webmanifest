@@ -2,7 +2,7 @@
   "name": "Ethics Reel",
   "short_name": "Ethics Reel",
   "description": "115 original CFA Ethics practice questions",
-  "start_url": "./?v=5",
+  "start_url": "./?v=6",
   "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -16,3 +16,5 @@ UI v5:
 - Top meta now shows only ETHICS · 2027.
 - Added cache-busting to prevent mixed old/new files on iPhone.
 - Disabled the old service-worker cache because it caused the question stem to load without A/B/C answer choices.
+
+UI v6: bottom-left now shows streak on top, a green tick count for correct answers, a red cross count for wrong answers, and current position below.
