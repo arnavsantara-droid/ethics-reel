@@ -323,14 +323,14 @@
   The loader below also tries common file names automatically.
 */
 
-const BUILD = "20260817-final-1";
+const BUILD = "20260817-fsa-equity-integrated-1";
 const SUBJECTS = [
   {key:"ethics", name:"Ethics", color:"red", files:["questions.js","questions-ethics.js","ethics.js"]},
   {key:"quant", name:"Quantitative Methods", color:"green", files:["questions-quant.js","quant.js","quantitative-methods.js"]},
   {key:"economics", name:"Economics", color:"amber", files:["questions-economics.js","economics.js"]},
-  {key:"fsa", name:"Financial Statement Analysis", color:"violet", files:["questions-fsa.js","fsa.js","financial-statement-analysis.js"]},
+  {key:"fsa", name:"Financial Statement Analysis", color:"violet", knownCount:100, files:["FSA_100_QUESTIONS_q201-q300.json","questions-fsa.js","fsa.js","financial-statement-analysis.js"]},
   {key:"corporate", name:"Corporate Issuers", color:"red", files:["questions-corporate.js","corporate.js","corporate-issuers.js"]},
-  {key:"equity", name:"Equity Investments", color:"green", files:["questions-equity.js","equity.js"]},
+  {key:"equity", name:"Equity Investments", color:"green", knownCount:100, files:["EQUITY_100_QUESTIONS_q301-q400.json","questions-equity.js","equity.js"]},
   {key:"fixedincome", name:"Fixed Income", color:"amber", files:["questions-fixed-income.js","fixed-income.js","fixedincome.js"]},
   {key:"derivatives", name:"Derivatives", color:"violet", files:["questions-derivatives.js","derivatives.js"]},
   {key:"alternatives", name:"Alternative Investments", color:"red", files:["questions-alternatives.js","alternatives.js","alternative-investments.js"]},
@@ -454,6 +454,8 @@ function renderSubjects(){
     if (knownBank?.length){
       progress = Math.min(100, (p.nextIndex / knownBank.length) * 100);
       meta = `${knownBank.length} questions · ${Math.min(p.nextIndex, knownBank.length)} completed`;
+    } else if (s.knownCount) {
+      meta = `${s.knownCount} questions · production bank`;
     } else if (s.key === "ethics") {
       meta = "Production bank";
     }
@@ -485,6 +487,15 @@ function loadScript(src){
   });
 }
 
+async function loadJSON(src){
+  const response = await fetch(`${src}?v=${BUILD}`, {cache:"no-store"});
+  if (!response.ok) throw new Error(src);
+  const data = await response.json();
+  if (Array.isArray(data)) return data;
+  if (data && Array.isArray(data.questions)) return data.questions;
+  throw new Error(`No questions array in ${src}`);
+}
+
 async function loadBank(subject){
   if (runtimeBanks[subject.key]) return runtimeBanks[subject.key];
 
@@ -496,23 +507,33 @@ async function loadBank(subject){
     return runtimeBanks[subject.key];
   }
 
-  // Try several common filenames so a harmless naming difference does not break the subject.
+  // Try the canonical production JSON first, then fall back to legacy JS filenames.
   for (const file of subject.files){
     try{
-      // Legacy files may all export window.QUESTIONS, so clear it before each load attempt.
-      window.QUESTIONS = undefined;
-      await loadScript(file);
-
       let found = null;
-      if (Array.isArray(window.CFA_BANKS[subject.key]) && window.CFA_BANKS[subject.key].length){
-        found = window.CFA_BANKS[subject.key];
-      } else if (Array.isArray(window.QUESTIONS) && window.QUESTIONS.length){
-        found = window.QUESTIONS;
+
+      if (file.toLowerCase().endsWith(".json")){
+        found = await loadJSON(file);
+      } else {
+        // Legacy JS banks may export window.QUESTIONS.
+        window.QUESTIONS = undefined;
+        await loadScript(file);
+
+        if (Array.isArray(window.CFA_BANKS[subject.key]) && window.CFA_BANKS[subject.key].length){
+          found = window.CFA_BANKS[subject.key];
+        } else if (Array.isArray(window.QUESTIONS) && window.QUESTIONS.length){
+          found = window.QUESTIONS;
+        }
       }
 
-      if (found){
-        runtimeBanks[subject.key] = found;
-        return found;
+      if (Array.isArray(found) && found.length){
+        // Enforce subject separation for structured banks.
+        const normalized = found.filter(q => !q.subject || String(q.subject).toLowerCase() === subject.key ||
+          (subject.key === "fsa" && String(q.subject).toLowerCase() === "fsa") ||
+          (subject.key === "equity" && String(q.subject).toLowerCase() === "equity"));
+
+        runtimeBanks[subject.key] = normalized.length ? normalized : found;
+        return runtimeBanks[subject.key];
       }
     }catch(e){}
   }
@@ -566,7 +587,7 @@ function showMissingBank(){
   const expected = activeSubject.files.map(f=>`<code>${escapeHTML(f)}</code>`).join(", ");
   els.emptyText.innerHTML =
     `The app shell is working, but no ${escapeHTML(activeSubject.name)} question file exists in the site yet. ` +
-    `Add one of these files to the same GitHub Pages folder: ${expected}. ` +
+    `Add one of these supported bank files to the same GitHub Pages folder: ${expected}. ` +
     `The app will detect it automatically — no UI code change is needed.`;
 }
 

@@ -1,39 +1,44 @@
-CFA DOOMSCROLL — FINAL BUILD
+CFA DOOMSCROLL — FSA + EQUITY INTEGRATED BUILD
 
-FILES TO PUT IN THE ROOT OF YOUR GITHUB PAGES REPOSITORY:
-1. index.html
-2. manifest.webmanifest
-3. app-icon.png
-4. app-icon-maskable.png
-5. your question-bank JS files
+This build now contains and uses the exact uploaded production banks:
 
-IMPORTANT:
-- Replace the included fallback app-icon.png with your chosen square logo if you want that exact logo on the iPhone Home Screen.
-- Keep the filename exactly: app-icon.png
-- The latest Ethics production bank found in your prior uploads contains 200 questions and was named questions(1).js.
-  Rename that file to questions.js before uploading it to the repository.
-- The app displays bank.length automatically, so it will show 200 QUESTIONS rather than a hard-coded 115.
+FSA
+- 100 questions
+- permanent internal IDs q201–q300
+- file: FSA_100_QUESTIONS_q201-q300.json
 
-OTHER SUBJECT FILE NAMES SUPPORTED AUTOMATICALLY:
-Quantitative Methods: questions-quant.js / quant.js / quantitative-methods.js
-Economics: questions-economics.js / economics.js
-FSA: questions-fsa.js / fsa.js / financial-statement-analysis.js
-Corporate Issuers: questions-corporate.js / corporate.js / corporate-issuers.js
-Equity: questions-equity.js / equity.js
-Fixed Income: questions-fixed-income.js / fixed-income.js / fixedincome.js
-Derivatives: questions-derivatives.js / derivatives.js
-Alternative Investments: questions-alternatives.js / alternatives.js / alternative-investments.js
-Portfolio Management: questions-portfolio.js / portfolio.js / portfolio-management.js
+EQUITY
+- 100 questions
+- permanent internal IDs q301–q400
+- file: EQUITY_100_QUESTIONS_q301-q400.json
 
-BANK EXPORT FORMAT:
-Legacy format (works for any subject because the file is loaded on demand):
-window.QUESTIONS = [ ... ];
+APP BEHAVIOR
+- FSA and Equity are separate queues.
+- Internal IDs are never shown in the normal quiz UI.
+- Visible numbering starts at QUESTION 1 for a fresh page/session.
+- Hidden subject progress persists independently in localStorage.
+- Correct / wrong / streak / position are independent per subject.
+- Questions stay in bank order; no randomization is performed.
+- Exactly three A/B/C options are used.
+- The `correct` field is interpreted as zero-based: 0=A, 1=B, 2=C.
+- The question-count label is read from the actual loaded bank, so FSA and Equity show 100 QUESTIONS.
 
-Preferred format:
-window.CFA_BANKS = window.CFA_BANKS || {};
-window.CFA_BANKS.equity = [ ... ];
+UPLOAD THESE FILES TO THE ROOT OF YOUR GITHUB PAGES REPOSITORY
+- index.html
+- manifest.webmanifest
+- app-icon.png
+- app-icon-maskable.png
+- FSA_100_QUESTIONS_q201-q300.json
+- EQUITY_100_QUESTIONS_q301-q400.json
 
-REFRESH BEHAVIOR:
-- Visible label resets to QUESTION 1 on every fresh page/session.
-- Hidden bank progress remains saved, so you continue from the next unseen internal question.
-- Internal IDs remain hidden.
+OPTIONAL / REFERENCE
+- CFA_REEL_FSA_EQUITY_200_QUESTIONS.json
+
+ETHICS
+The app still supports your existing Ethics `questions.js` file. Keep/upload that alongside these files.
+
+IMPORTANT FOR IPHONE HOME-SCREEN CACHE
+After GitHub Pages finishes deploying:
+1. Open the site in Safari.
+2. Refresh once.
+3. If an older Home Screen copy still appears, remove the old Home Screen icon and add the site to Home Screen again.
