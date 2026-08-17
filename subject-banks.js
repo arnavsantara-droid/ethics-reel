@@ -1,0 +1,3206 @@
+window.FSA_QUESTIONS = [
+  {
+    "id": "q201",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Analysis",
+    "subtopic": "Analysis framework",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst is asked whether a manufacturer can safely add debt. She immediately calculates the current ratio from the latest annual report and recommends approval because it exceeds the industry median. She has not defined the credit question, reviewed footnotes, examined cash-flow seasonality, or investigated a major acquisition completed after year-end. Which change would most improve the analysis process?",
+    "options": [
+      "Replace the current ratio with return on equity because profitability ratios dominate liquidity ratios in credit analysis.",
+      "Define the decision objective first, collect relevant filings and supplementary information, process and interpret the data, then form and monitor a conclusion.",
+      "Use only audited statement figures because supplementary information and post-balance-sheet events are less reliable than the annual report."
+    ],
+    "correct": 1,
+    "explanation": "Financial statement analysis is a process, not a ratio lookup. The analyst should first articulate the purpose and context, then gather relevant data—including notes, management commentary and subsequent information—process the data, interpret it, communicate a conclusion and follow up. A different single ratio does not repair the sequencing problem, and audited statements are not the only relevant source.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-financial-statement-analysis"
+  },
+  {
+    "id": "q202",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Analysis",
+    "subtopic": "Audit and management commentary",
+    "difficulty": "HARD",
+    "stem": "A company reports record operating profit. Its auditor issues an unmodified opinion, while management commentary notes that the largest customer, responsible for 28% of sales, has notified the company that it will not renew its contract. An analyst concludes that the audit opinion proves next year's profit is likely sustainable. The analyst's conclusion is least defensible because:",
+    "options": [
+      "customer concentration matters only to credit investors, not to equity or earnings analysis.",
+      "an unmodified audit opinion addresses whether the statements are fairly presented under the reporting framework; it does not validate management's future earnings outlook.",
+      "management commentary is always unaudited and therefore must be ignored in valuation work."
+    ],
+    "correct": 1,
+    "explanation": "The audit opinion provides assurance about the financial statements, not a guarantee of future economics. The disclosed loss of a large customer is forward-looking information that can materially affect forecasts. Management commentary may be unaudited, but that does not make it irrelevant; analysts routinely use it with appropriate skepticism.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-financial-statement-analysis"
+  },
+  {
+    "id": "q203",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Analysis",
+    "subtopic": "Alternative reporting systems",
+    "difficulty": "BRUTAL",
+    "stem": "Two economically similar firms report under different accounting frameworks. Firm A recognizes an item on the balance sheet that Firm B discloses only in the notes under its applicable framework. A junior analyst compares total assets and concludes A has invested more capital. What is the most appropriate next step?",
+    "options": [
+      "Understand the recognition and measurement differences and, when feasible, adjust the statements to improve comparability before interpreting the asset difference.",
+      "Accept reported total assets as fully comparable because both firms comply with legitimate accounting standards.",
+      "Exclude the disclosed item from both companies because only recognized items can be used in financial analysis."
+    ],
+    "correct": 0,
+    "explanation": "Compliance with different reporting frameworks does not create automatic comparability. Analysts must understand how recognition, measurement and disclosure differences affect reported numbers and adjust when a reasonable comparable basis is possible. Ignoring disclosures can throw away economically relevant information; blindly accepting totals can confuse accounting form with economic investment.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-financial-statement-analysis"
+  },
+  {
+    "id": "q204",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Analysis",
+    "subtopic": "Information sources",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst reviewing a retailer sees flat annual revenue but a sharp rise in inventory. The annual report contains only aggregated inventory data. A regulator filing released two weeks later discloses that most of the increase is obsolete seasonal merchandise, while a management presentation describes it as inventory built for growth. Which source treatment is most appropriate?",
+    "options": [
+      "Incorporate both sources, giving greater analytical weight to the detailed regulatory disclosure and reconciling it against management's narrative.",
+      "Use only the annual report because mixing information sources violates comparability.",
+      "Use the management presentation because it is more recent and therefore supersedes the filing."
+    ],
+    "correct": 0,
+    "explanation": "FSA explicitly requires analysts to use sources beyond annual and interim statements. The detailed regulatory disclosure is directly relevant to inventory quality and should be reconciled with management's more promotional explanation. Recency alone does not determine credibility, and restricting analysis to the annual report would ignore decision-useful information.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-financial-statement-analysis"
+  },
+  {
+    "id": "q205",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Analysis",
+    "subtopic": "Role-specific analysis",
+    "difficulty": "EXTREME",
+    "stem": "A company has strong net income growth, weak operating cash flow, and a large debt maturity in 14 months. One analyst is evaluating a five-year bond; another is valuing the common shares. Which statement best reflects the role of financial statement analysis?",
+    "options": [
+      "The bond analyst should rely on the balance sheet only, while the equity analyst should rely on the income statement only.",
+      "Both analysts should study the same statements, but the bond analyst will emphasize liquidity and debt-servicing capacity while the equity analyst will emphasize sustainable profitability and per-share value.",
+      "Because the statements are identical, the economically correct analytical emphasis must also be identical for both investors."
+    ],
+    "correct": 1,
+    "explanation": "Financial statement analysis is purpose-dependent. Credit analysis stresses the probability and timing of contractual payments, so cash generation, liquidity and solvency are central. Equity analysis also uses those facts but focuses on residual profitability, growth and value per share. The same underlying reports can support different decision questions without implying selective accounting.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-financial-statement-analysis"
+  },
+  {
+    "id": "q206",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Revenue recognition",
+    "difficulty": "BRUTAL",
+    "stem": "A software vendor signs a three-year contract on 1 January for a non-refundable upfront payment of $360,000. The customer receives continuous access to the same hosted service over the three years; no distinct product is delivered at signing. Management wants to recognize the full payment immediately because cash has been collected. For analytical purposes, the most defensible view is that revenue should generally be recognized:",
+    "options": [
+      "only at the end of year three, because the contract is not complete before then.",
+      "as the service obligation is satisfied over the access period, rather than simply when cash is collected.",
+      "immediately, because non-refundable cash collection is sufficient evidence that revenue has been earned."
+    ],
+    "correct": 1,
+    "explanation": "Revenue recognition follows performance, not merely cash timing. Here the economic service is provided continuously over three years, so recognizing the entire upfront receipt on day one would accelerate revenue and distort margins. Waiting until the final day would be equally inconsistent with service already delivered during the contract.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q207",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Capitalized versus expensed costs",
+    "difficulty": "BRUTAL",
+    "stem": "Two identical firms incur the same $12 million cost this year. Firm X expenses it immediately; Firm Y capitalizes the cost as an asset and will amortize it in future periods. Ignore taxes and assume the capitalization is permitted. Relative to X in the current year, Y will most likely report:",
+    "options": [
+      "the same net income because capitalization changes only the balance sheet classification.",
+      "higher net income and higher assets, with the current-period expense shifted partly into future periods.",
+      "lower net income and lower assets because capitalization increases future amortization."
+    ],
+    "correct": 1,
+    "explanation": "Capitalization defers recognition of cost. In the current period, Firm Y records an asset rather than the full expense, so current income and assets are higher than under immediate expensing. Future periods then bear amortization or depreciation. The key trap is confusing lifetime total expense with the timing of expense recognition.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q208",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Capitalization cash-flow effect",
+    "difficulty": "EXTREME",
+    "stem": "Two otherwise identical companies spend $8 million cash on the same project. Company E expenses the cost; Company C capitalizes it. Assume both treatments are permitted and the capitalized outlay is classified as investing cash flow. Which current-year comparison is most accurate?",
+    "options": [
+      "C and E report identical CFO because both paid the same amount of cash.",
+      "C reports higher CFO and lower CFI than E, while total cash flow is unchanged by the accounting classification.",
+      "C reports higher CFO and higher total cash flow because capitalization creates an asset."
+    ],
+    "correct": 1,
+    "explanation": "The economic cash outflow is the same, so total change in cash does not differ. But classification does: immediate expensing generally places the cash outflow in operations, whereas a capitalized long-lived investment is an investing outflow. Thus C has higher CFO and more negative CFI. This is why analysts should not equate higher CFO caused by capitalization with superior cash economics.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q209",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Non-recurring items",
+    "difficulty": "BRUTAL",
+    "stem": "A company reports operating income of $90 million, including a $25 million gain from selling its only headquarters building and a $10 million restructuring charge related to closing an obsolete plant. Management labels both items “non-recurring.” For forecasting sustainable operating performance, the analyst should most appropriately:",
+    "options": [
+      "assess each item's economic recurrence separately rather than mechanically exclude everything management labels non-recurring.",
+      "exclude both items automatically because management's non-recurring label determines normalized earnings.",
+      "retain both items automatically because they appear in reported operating income."
+    ],
+    "correct": 0,
+    "explanation": "Normalization is analytical, not label-driven. A one-time asset-sale gain may have little forecasting relevance, while restructuring charges can recur in firms that repeatedly reorganize. The analyst should examine nature, frequency and business context. Neither reported classification nor management's label alone establishes whether an item is sustainable.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q210",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Accounting policy change",
+    "difficulty": "HARD",
+    "stem": "A firm changes an accounting policy and restates prior periods as required, making historical margins lower but more comparable to the current policy. An analyst evaluating a five-year margin trend should most appropriately:",
+    "options": [
+      "use the restated historical figures when they provide a consistent basis and investigate the economic reason for the policy change.",
+      "discard all pre-change history because no accounting-policy change can be made comparable across time.",
+      "combine the originally reported prior figures with the current year because those were the numbers investors actually saw at the time."
+    ],
+    "correct": 0,
+    "explanation": "When prior periods are restated on a consistent basis, those figures generally improve trend comparability. The analyst should still understand why the policy changed and whether incentives are involved. Mixing old-policy data with new-policy data creates an artificial trend; discarding usable restated history wastes relevant information.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q211",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Basic EPS",
+    "difficulty": "BRUTAL",
+    "stem": "A company reports net income of $48 million. It has $3 million of preferred dividends. Common shares were 20 million from 1 January through 30 June and 26 million from 1 July through 31 December after a cash share issue. What is basic EPS?",
+    "options": [
+      "$1.73",
+      "$2.25",
+      "$1.96"
+    ],
+    "correct": 2,
+    "explanation": "Income available to common shareholders is $48m − $3m = $45m. Weighted-average common shares are 20m × 6/12 + 26m × 6/12 = 23m. Basic EPS = $45m / 23m = about $1.96. Using ending shares gives about $1.73; using beginning shares gives $2.25.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q212",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Stock split EPS",
+    "difficulty": "BRUTAL",
+    "stem": "A company had 10 million shares outstanding all year and earned $24 million for common shareholders. On 31 December, before the financial statements are issued, it completes a 2-for-1 stock split. The EPS presented for the year should be closest to:",
+    "options": [
+      "$4.80",
+      "$2.40",
+      "$1.20"
+    ],
+    "correct": 2,
+    "explanation": "A stock split is applied retroactively to the weighted-average share count for EPS comparability. The split doubles the denominator from 10m to 20m without changing income, giving EPS of $24m / 20m = $1.20. Treating the split as occurring only after year-end would incorrectly report $2.40.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q213",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Diluted EPS convertible debt",
+    "difficulty": "EXTREME",
+    "stem": "Net income is $30 million and basic weighted-average shares are 10 million. The company has convertible debt with $1.2 million annual interest; the tax rate is 25%. Conversion would create 1 million additional common shares. If the debt is dilutive, diluted EPS is closest to:",
+    "options": [
+      "$2.84",
+      "$3.00",
+      "$2.81"
+    ],
+    "correct": 2,
+    "explanation": "Under the if-converted approach, add back after-tax interest: $1.2m × (1 − 0.25) = $0.9m. Adjusted earnings are $30.9m and adjusted shares are 11m, giving diluted EPS ≈ $2.81. Using pre-tax interest produces about $2.84; ignoring conversion leaves basic EPS at $3.00.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q214",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Antidilutive securities",
+    "difficulty": "BRUTAL",
+    "stem": "A company reports basic EPS of $2.40. If assumed conversion of a convertible security would produce incremental EPS of $2.65, what is the most appropriate treatment in diluted EPS?",
+    "options": [
+      "Exclude the security because including it would increase EPS and therefore be antidilutive.",
+      "Include it only if management expects conversion within the next year.",
+      "Include it because every potentially convertible security must appear in diluted EPS."
+    ],
+    "correct": 0,
+    "explanation": "Diluted EPS includes only securities that reduce EPS (or increase loss per share). Incremental EPS of $2.65 exceeds the current basic EPS of $2.40, so assumed conversion would raise EPS and is antidilutive. Expected timing of actual conversion is not the controlling test for the diluted-EPS calculation.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q215",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Common-size income statement",
+    "difficulty": "BRUTAL",
+    "stem": "Company A's revenue rises 18%, gross profit rises 11%, and operating income rises 4%. Company B's revenue rises 8%, gross profit rises 9%, and operating income rises 12%. Without knowing absolute size, a common-size income-statement comparison most likely helps the analyst determine that:",
+    "options": [
+      "A's gross and operating margins are compressing, while B's operating margin is expanding.",
+      "A necessarily created more shareholder value because its revenue growth was higher.",
+      "B's gross margin must have fallen because gross profit grew only one percentage point faster than revenue."
+    ],
+    "correct": 0,
+    "explanation": "Margins compare each profit measure with revenue. For A, gross profit and operating income grow more slowly than revenue, so both margins decline. For B, operating income grows faster than revenue, so operating margin rises; gross margin also rises slightly because gross profit growth exceeds sales growth. Absolute value creation cannot be inferred from growth rates alone.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q216",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Gross versus operating margin",
+    "difficulty": "HARD",
+    "stem": "A retailer's gross margin increases from 32% to 35%, but its operating margin falls from 12% to 10%. Which explanation is most consistent with both changes?",
+    "options": [
+      "The company necessarily recognized a discontinued-operation gain in operating income.",
+      "Product-level economics improved, but operating expenses below gross profit rose enough to more than offset the gain.",
+      "Cost of goods sold rose as a percentage of sales while selling and administrative costs fell."
+    ],
+    "correct": 1,
+    "explanation": "A higher gross margin means COGS consumed a smaller share of revenue. A lower operating margin despite that improvement implies expenses between gross profit and operating profit—such as selling or administrative costs—rose sufficiently. The opposite COGS/SG&A pattern would not produce the stated margins.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q217",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Expense estimate change",
+    "difficulty": "BRUTAL",
+    "stem": "A manufacturer extends the estimated useful life of machinery from 8 to 12 years after two years of use, with no change in residual value and no evidence that the equipment's economics improved. The change reduces depreciation expense and helps the firm narrowly meet an earnings target. An analyst should most likely view the immediate effect as:",
+    "options": [
+      "higher current earnings and asset carrying values, with a need to scrutinize the estimate because the incentive may indicate aggressive reporting.",
+      "lower current earnings because extending useful life accelerates depreciation.",
+      "no effect on earnings because useful-life changes affect cash flow only."
+    ],
+    "correct": 0,
+    "explanation": "Longer useful life generally lowers periodic depreciation prospectively, increasing current earnings and the remaining carrying amount relative to the old estimate. The timing near an earnings target and lack of supporting economics warrant skepticism. Depreciation is noncash, but its accounting effect on earnings is real.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q218",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Discontinued operations",
+    "difficulty": "BRUTAL",
+    "stem": "A company sells a major business line that qualifies as a discontinued operation and reports a large after-tax gain. Continuing operations are unchanged. An analyst building a forecast of recurring operating earnings should most appropriately:",
+    "options": [
+      "separate the discontinued-operation result from continuing operations and avoid treating the gain as a recurring operating driver.",
+      "remove the sold segment's historical revenue but retain the disposal gain in recurring earnings because the gain was realized in cash.",
+      "include the gain in the operating margin because it increased total net income."
+    ],
+    "correct": 0,
+    "explanation": "Discontinued operations are segregated specifically because they no longer represent continuing business performance. A realized gain can be genuine economic income yet still be unsuitable as a recurring forecast driver. Cash realization does not transform a disposal gain into sustainable operating margin.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q219",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Revenue versus cash collection",
+    "difficulty": "EXTREME",
+    "stem": "A distributor reports 20% revenue growth while accounts receivable grows 55%, days sales outstanding rises sharply, and cash collected from customers grows only 4%. No acquisition occurred. Which interpretation is most analytically appropriate?",
+    "options": [
+      "Revenue growth may be economically real, but the divergence raises collection and revenue-quality questions that require further investigation.",
+      "The revenue must be fraudulent because receivables grew faster than sales.",
+      "The divergence is irrelevant because revenue recognition and cash collection are always unrelated."
+    ],
+    "correct": 0,
+    "explanation": "Accrual revenue need not equal current-period cash collection, so the pattern does not prove fraud. But rapidly rising receivables and DSO relative to sales can signal looser credit, slower collections, or aggressive recognition. A strong analyst treats it as a warning signal and investigates terms, aging and subsequent collections.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q220",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Operating leverage from common-size data",
+    "difficulty": "EXTREME",
+    "stem": "A service company has no material cost of goods sold. Revenue grows 10%, while salaries rise 5% and other operating costs remain unchanged. The common-size income statement shows salaries falling from 60% to 57% of revenue. Which conclusion is best?",
+    "options": [
+      "Operating margin must decline because salary expense increased in dollars.",
+      "The company is demonstrating operating leverage from salary costs growing more slowly than revenue, all else equal.",
+      "Salaries fell in absolute terms because their common-size percentage declined."
+    ],
+    "correct": 1,
+    "explanation": "A common-size percentage can fall even when the absolute expense rises. Here salary growth of 5% is below revenue growth of 10%, so salary expense absorbs a smaller share of sales and contributes to operating leverage. With other costs unchanged, this supports, rather than impairs, operating margin.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  },
+  {
+    "id": "q221",
+    "subject": "FSA",
+    "topic": "Analyzing Balance Sheets",
+    "subtopic": "Goodwill",
+    "difficulty": "BRUTAL",
+    "stem": "Company P acquires Company T for more than the fair value of T's identifiable net assets, creating goodwill. One year later, P's market capitalization falls substantially, but management records no impairment and provides minimal sensitivity disclosure. Which analytical response is most appropriate?",
+    "options": [
+      "Write goodwill to zero immediately because any market-cap decline requires full impairment.",
+      "Ignore the market-cap decline because goodwill can never affect financial analysis after acquisition.",
+      "Treat the decline as a potential impairment indicator and scrutinize the assumptions supporting goodwill rather than automatically writing goodwill to zero."
+    ],
+    "correct": 2,
+    "explanation": "Goodwill is not mechanically written off whenever market value falls, but a significant decline can be an impairment indicator and should prompt review of cash-generating assumptions and disclosures. Goodwill can materially affect assets and equity, so ignoring it is inappropriate; automatically eliminating it without analysis is also too strong.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets"
+  },
+  {
+    "id": "q222",
+    "subject": "FSA",
+    "topic": "Analyzing Balance Sheets",
+    "subtopic": "Intangible assets",
+    "difficulty": "BRUTAL",
+    "stem": "Two firms have equally valuable brands economically. Firm A bought its brand in an acquisition, while Firm B built its brand internally through years of advertising. A reports a much larger intangible-asset balance. Which inference is most appropriate?",
+    "options": [
+      "B must capitalize historical advertising retrospectively before any comparison can be made.",
+      "A necessarily owns the more valuable brand because only purchased brands can have economic value.",
+      "The balance-sheet difference may reflect recognition rules rather than a true difference in economic brand value, reducing comparability of book assets."
+    ],
+    "correct": 2,
+    "explanation": "Accounting balance sheets recognize a narrower set of assets than an economic balance sheet. Purchased or acquisition-related intangibles can be recognized when internally generated brand value often is not. Thus reported assets can differ even when economics are similar. Analysts should understand the recognition asymmetry rather than equate book amount with economic value.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets"
+  },
+  {
+    "id": "q223",
+    "subject": "FSA",
+    "topic": "Analyzing Balance Sheets",
+    "subtopic": "Financial instruments measurement",
+    "difficulty": "EXTREME",
+    "stem": "A bank reports two bond portfolios with identical par value but different measurement bases under the applicable accounting rules. One portfolio is carried at a measure that updates with market prices; the other is not. Market yields rise sharply. Which analytical statement is most defensible?",
+    "options": [
+      "Both portfolios must show identical carrying-value declines because the bonds have the same par value.",
+      "Reported balance-sheet sensitivity can differ because measurement basis matters; the analyst should understand classification and disclosure before comparing carrying values.",
+      "Neither portfolio can affect equity because bond valuation changes never flow through financial statements."
+    ],
+    "correct": 1,
+    "explanation": "Financial instruments can be measured differently depending on classification and reporting rules. Identical par value does not ensure identical carrying amounts or paths through income/equity. The correct analysis begins with classification, measurement and disclosures, not a blanket assumption about par value or financial-statement effects.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets"
+  },
+  {
+    "id": "q224",
+    "subject": "FSA",
+    "topic": "Analyzing Balance Sheets",
+    "subtopic": "Non-current liabilities",
+    "difficulty": "BRUTAL",
+    "stem": "A company refinances a large obligation after year-end but before the financial statements are authorized. A junior analyst classifies it as non-current solely because management says it “will be long term.” Which approach is better?",
+    "options": [
+      "Apply the relevant reporting framework's classification rules and examine the contractual rights and timing disclosed at the reporting date rather than management's label.",
+      "Always classify it as current because all refinancing after year-end is economically irrelevant.",
+      "Always classify the obligation as non-current if refinancing occurs before the analyst reads the statements."
+    ],
+    "correct": 0,
+    "explanation": "Current versus non-current classification depends on the reporting framework and the entity's rights/conditions at the relevant date. Management intent or an analyst's reading date is not enough. This is precisely why notes and framework-specific requirements matter when assessing liquidity.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets"
+  },
+  {
+    "id": "q225",
+    "subject": "FSA",
+    "topic": "Analyzing Balance Sheets",
+    "subtopic": "Common-size balance sheet",
+    "difficulty": "HARD",
+    "stem": "A firm's inventory rises from 18% to 27% of total assets while receivables and cash percentages decline. Total assets grow only 2%. Which statement is most appropriate?",
+    "options": [
+      "Inventory necessarily rose by 50% in dollars because its common-size percentage rose from 18% to 27%.",
+      "The firm's liquidity necessarily improved because inventory is a current asset.",
+      "Inventory has become materially more important to the asset base, so turnover, obsolescence and working-capital risk deserve greater scrutiny."
+    ],
+    "correct": 2,
+    "explanation": "Common-size analysis shows composition, not the exact percentage change in dollar inventory without calculation. A much larger share of assets tied up in inventory raises questions about turnover and quality. Inventory is less liquid than cash and may not improve practical liquidity merely because it is classified current.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets"
+  },
+  {
+    "id": "q226",
+    "subject": "FSA",
+    "topic": "Analyzing Balance Sheets",
+    "subtopic": "Book equity quality",
+    "difficulty": "BRUTAL",
+    "stem": "Two competitors report the same book equity. Firm A's assets consist mainly of cash and recently purchased equipment; Firm B's assets include large goodwill and aged receivables with rising delinquency. Which use of book equity is most defensible?",
+    "options": [
+      "Automatically subtract all goodwill and receivables from Firm B's equity without considering recoverability or analytical purpose.",
+      "Conclude the firms have identical balance-sheet quality because assets minus liabilities equals the same equity amount.",
+      "Treat equal book equity as an accounting starting point, but investigate asset composition and measurement quality before concluding the firms have similar financial strength."
+    ],
+    "correct": 2,
+    "explanation": "Equal book equity can conceal very different asset quality and measurement uncertainty. Analysts should inspect composition, disclosures and recoverability. Automatically treating all goodwill or receivables as worthless is not justified, but ignoring their different risk characteristics is equally flawed.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets"
+  },
+  {
+    "id": "q227",
+    "subject": "FSA",
+    "topic": "Analyzing Balance Sheets",
+    "subtopic": "Debt ratio interpretation",
+    "difficulty": "EXTREME",
+    "stem": "A firm recognizes a previously unrecorded long-term liability of $40 million with a corresponding $40 million asset. Before recognition, assets were $200 million and liabilities $100 million. What happens to liabilities-to-assets?",
+    "options": [
+      "It rises from 50% to about 58.3%.",
+      "It remains 50% because assets and liabilities increase by the same amount.",
+      "It falls from 50% to about 41.7%."
+    ],
+    "correct": 0,
+    "explanation": "Before recognition, liabilities/assets = 100/200 = 50%. After recognition, liabilities are 140 and assets 240, so the ratio is 140/240 = 58.3%. Equal dollar increases do not preserve a ratio unless numerator and denominator began equal. This is a common denominator trap in leverage analysis.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets"
+  },
+  {
+    "id": "q228",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Indirect CFO",
+    "difficulty": "BRUTAL",
+    "stem": "Net income is $52 million. Depreciation is $9 million, receivables increase $7 million, inventory decreases $4 million, and accounts payable decreases $3 million. Ignore all other adjustments. CFO under the indirect method is:",
+    "options": [
+      "$55 million",
+      "$49 million",
+      "$61 million"
+    ],
+    "correct": 0,
+    "explanation": "Start with net income of 52, add noncash depreciation 9, subtract the 7 increase in receivables, add the 4 decrease in inventory, and subtract the 3 decrease in payables: 52 + 9 − 7 + 4 − 3 = $55 million. The signs follow whether working capital consumed or released cash.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q229",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Cash collected from customers",
+    "difficulty": "BRUTAL",
+    "stem": "Revenue is $420 million. Accounts receivable rises from $48 million to $63 million. There are no acquisitions, write-offs, or foreign-exchange effects. Cash collected from customers is closest to:",
+    "options": [
+      "$435 million",
+      "$420 million",
+      "$405 million"
+    ],
+    "correct": 2,
+    "explanation": "An increase in receivables means some recognized revenue has not yet been collected. Cash collections = revenue − increase in receivables = 420 − 15 = $405 million. Adding the receivable increase reverses the economics; using revenue alone assumes all sales were collected.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q230",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Cash paid to suppliers",
+    "difficulty": "EXTREME",
+    "stem": "COGS is $300 million. Inventory increases by $20 million and accounts payable increases by $12 million. Assume all inventory purchases are on account and no other adjustments apply. Cash paid to suppliers is closest to:",
+    "options": [
+      "$292 million",
+      "$332 million",
+      "$308 million"
+    ],
+    "correct": 2,
+    "explanation": "Purchases = COGS + increase in inventory = 300 + 20 = 320. An increase in accounts payable means $12 million of purchases remains unpaid, so cash paid = 320 − 12 = $308 million. The common errors are adding the payable increase or adjusting COGS for only one balance-sheet account.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q231",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Gain on sale indirect CFO",
+    "difficulty": "BRUTAL",
+    "stem": "A company sells equipment for cash and records a $6 million gain in net income. The full sale proceeds appear in investing cash flow. Under the indirect method, what adjustment is needed in CFO, all else equal?",
+    "options": [
+      "Subtract the $6 million gain from net income.",
+      "Add the $6 million gain to net income.",
+      "Make no adjustment because the sale proceeds are already in CFI."
+    ],
+    "correct": 0,
+    "explanation": "The gain increased accounting net income but is not an operating cash flow; the actual sale proceeds are classified in investing. Therefore the indirect reconciliation removes the gain by subtracting it from net income. Failing to adjust would effectively allow the investing gain component to inflate CFO.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q232",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Loss on sale indirect CFO",
+    "difficulty": "HARD",
+    "stem": "A company records a $4 million loss on disposal of equipment, with the sale proceeds classified as investing cash flow. In reconciling net income to CFO under the indirect method, the loss is most appropriately:",
+    "options": [
+      "ignored because losses are always cash items.",
+      "added back to net income.",
+      "subtracted from net income."
+    ],
+    "correct": 1,
+    "explanation": "The loss reduced net income but the disposal cash flow belongs in investing. Adding the loss back removes its non-operating effect from the CFO reconciliation. The sale proceeds themselves remain in CFI.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q233",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Working-capital signs",
+    "difficulty": "EXTREME",
+    "stem": "During the year, prepaid expenses increase $5 million, accrued operating liabilities increase $8 million, and all else is unchanged. Relative to net income, the net working-capital adjustment to CFO is:",
+    "options": [
+      "a $13 million decrease.",
+      "a $3 million increase.",
+      "a $3 million decrease."
+    ],
+    "correct": 1,
+    "explanation": "An increase in a noncash operating asset such as prepaid expenses uses cash (−5), while an increase in an operating liability preserves cash (+8). Net adjustment is +3 million. Treating both increases with the same sign is the trap.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q234",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Indirect-to-direct conversion",
+    "difficulty": "EXTREME",
+    "stem": "A firm reports revenue of $500 million, COGS of $310 million, receivables increasing $20 million, inventory decreasing $6 million, and payables decreasing $4 million. Ignoring taxes and other expenses, which pair is closest to cash collected from customers and cash paid to suppliers?",
+    "options": [
+      "$480 million and $308 million",
+      "$480 million and $320 million",
+      "$520 million and $300 million"
+    ],
+    "correct": 0,
+    "explanation": "Collections = revenue − increase in receivables = 500 − 20 = 480. Purchases = COGS + ending inventory − beginning inventory = 310 − 6 = 304 because inventory decreased. Payables decreased 4, meaning cash paid exceeded purchases by 4, so supplier cash paid = 308. The question requires two linked balance-sheet adjustments.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q235",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "IFRS vs US GAAP classification",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst compares two firms with identical economics but different reporting frameworks. One framework permits more classification choice for certain interest and dividend cash flows than the other. What is the most appropriate analytical response?",
+    "options": [
+      "Compare reported CFO directly because accounting-framework classification choices never affect cash-flow ratios.",
+      "Reclassify cash flows to a common analytical basis when needed before comparing CFO, CFI, and CFF.",
+      "Ignore total cash flow because classification differences also change the company's actual cash generated."
+    ],
+    "correct": 1,
+    "explanation": "IFRS and US GAAP can classify certain interest and dividend cash flows differently. Those choices can change reported subtotals without changing total cash. For comparability, an analyst may need to reclassify to a consistent basis rather than interpret a presentation difference as an economic difference.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q236",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Capex and depreciation",
+    "difficulty": "BRUTAL",
+    "stem": "A mature manufacturer reports depreciation of $40 million and capital expenditures of $18 million for three consecutive years while production capacity and unit volumes are stable. Which inference is most appropriate?",
+    "options": [
+      "The firm necessarily has understated CFO by $22 million because capex is lower than depreciation.",
+      "The gap may indicate low replacement spending or asset-base contraction and deserves investigation; depreciation is not itself a cash funding source.",
+      "The firm generated $22 million of free cash because depreciation always equals maintenance capital expenditure."
+    ],
+    "correct": 1,
+    "explanation": "Depreciation is an accounting allocation, while capex is a cash investment. A persistent gap can reflect asset mix, prior investment cycles, maintenance needs or underinvestment. It cannot be interpreted mechanically as free cash or an error in CFO. Analysts should connect the cash-flow pattern to asset disclosures and operating capacity.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q237",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Receivables and CFO quality",
+    "difficulty": "BRUTAL",
+    "stem": "Net income rises 25%, but CFO rises only 3% because receivables increase materially. Management says the difference is “noncash accounting noise.” Which interpretation is strongest?",
+    "options": [
+      "The receivable build is an operating cash-use that may be temporary or concerning, so the divergence should be investigated rather than dismissed.",
+      "CFO should be ignored because accrual earnings are always superior for evaluating performance.",
+      "The receivable increase proves customers will default."
+    ],
+    "correct": 0,
+    "explanation": "Working-capital movements are real cash-timing effects. Rising receivables can reflect growth, seasonality, slower collection, looser credit or aggressive revenue recognition. The pattern does not prove default, but it is not meaningless accounting noise either. Analysts should investigate its cause and sustainability.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q238",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Deferred revenue and CFO",
+    "difficulty": "EXTREME",
+    "stem": "A subscription company receives large annual prepayments from customers, causing contract liabilities (deferred revenue) to rise by $30 million. Revenue recognized this year is lower than cash collected. All else equal, the increase in the operating liability affects CFO relative to net income by:",
+    "options": [
+      "having no effect because deferred revenue is noncash.",
+      "increasing CFO by $30 million.",
+      "decreasing CFO by $30 million."
+    ],
+    "correct": 1,
+    "explanation": "Cash was collected before all related revenue was recognized, creating an operating liability. Under the indirect method, an increase in such a liability is added in reconciling net income to CFO. The accounting liability itself is noncash, but its change reflects the earlier cash receipt.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q239",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows I",
+    "subtopic": "Cash-flow linkage",
+    "difficulty": "EXTREME",
+    "stem": "A company purchases equipment for cash, with no financing. Which set of immediate financial-statement effects is most consistent, ignoring taxes and any depreciation in the purchase period?",
+    "options": [
+      "Cash decreases, PP&E increases, CFO is negative, and total assets fall.",
+      "Cash decreases, PP&E increases by the same amount, CFI is negative, and total assets are unchanged.",
+      "Cash and PP&E are unchanged because investing transactions appear only on the cash-flow statement."
+    ],
+    "correct": 1,
+    "explanation": "A cash purchase exchanges one asset for another: cash falls and PP&E rises, leaving total assets unchanged at purchase. The cash outflow is investing, not operating. Later depreciation affects income and carrying value, but it is excluded by the question's timing assumption.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-i"
+  },
+  {
+    "id": "q240",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "FCFF from CFO",
+    "difficulty": "BRUTAL",
+    "stem": "CFO is $86 million, capital expenditures are $30 million, cash interest paid is $10 million, and the tax rate is 25%. Assuming CFO is after interest, FCFF is closest to:",
+    "options": [
+      "$66.0 million",
+      "$56.0 million",
+      "$63.5 million"
+    ],
+    "correct": 2,
+    "explanation": "When starting from CFO that includes interest paid, FCFF = CFO + interest × (1 − tax rate) − capex = 86 + 10×0.75 − 30 = $63.5 million. Simply subtracting capex gives FCFE-like pre-borrowing cash; adding full pretax interest overstates the tax-adjusted financing add-back.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q241",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "FCFE from CFO",
+    "difficulty": "BRUTAL",
+    "stem": "A firm reports CFO of $72 million, capital expenditures of $28 million, debt issued of $15 million, and debt repaid of $9 million. FCFE is closest to:",
+    "options": [
+      "$44 million",
+      "$50 million",
+      "$56 million"
+    ],
+    "correct": 1,
+    "explanation": "FCFE = CFO − capex + net borrowing. Net borrowing = 15 − 9 = 6, so FCFE = 72 − 28 + 6 = $50 million. Ignoring borrowing gives $44 million; adding gross borrowing without debt repayment gives $59 million, not the economics available to common equity.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q242",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "Common-size cash flow statement",
+    "difficulty": "HARD",
+    "stem": "A company reports CFO equal to 14% of revenue this year versus 9% last year, while net margin is unchanged. Which conclusion is most appropriate?",
+    "options": [
+      "Operating cash conversion improved relative to sales, but the analyst should identify whether working-capital timing or sustainable operating changes caused it.",
+      "The company's capital expenditures must have declined because CFO/revenue rose.",
+      "Earnings quality necessarily improved permanently because CFO/revenue increased."
+    ],
+    "correct": 0,
+    "explanation": "Common-size cash-flow analysis can reveal better cash conversion, but a one-year improvement may result from stretching payables, collecting receivables, seasonality or sustainable economics. CFO says nothing directly about capex because capex is investing. Interpretation requires sources and uses, not a mechanical quality conclusion.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q243",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "Cash flow coverage",
+    "difficulty": "BRUTAL",
+    "stem": "Two firms have the same interest coverage based on EBIT. Firm A consistently converts 95% of operating profit into CFO; Firm B converts 45% because receivables and inventory absorb cash. For near-term debt-service analysis, which observation is most important?",
+    "options": [
+      "The firms have identical debt-service capacity because EBIT interest coverage is the same.",
+      "Firm B is safer because higher working capital always represents collateral that can immediately pay interest.",
+      "Firm A's stronger cash conversion may support better practical debt-service capacity even though accrual interest coverage is identical."
+    ],
+    "correct": 2,
+    "explanation": "Accrual coverage ratios are useful but do not replace cash-flow analysis. Persistent working-capital absorption can leave less cash available for interest and principal. Inventory and receivables may be valuable, but they are not equivalent to immediately available cash and can carry collection or obsolescence risk.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q244",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "FCFF versus FCFE",
+    "difficulty": "EXTREME",
+    "stem": "A highly leveraged company is paying down debt aggressively. Its operations and capital expenditures are stable. Which statement best explains why FCFE may be materially below FCFF during the deleveraging period?",
+    "options": [
+      "Debt repayment reduces EBIT and therefore automatically reduces FCFF dollar-for-dollar.",
+      "FCFF is always lower than FCFE because FCFF excludes debt holders.",
+      "FCFE reflects cash available after net borrowing; net debt repayment is a use of cash attributable to equity holders that does not reduce FCFF in the same way."
+    ],
+    "correct": 2,
+    "explanation": "FCFF is cash available to all capital providers before financing distributions, while FCFE incorporates net borrowing. When debt repayment exceeds new borrowing, net borrowing is negative and reduces FCFE. Principal repayment is financing, not an operating expense that reduces EBIT dollar-for-dollar.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q245",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "Cash generation sustainability",
+    "difficulty": "EXTREME",
+    "stem": "A company reports record CFO after delaying supplier payments; accounts payable days jump from 42 to 78 while sales are flat. Which adjustment is most useful for forecasting normalized cash generation?",
+    "options": [
+      "Recognize that the payable increase temporarily boosted CFO and test a scenario in which payment days normalize.",
+      "Treat the full CFO increase as permanent because reported cash cannot be manipulated by operating decisions.",
+      "Subtract the entire accounts-payable balance from current CFO rather than analyzing the change."
+    ],
+    "correct": 0,
+    "explanation": "Stretching payables conserves cash in the current period and can increase CFO without improving underlying profitability. The relevant cash-flow effect is the period change and its sustainability, not the total liability balance. A normalized forecast should consider reversal if payment terms return toward historical levels.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q246",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "FCFF versus FCFE financing effect",
+    "difficulty": "EXTREME",
+    "stem": "A company reports CFO of $120 million and capital expenditures of $70 million. During the year it issues $10 million of debt and repays $35 million. An analyst is comparing FCFF with FCFE and says the $25 million net debt repayment should reduce both measures equally. Which correction is most appropriate?",
+    "options": [
+      "The analyst is correct because any cash debt repayment is an operating use of cash in both free-cash-flow measures.",
+      "Net debt repayment raises FCFF but lowers FCFE because lenders are part of enterprise value.",
+      "Net debt repayment reduces FCFE through net borrowing, but it does not directly reduce FCFF because FCFF is measured before financing flows."
+    ],
+    "correct": 2,
+    "explanation": "Net borrowing is $10m − $35m = −$25m. FCFE incorporates financing with creditors, so from CFO it is $120m − $70m − $25m = $25m. FCFF is cash flow available to all capital providers before debt financing transactions; issuing or repaying principal therefore does not directly enter FCFF. The key distinction is the claimant perspective, not whether the debt repayment is a real cash outflow.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q247",
+    "subject": "FSA",
+    "topic": "Analyzing Statements of Cash Flows II",
+    "subtopic": "Source and use interpretation",
+    "difficulty": "BRUTAL",
+    "stem": "A young firm has negative CFO, large positive CFF from new debt and equity, and large negative CFI from capacity expansion. Which statement is most defensible?",
+    "options": [
+      "Negative CFO proves the business model is economically unviable regardless of life-cycle stage.",
+      "Positive CFF demonstrates strong internally generated cash flow.",
+      "The pattern can be consistent with a growth-stage firm, but sustainability depends on whether future operations generate enough cash before external financing becomes constrained."
+    ],
+    "correct": 2,
+    "explanation": "Cash-flow patterns must be interpreted in business context. A growth company can consume operating and investing cash while raising external capital. That does not prove failure, but it creates financing dependence and requires analysis of unit economics, runway and eventual operating cash generation. CFF is external financing, not internally generated cash.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii"
+  },
+  {
+    "id": "q248",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "Rising prices FIFO/LIFO",
+    "difficulty": "BRUTAL",
+    "stem": "During a period of rising unit purchase costs, two otherwise identical US GAAP companies use FIFO and LIFO, respectively. Assuming inventory quantities are stable and there are no write-downs, the FIFO company will most likely report, relative to the LIFO company:",
+    "options": [
+      "higher ending inventory and lower gross profit.",
+      "higher ending inventory and higher gross profit.",
+      "lower ending inventory and higher gross profit."
+    ],
+    "correct": 1,
+    "explanation": "With rising costs, FIFO assigns older lower costs to COGS and newer higher costs to ending inventory. That produces lower COGS, higher gross profit and higher inventory than LIFO. The direction reverses under sustained falling costs, which is why the inflation/deflation condition matters.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q249",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "Inventory turnover under rising prices",
+    "difficulty": "EXTREME",
+    "stem": "During inflation, Firm F uses FIFO and Firm L uses LIFO. Their physical inventory flows and sales are identical. Relative to F, L will generally show which combination solely from the cost-flow assumption?",
+    "options": [
+      "lower COGS and higher average inventory, tending to produce lower inventory turnover.",
+      "the same COGS and inventory turnover because cost-flow assumptions affect only taxes.",
+      "higher COGS and lower average inventory, tending to produce higher inventory turnover."
+    ],
+    "correct": 2,
+    "explanation": "Under rising costs, LIFO sends newer higher costs to COGS and leaves older lower costs in inventory. Both a higher numerator (COGS) and lower denominator (average inventory) tend to raise LIFO inventory turnover relative to FIFO. The accounting method affects several statement amounts and ratios, not just tax.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q250",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "Deflation FIFO/LIFO",
+    "difficulty": "BRUTAL",
+    "stem": "Unit costs fall steadily during the year. Compared with LIFO, FIFO will most likely report:",
+    "options": [
+      "higher gross profit and higher ending inventory.",
+      "higher COGS and lower ending inventory.",
+      "lower COGS and higher ending inventory."
+    ],
+    "correct": 1,
+    "explanation": "Under deflation, the oldest units are the higher-cost units. FIFO expenses those higher costs first, producing higher COGS and lower ending inventory than LIFO. A candidate who memorizes the inflation relationship without conditioning on cost direction will reverse the answer.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q251",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "Lower of cost and NRV",
+    "difficulty": "BRUTAL",
+    "stem": "Inventory carried at cost of $9.0 million has estimated selling price of $9.6 million and estimated completion and selling costs of $1.1 million. Using lower of cost and net realisable value, the carrying amount is closest to:",
+    "options": [
+      "$9.0 million",
+      "$8.5 million",
+      "$9.6 million"
+    ],
+    "correct": 1,
+    "explanation": "NRV = estimated selling price − costs to complete and sell = 9.6 − 1.1 = $8.5 million. Because NRV is below cost of $9.0 million, inventory is written down to $8.5 million. Using selling price alone ignores costs necessary to realize the inventory.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q252",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "Inventory write-down ratio effect",
+    "difficulty": "EXTREME",
+    "stem": "A company writes inventory down by $6 million because NRV fell below carrying cost. Ignore taxes and assume the write-down is recognized in expense. Immediately after the write-down, which pair of effects is most likely?",
+    "options": [
+      "Lower current assets and lower profit, with inventory turnover mechanically higher if COGS includes the write-down and average inventory is lower.",
+      "No balance-sheet effect because an inventory write-down is only a disclosure item.",
+      "Higher current assets and higher profit because the write-down improves inventory quality."
+    ],
+    "correct": 0,
+    "explanation": "A write-down reduces the inventory asset and recognized profit. Depending on presentation, the charge also raises expense/COGS, while the inventory denominator falls, which can mechanically increase turnover even though the underlying economics worsened. Analysts should therefore avoid interpreting a post-write-down turnover improvement as operational progress.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q253",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "Inventory disclosure warning",
+    "difficulty": "BRUTAL",
+    "stem": "A fashion retailer's inventory grows 35% while sales grow 4%. The notes show finished goods rising fastest, markdowns increasing, and inventory turnover falling. Management says the increase is “strategic.” Which conclusion is most appropriate?",
+    "options": [
+      "The inventory growth is automatically bullish because more inventory allows more future sales.",
+      "The pattern proves inventory is overstated because turnover fell.",
+      "The pattern raises obsolescence and margin-risk concerns and should be tested against subsequent sales and markdown activity."
+    ],
+    "correct": 2,
+    "explanation": "Inventory growth can support future sales, but disproportionate finished-goods growth, rising markdowns and slower turnover are warning signs for obsolescence and future margin pressure. They do not prove misstatement. High-integrity analysis treats the signals as evidence requiring corroboration, not as a predetermined conclusion.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q254",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "LIFO reserve comparability",
+    "difficulty": "EXTREME",
+    "stem": "An analyst compares a FIFO company with a LIFO company during sustained inflation. The LIFO company's notes disclose a large, rising difference between FIFO-equivalent inventory and reported LIFO inventory. What is the most appropriate use of this disclosure?",
+    "options": [
+      "Add the reserve to COGS and subtract it from inventory regardless of the direction of change.",
+      "Adjust inventory and related measures toward a common cost basis when comparing balance-sheet and profitability ratios, recognizing the tax effects where relevant.",
+      "Ignore the disclosure because LIFO and FIFO differences reverse automatically each year."
+    ],
+    "correct": 1,
+    "explanation": "The reserve helps bridge LIFO inventory toward FIFO for comparability. Analysts can use it—and changes in it—to adjust inventory, COGS and related ratios on a consistent basis, with attention to taxes. The reserve is not simply added to COGS, and accumulated method differences do not necessarily reverse each year.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q255",
+    "subject": "FSA",
+    "topic": "Analysis of Inventories",
+    "subtopic": "Method economics vs cash",
+    "difficulty": "HARD",
+    "stem": "Two firms with identical physical purchases and sales use different permitted inventory cost-flow assumptions. One reports higher gross profit solely because of the accounting method. Which statement is most accurate?",
+    "options": [
+      "Higher reported gross profit necessarily means the firm sold products at higher economic margins.",
+      "The gross-profit difference may be accounting-driven, so the analyst should normalize for method differences before inferring superior operating economics.",
+      "Inventory accounting can change reported cash receipts from customers even when transactions are identical."
+    ],
+    "correct": 1,
+    "explanation": "Cost-flow assumptions change how historical costs are allocated between COGS and inventory, so reported margins can differ without different selling prices or physical economics. Cash received from customers is determined by actual collections, not the inventory accounting assumption.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-inventories"
+  },
+  {
+    "id": "q256",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Purchased vs internally generated intangibles",
+    "difficulty": "BRUTAL",
+    "stem": "Company A acquires a patent from another firm for $15 million. Company B spends $15 million over several years developing brand awareness internally. Both assets are economically useful. Which statement best captures the analytical issue?",
+    "options": [
+      "Neither expenditure can affect reported assets because intangible assets are never recognized.",
+      "Accounting recognition can differ materially between purchased and internally generated intangibles, so asset intensity and return ratios may not be directly comparable.",
+      "Both expenditures must appear as identical intangible assets because the cash amounts are equal."
+    ],
+    "correct": 1,
+    "explanation": "Financial reporting recognizes purchased and qualifying acquired intangibles more readily than many internally generated intangibles. That asymmetry can make two economically similar companies look different in assets, margins and return ratios. Cash amount alone does not determine recognition.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q257",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Capitalization effect on ROA",
+    "difficulty": "EXTREME",
+    "stem": "Two firms have identical operating economics. Firm C capitalizes a qualifying cost that Firm E expenses. In the initial period before material amortization, C reports higher net income and higher assets. Which effect on ROA is unambiguously determined?",
+    "options": [
+      "ROA must be higher for C because net income is higher.",
+      "ROA must be lower for C because assets are higher.",
+      "It is not unambiguously determined because both the numerator and denominator are higher; the net ROA effect depends on magnitudes."
+    ],
+    "correct": 2,
+    "explanation": "Capitalization raises both current income and the asset base relative to expensing. Because ROA is a ratio of profit to assets, the direction depends on the relative percentage effects. This is a classic ratio trap: knowing the signs of numerator and denominator changes is not enough when both move in the same direction.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q258",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Impairment effect",
+    "difficulty": "BRUTAL",
+    "stem": "A company records a material impairment of equipment. Ignore taxes. Immediately after recognition, all else equal, the company will most likely have:",
+    "options": [
+      "lower assets but unchanged equity because impairments are noncash.",
+      "lower assets, lower equity, and higher asset turnover if revenue is unchanged.",
+      "higher assets, lower equity, and lower asset turnover."
+    ],
+    "correct": 1,
+    "explanation": "The impairment reduces the asset carrying amount and current earnings, which lowers equity. Because the asset denominator falls while revenue is unchanged, asset turnover can rise mechanically. Noncash does not mean no accounting effect; it means no immediate cash outflow.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q259",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Derecognition gain",
+    "difficulty": "EXTREME",
+    "stem": "Equipment with carrying value $18 million is sold for $23 million cash. Ignoring tax, which statement is most accurate?",
+    "options": [
+      "The company records a $5 million gain; cash inflow is $23 million in investing activities, while the gain is removed from CFO under the indirect method.",
+      "The company records $23 million operating income because all sale proceeds are profit.",
+      "The company records a $5 million investing cash inflow because only the gain is cash."
+    ],
+    "correct": 0,
+    "explanation": "Gain equals proceeds minus carrying value: 23 − 18 = $5 million. The full $23 million sale proceeds are the investing cash flow. Under the indirect CFO method, the $5 million gain included in net income is subtracted because it is tied to an investing transaction.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q260",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Useful-life estimate",
+    "difficulty": "BRUTAL",
+    "stem": "A capital-intensive company reports much longer useful lives for similar equipment than peers, resulting in lower annual depreciation. No operational evidence supports longer lives. What is the most appropriate analytical implication?",
+    "options": [
+      "Useful-life assumptions affect only cash flow and therefore cannot influence valuation ratios.",
+      "The longer useful life proves the company maintains equipment more efficiently.",
+      "Reported earnings and asset carrying amounts may be higher than under peer-like estimates, so depreciation assumptions deserve normalization or sensitivity analysis."
+    ],
+    "correct": 2,
+    "explanation": "Longer estimated lives reduce annual depreciation and keep asset carrying values higher. That can lift reported earnings and alter asset-based ratios without changing current cash. The assumption may be valid, but the absence of operating evidence and peer divergence warrant testing rather than acceptance or automatic rejection.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q261",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Revaluation comparability",
+    "difficulty": "EXTREME",
+    "stem": "An IFRS reporter uses a permitted revaluation approach for a class of long-lived assets, while a US GAAP peer carries comparable assets under the cost model. Asset prices have risen sharply. Which comparison is most likely distorted if made without adjustment?",
+    "options": [
+      "Book asset values and asset-based return ratios, because the measurement bases differ.",
+      "Cash generated by operations, because revaluation itself creates cash receipts.",
+      "Physical productive capacity, because accounting revaluation automatically changes the assets' output."
+    ],
+    "correct": 0,
+    "explanation": "Different measurement models can create large book-value differences even with similar physical assets. That affects denominators such as assets and equity and therefore return ratios. A revaluation is an accounting measurement event; it does not itself generate operating cash or change physical capacity.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q262",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Asset age analysis",
+    "difficulty": "BRUTAL",
+    "stem": "A manufacturer reports gross PP&E of $600 million and accumulated depreciation of $480 million, while capex has been below depreciation for several years. Which inference is most appropriate?",
+    "options": [
+      "The asset base may be relatively mature and future replacement needs could be higher than recent capex, but disclosures and operating context are needed before concluding underinvestment.",
+      "Accumulated depreciation represents cash reserved for future replacement.",
+      "The firm must spend exactly $480 million immediately to replace depreciated assets."
+    ],
+    "correct": 0,
+    "explanation": "High accumulated depreciation relative to gross PP&E and low recent capex can indicate an aged asset base, but accounting depreciation is not a replacement reserve and does not dictate exact future spending. Analysts should combine age, maintenance, capacity and capex disclosures before forecasting.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q263",
+    "subject": "FSA",
+    "topic": "Analysis of Long-Term Assets",
+    "subtopic": "Impairment future ratios",
+    "difficulty": "EXTREME",
+    "stem": "After a large impairment, a firm's next-year operating economics are unchanged and no further impairment occurs. Compared with a hypothetical no-impairment path, next-year return on assets may appear higher primarily because:",
+    "options": [
+      "the prior impairment reduced the asset denominator, even though the underlying operating economics did not improve.",
+      "the impairment creates operating cash that increases next-year earnings.",
+      "the impairment permanently raises revenue by reducing depreciation."
+    ],
+    "correct": 0,
+    "explanation": "An impairment lowers the carrying amount of assets. With similar future earnings, the smaller denominator can mechanically increase ROA. Depending on the asset and accounting, future depreciation may also change, but the central analytical point is that post-impairment ratios can improve mechanically without better economics.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-long-term-assets"
+  },
+  {
+    "id": "q264",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Lease financing perspective",
+    "difficulty": "BRUTAL",
+    "stem": "A retailer expands using long-term leases rather than purchasing stores with borrowed funds. A junior analyst says leases should be ignored in solvency analysis because “rent is an operating choice, not financing.” Which response is most appropriate?",
+    "options": [
+      "All future lease payments should automatically be treated as current liabilities.",
+      "Lease obligations can create fixed long-term payment commitments and should be incorporated into leverage and coverage analysis based on their reported treatment and disclosures.",
+      "The junior analyst is correct because only bonds and bank loans can create financial leverage."
+    ],
+    "correct": 1,
+    "explanation": "Leases are a common alternative to asset ownership and can create economically significant fixed commitments. Modern reporting recognizes many lease assets and liabilities, and disclosures matter for solvency analysis. Treating every future payment as current is incorrect, but ignoring leases understates contractual obligations.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q265",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Defined contribution vs defined benefit",
+    "difficulty": "BRUTAL",
+    "stem": "Two employers promise retirement benefits. Employer D contributes a fixed percentage of salary to employee accounts and has no further obligation for investment performance. Employer B promises a formula-based pension tied to salary and service. Which company bears more direct investment and actuarial risk?",
+    "options": [
+      "Employer D, because fixed contributions make the employer responsible for each employee's investment return.",
+      "Neither; pension structure cannot affect the employer's balance-sheet risk.",
+      "Employer B, because the defined-benefit promise depends on future benefit obligations and plan assets rather than a fixed contribution alone."
+    ],
+    "correct": 2,
+    "explanation": "A defined-contribution plan generally fixes the employer's contribution, leaving investment outcomes with employees. A defined-benefit plan promises benefits and can create funded-status, actuarial and investment risk for the employer. The distinction is economically important for liabilities and disclosures.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q266",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Pension funded status",
+    "difficulty": "EXTREME",
+    "stem": "A company has pension plan assets of $420 million and a defined-benefit obligation of $470 million. Ignoring other pension accounting details, which economic interpretation is most appropriate?",
+    "options": [
+      "There is no economic funding gap until retirees actually receive cash payments.",
+      "The plan is overfunded by $50 million because the plan assets are financial assets.",
+      "The plan is underfunded by $50 million, indicating a net pension obligation that matters to solvency analysis."
+    ],
+    "correct": 2,
+    "explanation": "At a high level, plan assets of 420 against benefit obligations of 470 imply a $50 million deficit. Detailed accounting presentation can involve additional rules, but an analyst should recognize the unfunded economic obligation rather than ignore it until cash benefits are paid.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q267",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Stock-based compensation",
+    "difficulty": "BRUTAL",
+    "stem": "A technology company excludes stock-based compensation from its preferred non-GAAP earnings measure, arguing that it is “noncash.” The company issues significant new equity awards every year. Which analytical treatment is most defensible?",
+    "options": [
+      "Exclude it permanently because any expense without an immediate cash outflow cannot reduce shareholder value.",
+      "Add it back to earnings and ignore share-count effects because awards affect only employees.",
+      "Treat stock-based compensation as an economic cost and consider dilution; noncash classification does not make recurring employee compensation free."
+    ],
+    "correct": 2,
+    "explanation": "Stock-based compensation is compensation paid with an ownership claim rather than current cash. Recurring awards can dilute existing shareholders and are an economic cost even if they are noncash when expensed. A non-GAAP add-back may be useful for a particular purpose, but it should not erase the underlying cost or dilution.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q268",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Lease disclosure comparability",
+    "difficulty": "EXTREME",
+    "stem": "Company A owns its distribution centers and finances them with debt. Company B leases similar centers. Reported operating margins are close. For a leverage comparison, which approach is strongest?",
+    "options": [
+      "Add the full undiscounted lifetime lease payments to current debt without considering timing or reporting treatment.",
+      "Compare only reported bank debt because operating assets should never influence capital structure analysis.",
+      "Consider both recognized debt and lease obligations and understand how ownership versus leasing changes expense and cash-flow presentation before comparing solvency."
+    ],
+    "correct": 2,
+    "explanation": "Ownership financed by debt and long-term leasing can create similar economic commitments but different statement presentation. A robust comparison incorporates lease liabilities/commitments and their effect on coverage while respecting timing and measurement, rather than ignoring them or adding undiscounted future payments mechanically.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q269",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Share-based compensation disclosure",
+    "difficulty": "HARD",
+    "stem": "A firm reports flat diluted EPS despite 12% net-income growth. Its notes show large employee option exercises and restricted-share vesting. Which interpretation is most appropriate?",
+    "options": [
+      "Equity compensation may be increasing the diluted share count enough to offset earnings growth on a per-share basis.",
+      "Flat diluted EPS proves the reported net-income growth is misstated.",
+      "Share-based compensation can affect equity but never EPS."
+    ],
+    "correct": 0,
+    "explanation": "Per-share outcomes depend on both earnings and the diluted share denominator. New or vesting equity awards can increase dilution, causing EPS growth to lag net income even when the income number is accurate. The notes help explain the bridge between company-level profit and shareholder-level per-share economics.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q270",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Debt covenant disclosure",
+    "difficulty": "BRUTAL",
+    "stem": "A company has a long-term loan covenant requiring debt/EBITDA below 4.0×. Reported ratio is 3.9×, but management's EBITDA adds back a large recurring “transformation” expense. Which analytical step is most important?",
+    "options": [
+      "Ignore the covenant until the company actually defaults.",
+      "Recalculate covenant and economic leverage using the contractual definition and assess whether recurring add-backs overstate practical headroom.",
+      "Accept 3.9× because any management-defined EBITDA is automatically the covenant measure."
+    ],
+    "correct": 1,
+    "explanation": "Long-term-liability analysis requires reading contractual and disclosure details. The formal covenant definition determines legal compliance, while recurring add-backs can still make economic leverage look better than underlying cash generation. Waiting for default would miss the forward-looking solvency risk.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q271",
+    "subject": "FSA",
+    "topic": "Topics in Long-Term Liabilities and Equity",
+    "subtopic": "Fixed obligations and operating risk",
+    "difficulty": "EXTREME",
+    "stem": "Two retailers have identical EBITDA before occupancy costs. One owns stores debt-free; the other has large long-term lease liabilities. During a 20% revenue decline, which firm is more exposed to fixed-payment pressure, all else equal?",
+    "options": [
+      "The heavily leased retailer, because contractual lease payments reduce financial flexibility even if they are tied to operating locations.",
+      "The owner, because owned assets always create more fixed cash obligations than leases.",
+      "Exposure is identical because EBITDA before occupancy is the same."
+    ],
+    "correct": 0,
+    "explanation": "Fixed contractual payments matter in downside analysis. A large lease burden can behave like financing leverage by requiring cash payments despite revenue weakness. Identical pre-occupancy EBITDA does not imply identical financial flexibility, and asset ownership without debt does not create the same fixed creditor claim.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/topics-in-long-term-liabilities-and-equity"
+  },
+  {
+    "id": "q272",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "Temporary difference",
+    "difficulty": "BRUTAL",
+    "stem": "A company uses accelerated tax depreciation, so tax depreciation exceeds book depreciation in early years. The asset's carrying amount is therefore greater than its tax base. Assuming the difference will reverse and tax rates are positive, this most likely creates:",
+    "options": [
+      "a permanent difference with no deferred tax effect.",
+      "a deferred tax asset.",
+      "a deferred tax liability."
+    ],
+    "correct": 2,
+    "explanation": "When an asset's carrying amount exceeds its tax base, future recovery of the carrying amount implies taxable amounts beyond future book amounts, creating a taxable temporary difference and generally a DTL. The key is that the timing difference reverses; it is not a permanent difference.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q273",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "Deferred tax asset",
+    "difficulty": "BRUTAL",
+    "stem": "A firm recognizes an expense for book purposes now, but the tax deduction will be available only when cash is paid in a later period. Assuming future taxable income is expected, the timing difference most likely creates:",
+    "options": [
+      "a deferred tax asset.",
+      "a deferred tax liability.",
+      "no deferred tax item because expense recognition always matches tax deduction."
+    ],
+    "correct": 0,
+    "explanation": "The company has reduced book income before it receives the tax deduction. The future deduction is an economic tax benefit and generally creates a deductible temporary difference and DTA, subject to realizability considerations.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q274",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "Effective tax rate",
+    "difficulty": "HARD",
+    "stem": "Pretax accounting income is $200 million and income tax expense is $46 million. The statutory tax rate is 25%. The effective tax rate is:",
+    "options": [
+      "20%",
+      "23%",
+      "25%"
+    ],
+    "correct": 1,
+    "explanation": "Effective tax rate = income tax expense / pretax accounting income = 46/200 = 23%. The 25% statutory rate is the legal benchmark, not the calculated ETR. Differences can arise from permanent items, jurisdictions, credits and other reconciling factors.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q275",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "Cash tax rate",
+    "difficulty": "BRUTAL",
+    "stem": "Pretax accounting income is $160 million, income tax expense is $40 million, and cash taxes paid are $28 million. Which pair is correct?",
+    "options": [
+      "Effective tax rate = 25%; cash tax rate = 17.5%.",
+      "Effective tax rate = 17.5%; cash tax rate = 25%.",
+      "Both rates = 25%."
+    ],
+    "correct": 0,
+    "explanation": "ETR uses income tax expense: 40/160 = 25%. Cash tax rate uses cash taxes paid: 28/160 = 17.5%. The difference can reflect temporary differences, tax-payment timing and other items; one should not substitute cash taxes for income tax expense when computing ETR.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q276",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "Permanent difference",
+    "difficulty": "BRUTAL",
+    "stem": "A jurisdiction permanently disallows a category of expense for tax purposes. The expense reduces accounting profit but will never be deductible for tax. The difference is best described as:",
+    "options": [
+      "a temporary difference that necessarily creates a deferred tax liability.",
+      "a temporary difference that necessarily creates a deferred tax asset.",
+      "a permanent difference that can affect the effective tax rate but does not reverse into a deferred tax item."
+    ],
+    "correct": 2,
+    "explanation": "Permanent differences never reverse between book and taxable income, so they do not create DTA/DTL balances. They can, however, cause the effective tax rate to differ from the statutory rate. Confusing permanent and timing differences is the central trap.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q277",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "DTA realizability",
+    "difficulty": "EXTREME",
+    "stem": "A loss-making company has a large deferred tax asset from tax-loss carryforwards but has generated cumulative losses for several years and management provides weak evidence of future taxable profit. For valuation, the analyst should most appropriately:",
+    "options": [
+      "treat the DTA as equivalent to cash because it appears in assets.",
+      "question how much of the DTA is economically realizable and avoid treating the full accounting amount as cash-like value without support.",
+      "subtract the DTA from enterprise value regardless of expected future taxable income."
+    ],
+    "correct": 1,
+    "explanation": "A DTA has value only to the extent future taxable income or other tax-planning capacity allows the benefit to be used. Persistent losses can reduce realizability. The analyst should examine disclosures and assumptions rather than equate the accounting asset with cash or automatically assign it zero value.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q278",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "Tax rate reconciliation",
+    "difficulty": "EXTREME",
+    "stem": "A company's statutory tax rate is unchanged, but its effective tax rate falls from 27% to 16%. The tax note attributes most of the decline to a one-time release of a tax reserve. Which forecast assumption is most appropriate?",
+    "options": [
+      "Do not automatically extrapolate the 16% rate; separate the one-time reconciliation item and estimate a sustainable rate.",
+      "Use 27% indefinitely because tax-note reconciliation items have no analytical value.",
+      "Use 16% indefinitely because the most recent effective tax rate always dominates the statutory rate."
+    ],
+    "correct": 0,
+    "explanation": "The tax-rate reconciliation explains why accounting tax expense differs from the statutory benchmark. A one-time reserve release can depress the current ETR without changing recurring tax economics. Forecasting should isolate it rather than blindly extrapolate either the current or historical rate.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q279",
+    "subject": "FSA",
+    "topic": "Analysis of Income Taxes",
+    "subtopic": "DTL analytical treatment",
+    "difficulty": "BRUTAL",
+    "stem": "A company has a large DTL arising from accelerated tax depreciation on long-lived assets. The company continually reinvests and the difference has historically grown rather than reversed. Which analytical treatment is most defensible?",
+    "options": [
+      "Recognize it as a liability but consider the expected timing of reversal when assessing its economic present value and leverage impact.",
+      "Treat every DTL as immediately payable cash debt at full face value.",
+      "Ignore every DTL because deferred taxes can never require future cash payment."
+    ],
+    "correct": 0,
+    "explanation": "A DTL represents future tax consequences, but timing matters. Some differences can reverse far in the future or be extended by continuing investment. Analysts should neither treat all DTLs as immediate debt nor dismiss them. The expected reversal pattern matters to valuation and solvency.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analysis-of-income-taxes"
+  },
+  {
+    "id": "q280",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "Reporting quality vs results quality",
+    "difficulty": "BRUTAL",
+    "stem": "A cyclical company reports a large loss caused by a genuine collapse in demand. Its statements are complete, unbiased, transparent, and faithfully represent the economics. Which classification is most appropriate?",
+    "options": [
+      "High reporting quality requires high and growing earnings.",
+      "High reporting quality can coexist with low-quality economic results.",
+      "A large loss automatically means low reporting quality."
+    ],
+    "correct": 1,
+    "explanation": "Reporting quality concerns whether information faithfully represents economic reality. Results quality concerns the underlying economics and sustainability. A company can truthfully report poor, unsustainable results and therefore have high reporting quality despite weak economic performance.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q281",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "Aggressive accounting",
+    "difficulty": "BRUTAL",
+    "stem": "A manager facing an earnings target lengthens asset useful lives, reduces the bad-debt allowance despite worsening collections, and excludes recurring restructuring costs from a highlighted non-GAAP metric. The pattern is most consistent with:",
+    "options": [
+      "conservative accounting because estimates are being revised rather than cash flows changed.",
+      "high results quality because the choices are permitted within accounting standards.",
+      "aggressive reporting choices designed to raise current earnings or perceived performance."
+    ],
+    "correct": 2,
+    "explanation": "Aggressive reporting can arise through estimates and presentation choices even when each action remains within a range allowed by standards. Longer lives lower depreciation, a smaller allowance lowers expense, and recurring exclusions can make adjusted earnings look stronger. Permissibility does not make the economic presentation conservative or high quality.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q282",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "CFO manipulation signal",
+    "difficulty": "EXTREME",
+    "stem": "A company reports a surge in CFO while sales and earnings are flat. Days payable outstanding jumps sharply, supplier complaints rise, and no purchasing efficiency is evident. Which interpretation is strongest?",
+    "options": [
+      "The payable increase proves the company has committed financial-statement fraud.",
+      "CFO cannot be influenced by management operating choices, so the increase is necessarily high quality.",
+      "The CFO improvement may reflect stretching payables rather than stronger operating economics and may reverse."
+    ],
+    "correct": 2,
+    "explanation": "Delaying supplier payments conserves cash and boosts current CFO. That may be a legitimate working-capital decision or a sign of stress; it does not by itself prove fraud. But it weakens the inference that higher CFO represents sustainable operating improvement and should be normalized in analysis.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q283",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "Benchmark beating pattern",
+    "difficulty": "BRUTAL",
+    "stem": "For 16 consecutive quarters, a company reports EPS one or two cents above analyst consensus despite volatile end markets. Accruals rise and cash conversion deteriorates. Which response is most appropriate?",
+    "options": [
+      "Treat the repeated narrow benchmark beats plus rising accruals as warning signs that warrant deeper investigation, not proof of manipulation.",
+      "Conclude manipulation has occurred because beating consensus more than four quarters is conclusive evidence.",
+      "Ignore the pattern because meeting market expectations is unrelated to reporting quality."
+    ],
+    "correct": 0,
+    "explanation": "Repeatedly meeting or narrowly beating benchmarks can be a reporting-quality warning sign, particularly when accruals rise and cash conversion weakens. It is evidence for skepticism and follow-up, not definitive proof. A high-integrity analyst distinguishes a red flag from a finding of fraud.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q284",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "Non-GAAP presentation",
+    "difficulty": "BRUTAL",
+    "stem": "Management highlights “core EBITDA” that excludes acquisition costs, stock compensation, restructuring, and litigation expenses. Three of the four categories have appeared every year for five years. Which analytical treatment is strongest?",
+    "options": [
+      "Reject every non-GAAP measure automatically, even if it provides useful segmentation of one-time items.",
+      "Accept every exclusion because non-GAAP measures are designed to show the true business and therefore supersede GAAP/IFRS.",
+      "Reconcile the measure to reported results and challenge exclusions that are economically recurring before using it as a sustainable earnings proxy."
+    ],
+    "correct": 2,
+    "explanation": "Non-GAAP measures can be useful, but repeated exclusions can present an overly favorable view. The analyst should reconcile them, understand definitions and assess recurrence. Blind acceptance and blanket rejection are both weak; the issue is whether the adjusted measure faithfully supports the analytical purpose.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q285",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "Mechanisms and limitations",
+    "difficulty": "EXTREME",
+    "stem": "A company has a Big Four auditor, an active securities regulator, and widely traded bonds, yet management still has strong incentives to avoid a covenant breach. Which conclusion is most appropriate?",
+    "options": [
+      "The presence of a major auditor and regulator makes low-quality reporting impossible.",
+      "External discipline can improve reporting quality but does not eliminate management incentives or the need for analytical skepticism.",
+      "Debt covenants always improve reporting quality because they remove incentives to manage earnings."
+    ],
+    "correct": 1,
+    "explanation": "Auditors, regulators and capital markets are disciplinary mechanisms, not guarantees. Debt covenants can even create incentives to manage reported figures near thresholds. Analysts still need to assess estimates, disclosures and cash conversion rather than outsource judgment to institutional safeguards.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q286",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "Capitalization warning",
+    "difficulty": "BRUTAL",
+    "stem": "A software company suddenly begins capitalizing a much larger share of development spending. Revenue growth is slowing, current earnings accelerate, CFO improves relative to prior treatment, and CFI becomes more negative. Which interpretation is most appropriate?",
+    "options": [
+      "More negative CFI proves the company is destroying value.",
+      "The simultaneous rise in earnings and CFO proves the product economics improved.",
+      "The accounting shift can improve current earnings and CFO presentation without improving total cash flow, so the analyst should test whether capitalization remains economically justified."
+    ],
+    "correct": 2,
+    "explanation": "Capitalization moves qualifying spending from current expense to an asset and often from operating to investing cash flow. That can raise current earnings and CFO while leaving total cash unchanged. The change may be valid, but timing alongside weaker growth warrants scrutiny of criteria and future amortization.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q287",
+    "subject": "FSA",
+    "topic": "Financial Reporting Quality",
+    "subtopic": "Accrual persistence",
+    "difficulty": "EXTREME",
+    "stem": "Two firms report identical earnings growth. Firm A's growth is supported by cash collections and stable working-capital ratios. Firm B's growth comes mainly from rising receivables and other accruals. All else equal, which forecast is more defensible?",
+    "options": [
+      "Place greater confidence in A's earnings persistence while investigating whether B's accrual-heavy growth is sustainable.",
+      "Forecast identical persistence because reported earnings growth is identical.",
+      "Assume B's earnings are fraudulent because accruals increased."
+    ],
+    "correct": 0,
+    "explanation": "Accrual-heavy earnings can be less persistent and can revert more quickly than cash-supported earnings, but accruals are a normal part of accounting and do not prove fraud. The stronger inference is relative forecast confidence and the need to investigate B's collection and recognition assumptions.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-reporting-quality"
+  },
+  {
+    "id": "q288",
+    "subject": "FSA",
+    "topic": "Financial Analysis Techniques",
+    "subtopic": "Current vs quick ratio",
+    "difficulty": "BRUTAL",
+    "stem": "A retailer's current ratio rises from 1.6 to 1.9 solely because slow-moving inventory increases. Cash and receivables are unchanged, and current liabilities are unchanged. Which statement is most accurate?",
+    "options": [
+      "The current ratio improves mechanically, but the quick ratio is unchanged and practical liquidity may not improve.",
+      "Liquidity necessarily improves because any increase in current assets is equally liquid.",
+      "Both current and quick ratios rise because inventory is a current asset."
+    ],
+    "correct": 0,
+    "explanation": "The current ratio includes inventory, while the quick ratio generally excludes it. An inventory build can therefore raise the current ratio without increasing cash-like resources. If inventory is slow-moving, the apparent liquidity improvement may be weak economically.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+  },
+  {
+    "id": "q289",
+    "subject": "FSA",
+    "topic": "Financial Analysis Techniques",
+    "subtopic": "DuPont ROE",
+    "difficulty": "BRUTAL",
+    "stem": "A firm's net margin falls from 8% to 7%, asset turnover rises from 1.2× to 1.4×, and financial leverage falls from 2.0× to 1.8×. Using three-part DuPont, ROE changes from approximately:",
+    "options": [
+      "19.2% to 24.7%, an increase.",
+      "19.2% to 17.6%, a decline.",
+      "9.6% to 9.8%, roughly unchanged."
+    ],
+    "correct": 1,
+    "explanation": "Three-part DuPont ROE = net margin × asset turnover × financial leverage. Old ROE = 0.08×1.2×2.0 = 19.2%. New ROE = 0.07×1.4×1.8 = 17.64%. Improved efficiency does not fully offset lower margin and leverage.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+  },
+  {
+    "id": "q290",
+    "subject": "FSA",
+    "topic": "Financial Analysis Techniques",
+    "subtopic": "Receivables turnover",
+    "difficulty": "BRUTAL",
+    "stem": "Credit sales are $600 million and average receivables are $75 million. If a peer has materially higher receivables turnover with similar customer mix and terms, the subject company's receivables turnover of:",
+    "options": [
+      "8.0× proves all receivables will be collected.",
+      "8.0× may indicate slower collection relative to the peer and warrants investigation.",
+      "0.125× proves the subject company has better credit quality."
+    ],
+    "correct": 1,
+    "explanation": "Receivables turnover = credit sales / average receivables = 600/75 = 8.0×. Lower turnover than a comparable peer can indicate slower collection or looser credit, but it does not prove default or poor quality by itself. Industry terms and seasonality remain relevant.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+  },
+  {
+    "id": "q291",
+    "subject": "FSA",
+    "topic": "Financial Analysis Techniques",
+    "subtopic": "Interest coverage",
+    "difficulty": "EXTREME",
+    "stem": "EBIT is $90 million and interest expense is $18 million. A proposed acquisition would add $24 million EBIT but $12 million interest expense. Ignoring integration effects, EBIT interest coverage changes from:",
+    "options": [
+      "5.0× to 3.8×, so operating profit rises but coverage deteriorates.",
+      "5.0× to 6.3×, so coverage improves.",
+      "3.8× to 5.0×, so leverage falls."
+    ],
+    "correct": 0,
+    "explanation": "Current coverage = 90/18 = 5.0×. Pro forma EBIT = 114 and interest = 30, so coverage = 3.8×. The acquisition is accretive to EBIT but more than proportionately increases interest burden. Growth in the numerator alone does not guarantee better solvency.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+  },
+  {
+    "id": "q292",
+    "subject": "FSA",
+    "topic": "Financial Analysis Techniques",
+    "subtopic": "ROE leverage trap",
+    "difficulty": "BRUTAL",
+    "stem": "A company repurchases shares using new debt. Net income is initially unchanged, assets are roughly unchanged, and book equity falls. ROE rises. Which interpretation is most appropriate?",
+    "options": [
+      "Debt-financed repurchases cannot affect ROE until net income changes.",
+      "The higher ROE proves asset productivity improved.",
+      "The higher ROE may be driven by greater financial leverage and a smaller equity denominator rather than improved operating profitability."
+    ],
+    "correct": 2,
+    "explanation": "ROE can rise mechanically when equity falls and leverage rises. DuPont decomposition helps separate margin, asset efficiency and financial leverage. A higher post-repurchase ROE is not automatically evidence of better operating economics.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+  },
+  {
+    "id": "q293",
+    "subject": "FSA",
+    "topic": "Financial Analysis Techniques",
+    "subtopic": "Industry-specific ratios",
+    "difficulty": "HARD",
+    "stem": "An analyst compares a grocery chain and a software-as-a-service firm using only inventory turnover and concludes the SaaS firm has superior operating efficiency because it carries almost no inventory. Which critique is strongest?",
+    "options": [
+      "Inventory turnover is invalid for every company because inventory accounting differs across industries.",
+      "Ratio relevance depends on the business model; industry-specific operating drivers should complement generic ratios.",
+      "The comparison is valid because the same formula always measures the same economic efficiency across business models."
+    ],
+    "correct": 1,
+    "explanation": "A ratio can be mathematically correct yet economically uninformative across radically different business models. Analysts should select metrics that reflect each industry's drivers and use generic ratios in context. The issue is relevance, not that inventory turnover is universally invalid.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+  },
+  {
+    "id": "q294",
+    "subject": "FSA",
+    "topic": "Financial Analysis Techniques",
+    "subtopic": "Ratio forecast linkage",
+    "difficulty": "EXTREME",
+    "stem": "A company's days sales outstanding has risen from 42 to 58 to 71 days while management forecasts revenue growth accelerating and working capital as a constant percentage of sales. Which modeling response is most appropriate?",
+    "options": [
+      "Set future receivables to zero because DSO is rising.",
+      "Keep the constant percentage because historical ratio deterioration never matters to forecasts.",
+      "Challenge the constant working-capital assumption and explicitly model collection behavior or a justified normalization path."
+    ],
+    "correct": 2,
+    "explanation": "A persistent trend in collection metrics can materially affect cash needs. A sales-based model should not mechanically assume stable working capital when operating evidence contradicts it. The analyst should model a justified DSO path or explain why normalization is expected.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+  },
+  {
+    "id": "q295",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Modeling",
+    "subtopic": "Sales-based pro forma",
+    "difficulty": "BRUTAL",
+    "stem": "A firm's sales are forecast to rise 12%. Receivables and inventory historically scale closely with sales, but long-term debt does not. A junior analyst increases every balance-sheet line by 12%. Which correction is most appropriate?",
+    "options": [
+      "Forecast operating accounts using their economic drivers and determine financing separately rather than scaling all assets and liabilities mechanically with sales.",
+      "Scale debt by 12% because every balance-sheet account must preserve its prior percentage of sales.",
+      "Hold all working-capital accounts constant because only the income statement should respond to sales growth."
+    ],
+    "correct": 0,
+    "explanation": "Sales-based models commonly link operating working capital and some operating assets/liabilities to sales or other drivers. Financing items such as debt depend on funding needs and capital-structure assumptions. Uniform scaling confuses operating relationships with financing decisions.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-to-financial-statement-modeling"
+  },
+  {
+    "id": "q296",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Modeling",
+    "subtopic": "Forecast bias",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst begins with management's 15% revenue-growth guidance. After industry data weakens materially, she makes only a token reduction because she has spent weeks building the model around 15%. Which bias and remedy best fit?",
+    "options": [
+      "Anchoring; rebuild key assumptions from independent drivers and use explicit scenarios or base rates.",
+      "Availability bias; rely more heavily on the latest management presentation.",
+      "Loss aversion; increase the forecast to avoid recognizing a modeling loss."
+    ],
+    "correct": 0,
+    "explanation": "The analyst is anchored to an initial estimate and insufficiently adjusts despite new evidence. Re-deriving the forecast from independent volume/price drivers, peer/industry data and scenarios helps break the anchor. More reliance on management's original number would reinforce the problem.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-to-financial-statement-modeling"
+  },
+  {
+    "id": "q297",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Modeling",
+    "subtopic": "Porter and margins",
+    "difficulty": "EXTREME",
+    "stem": "An industry faces low switching costs, transparent pricing, excess capacity, and several similarly sized competitors. A model assumes permanent gross-margin expansion despite no company-specific cost advantage. Which forecast revision is most defensible?",
+    "options": [
+      "Raise margins further because more competitors increase each firm's pricing power.",
+      "Ignore industry structure because Porter analysis cannot affect financial-statement forecasts.",
+      "Use the strong rivalry evidence to challenge sustained pricing power and margin expansion unless a credible competitive advantage offsets it."
+    ],
+    "correct": 2,
+    "explanation": "Strong rivalry, low switching costs and excess capacity can constrain price and margins. FSA modeling explicitly links competitive position to prices and costs. Margin expansion could still be valid with differentiation or cost advantage, but the model needs that mechanism rather than an unsupported trend extrapolation.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-to-financial-statement-modeling"
+  },
+  {
+    "id": "q298",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Modeling",
+    "subtopic": "Inflation forecasting",
+    "difficulty": "EXTREME",
+    "stem": "A manufacturer can pass only half of input-cost inflation to customers with a six-month lag. Input costs are expected to rise 8% next year, while volume is flat. A model assumes revenue prices and costs both rise 8% immediately, leaving margins unchanged. What is the key flaw?",
+    "options": [
+      "Inflation should never enter company forecasts because nominal financial statements already contain it.",
+      "The model understates margins because any inflation mechanically increases operating leverage.",
+      "The model ignores incomplete and delayed pricing pass-through, so it likely overstates near-term margins."
+    ],
+    "correct": 2,
+    "explanation": "Forecasts should distinguish price and volume and model how cost inflation passes through to customer pricing. If only half can be passed through and with delay, costs rise faster than realized prices in the near term, pressuring margin. Equal immediate inflation assumptions erase the economic mechanism.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-to-financial-statement-modeling"
+  },
+  {
+    "id": "q299",
+    "subject": "FSA",
+    "topic": "Introduction to Financial Statement Modeling",
+    "subtopic": "Forecast horizon",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst values a company undergoing a three-year plant build followed by a gradual ramp to normal margins. She uses a one-year explicit forecast and then assumes mature steady-state economics from year two onward. Which change most improves the model?",
+    "options": [
+      "Shorten the explicit horizon further because long forecasts are always less accurate.",
+      "Keep the one-year horizon and increase the discount rate enough to compensate for all operating uncertainty.",
+      "Extend the explicit horizon through the period in which major operating and investment drivers are converging toward a defensible steady state."
+    ],
+    "correct": 2,
+    "explanation": "The explicit horizon should be long enough to model material transitions before using normalized long-term assumptions. A one-year horizon jumps over construction and ramp economics. Uncertainty does not justify hiding known transitional drivers inside the terminal period or a single discount-rate adjustment.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-to-financial-statement-modeling"
+  },
+  {
+    "id": "q300",
+    "subject": "FSA",
+    "topic": "Analyzing Income Statements",
+    "subtopic": "Weighted-average shares replacement",
+    "difficulty": "EXTREME",
+    "stem": "A company begins the year with 12 million common shares, issues 3 million for cash on 1 April, and repurchases 2 million on 1 October. Income available to common shareholders is $39 million. Ignoring stock splits and potential common shares, basic EPS is closest to:",
+    "options": [
+      "$2.60",
+      "$2.84",
+      "$3.00"
+    ],
+    "correct": 1,
+    "explanation": "Weighted-average shares = 12×3/12 + 15×6/12 + 13×3/12 = 3 + 7.5 + 3.25 = 13.75 million. Basic EPS = 39/13.75 = approximately $2.84. Using year-end shares gives $3.00; using the largest share count gives $2.60. The timing of issuances and repurchases controls the denominator.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements"
+  }
+];
+
+
+window.EQUITY_QUESTIONS = [
+  {
+    "id": "q301",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Residual claim",
+    "difficulty": "BRUTAL",
+    "stem": "A company has $500 million of assets and $380 million of contractual liabilities. A severe downturn reduces asset value by $90 million before any liabilities change. Which investor is most directly exposed to the first loss in residual net asset value?",
+    "options": [
+      "Senior lenders, because debt holders absorb all asset-value changes before equity.",
+      "Common shareholders, because equity is the residual claim after liabilities.",
+      "Preferred shareholders only, because common shareholders have a fixed liquidation claim."
+    ],
+    "correct": 1,
+    "explanation": "Common equity is the residual ownership claim. With liabilities contractually senior, declines in asset value initially reduce the residual available to equity. Senior lenders can ultimately suffer if losses exhaust equity and other junior claims, but they do not bear the first residual change simply because assets fall.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/overview-equity-securities"
+  },
+  {
+    "id": "q302",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Cumulative preferred distribution priority",
+    "difficulty": "BRUTAL",
+    "stem": "A company has 1 million cumulative preferred shares with a $5 annual dividend. It paid no preferred dividend last year and proposes this year to declare $3 million of common dividends after returning to profitability. No preferred dividends have yet been declared this year. Before the proposed common dividend can be paid, which treatment is most consistent with the cumulative preference?",
+    "options": [
+      "Only the current year’s $5 million preferred dividend matters because last year’s omission permanently disappeared.",
+      "The $5 million dividend in arrears must be satisfied, and the current preferred claim must also be addressed according to the issue terms, before a common distribution.",
+      "The company must redeem all preferred shares at par because any omitted cumulative dividend automatically triggers liquidation preference."
+    ],
+    "correct": 1,
+    "explanation": "Cumulative preferred dividends that are omitted accumulate as dividends in arrears and have priority over common dividends. Here the missed $5 million from last year does not vanish merely because dividends were not declared then. Before distributing cash to common shareholders, the company must satisfy the accumulated preferred claim and comply with the current-period preferred dividend terms. The strongest distractor treats dividend omission as though it automatically forces redemption; cumulative status creates dividend priority, not an automatic repurchase or liquidation event.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/overview-equity-securities"
+  },
+  {
+    "id": "q303",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Callable versus putable preferred under rate shocks",
+    "difficulty": "EXTREME",
+    "stem": "Two $100-par preferred shares pay identical fixed dividends. Share C is callable by the issuer at $105; Share P is putable by the investor at $95. Market required returns first fall sharply and later rise sharply, with issuer credit unchanged. Which comparison is most accurate?",
+    "options": [
+      "C offers the investor more upside when required returns fall because the issuer’s call becomes more valuable to the investor.",
+      "P and C should respond identically because option features do not affect preferred-share value until exercised.",
+      "C’s upside can be constrained when rates fall, while P’s downside can be supported when rates rise, because the call belongs to the issuer and the put belongs to the investor."
+    ],
+    "correct": 2,
+    "explanation": "Option ownership determines who benefits. When required returns fall, a fixed preferred share would normally appreciate, but the issuer of callable Share C has greater incentive to redeem near the call price, limiting investor upside. When required returns rise, Share P’s investor-held put can support value by providing a contractual exit near $95, subject to the terms. The strongest distractor reverses the beneficiary of the call: an issuer call is valuable to the issuer, not the investor.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/overview-equity-securities"
+  },
+  {
+    "id": "q304",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Public vs private equity",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst compares a listed manufacturer with a similar privately held manufacturer. The private firm's latest transaction occurred 18 months ago between two founders. Which valuation challenge is most specific to the private security?",
+    "options": [
+      "Private companies cannot issue multiple classes of equity.",
+      "A less observable current market price and typically lower trading liquidity make price discovery more difficult.",
+      "Private equity has no residual claim on company assets."
+    ],
+    "correct": 1,
+    "explanation": "Private shares generally lack continuous exchange pricing and active secondary-market liquidity. That makes current price discovery and comparability more difficult. They remain equity residual claims and can have multiple classes; those features do not disappear because the company is private.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q305",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Convertible preferred decision",
+    "difficulty": "BRUTAL",
+    "stem": "A preferred share has a $100 par value, a fixed dividend, and can be converted at the investor’s option into 4 common shares. The common stock rises to $32, while otherwise comparable non-convertible preferred shares trade near $104. Ignoring transaction costs, which observation is most relevant to the conversion feature?",
+    "options": [
+      "Conversion guarantees the preferred dividend and therefore makes the $100 par value irrelevant.",
+      "Conversion gives the preferred shareholder priority over secured lenders if the common stock later declines.",
+      "The conversion value is $128, so the option can allow participation in common-equity upside beyond the value of otherwise similar non-convertible preferred."
+    ],
+    "correct": 2,
+    "explanation": "The conversion value is 4 × $32 = $128. Because the investor controls the conversion option, the feature can become valuable when common-equity value rises sufficiently above the preferred share’s stand-alone value. It does not guarantee dividends and does not alter the preferred claim’s priority relative to secured debt. The decisive step is to translate the conversion ratio into an equity value rather than treating convertibility as merely a label.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/overview-equity-securities"
+  },
+  {
+    "id": "q306",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Book vs market equity",
+    "difficulty": "EXTREME",
+    "stem": "A profitable software company has book common equity of $300 million and market capitalization of $2.4 billion. A junior analyst concludes that the $2.1 billion difference is an accounting error because “equity should equal equity.” Which response is strongest?",
+    "options": [
+      "Book equity is the market value of all assets less the market value of all liabilities.",
+      "Book equity is an accounting residual, while market capitalization reflects investors' pricing of future cash flows and risks; they need not be equal.",
+      "Market capitalization should equal book equity unless the company has preferred stock."
+    ],
+    "correct": 1,
+    "explanation": "Book equity follows accounting recognition and measurement. Market capitalization is current price per share times shares and reflects expectations about future economics, including many intangible sources of value not fully recognized on the balance sheet. A large gap can be economically reasonable and is not itself an error.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/overview-equity-securities"
+  },
+  {
+    "id": "q307",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Investor vs issuer risk",
+    "difficulty": "EXTREME",
+    "stem": "A company replaces part of its common equity financing with fixed-rate debt. From the company's perspective, contractual payment risk rises; from the common shareholder's perspective, residual earnings become more sensitive to operating results. Which statement is most accurate?",
+    "options": [
+      "Debt can be riskier to the issuer because payments are contractual, while added leverage can make common equity riskier to investors.",
+      "Debt is always less risky for both issuer and investor because it is senior.",
+      "Equity is always riskier for the issuer because dividends must be paid before interest."
+    ],
+    "correct": 0,
+    "explanation": "Issuer and investor perspectives differ. Debt creates promised interest and principal payments for the company; common equity has no comparable contractual distribution. For investors, common equity is junior and leverage magnifies residual variability. Seniority alone does not make debt safer for the issuer.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/overview-equity-securities"
+  },
+  {
+    "id": "q308",
+    "subject": "Equity",
+    "topic": "Equity Instrument Features",
+    "subtopic": "Participating preferred economics",
+    "difficulty": "BRUTAL",
+    "stem": "A $100-par preferred share pays a 6% annual preferred dividend and, after common shareholders receive a specified threshold distribution, also receives an additional share of residual distributions. A junior analyst calls it “non-cumulative preferred” solely because its total cash payout can exceed $6. Which response is most accurate?",
+    "options": [
+      "The extra distribution right is equivalent to an investor put and therefore makes the share putable common equity.",
+      "The issue is participating preferred; participation describes additional upside, while cumulative versus non-cumulative separately describes whether omitted preferred dividends accrue.",
+      "Any preferred share that can receive more than its stated dividend loses its preference in liquidation."
+    ],
+    "correct": 1,
+    "explanation": "Participating preferred can receive its stated preference plus specified additional distributions. That feature is distinct from cumulative status, which governs whether omitted preferred dividends accumulate, and from putability, which gives the investor a contractual sale right. The junior analyst is conflating separate dimensions of preferred-share design. Additional participation also does not by itself eliminate liquidation preference.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/overview-equity-securities"
+  },
+  {
+    "id": "q309",
+    "subject": "Equity",
+    "topic": "Equity Jurisdictions, Classes, and the Voting Process",
+    "subtopic": "Dual-class voting",
+    "difficulty": "BRUTAL",
+    "stem": "A founder owns 12% of a company's economic interest but 55% of voting power through super-voting shares. An analyst assessing governance should most likely conclude that:",
+    "options": [
+      "economic ownership and control can diverge materially, increasing the importance of class-specific voting rights.",
+      "the founder cannot control board elections because ownership is below 50%.",
+      "all equity classes must carry voting rights proportional to cash-flow rights."
+    ],
+    "correct": 0,
+    "explanation": "Dual-class structures can separate voting control from economic ownership. A founder can therefore control key votes with a minority of cash-flow rights. Analysts must examine class rights rather than infer control from aggregate economic ownership.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q310",
+    "subject": "Equity",
+    "topic": "Equity Jurisdictions, Classes, and the Voting Process",
+    "subtopic": "Proxy process roles",
+    "difficulty": "BRUTAL",
+    "stem": "A large asset owner delegates portfolio management to an asset manager. A proxy adviser issues a recommendation on a board election. Who ultimately bears responsibility for how voting rights are exercised under the mandate terms?",
+    "options": [
+      "The issuer's management, because management prepares the proxy materials.",
+      "The proxy adviser, because its recommendation legally transfers voting authority.",
+      "The party assigned voting authority by the ownership/management arrangement; the proxy adviser provides analysis rather than owning the vote."
+    ],
+    "correct": 2,
+    "explanation": "Proxy advisers analyze issues and make recommendations, but voting authority remains with the party that holds or has been delegated the voting right under the mandate. Issuer management proposes or communicates matters but does not acquire investors' votes by preparing materials.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q311",
+    "subject": "Equity",
+    "topic": "Equity Jurisdictions, Classes, and the Voting Process",
+    "subtopic": "Economic vs voting rights",
+    "difficulty": "EXTREME",
+    "stem": "Class A shares receive twice the dividend per share of Class B but have one-tenth the votes. Class B has lower cash-flow rights but much stronger voting rights. Which comparison is most appropriate?",
+    "options": [
+      "Class A must always trade at exactly twice Class B because its dividend is twice as large.",
+      "Neither class is unambiguously superior; value depends on the investor's weighting of economic distributions, control rights, and market pricing.",
+      "Class B must always be more valuable because voting rights dominate all cash-flow rights."
+    ],
+    "correct": 1,
+    "explanation": "Different classes bundle economic and control rights differently. Relative market value can reflect both, as well as liquidity and expectations. A fixed price ratio cannot be inferred from current dividend rights alone, and stronger voting rights do not mechanically dominate economic claims.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q312",
+    "subject": "Equity",
+    "topic": "Equity Jurisdictions, Classes, and the Voting Process",
+    "subtopic": "Board election analysis",
+    "difficulty": "BRUTAL",
+    "stem": "An activist owns 4% of a company and seeks two board seats. Management owns 6%; the remaining shares are widely held by institutions. Which fact is most relevant to predicting the vote outcome?",
+    "options": [
+      "The board decides the shareholder vote regardless of votes cast.",
+      "The activist automatically loses because it owns less than management.",
+      "How voting rights are distributed and likely exercised by the institutional asset owners/managers, not merely the activist's ownership percentage."
+    ],
+    "correct": 2,
+    "explanation": "Board elections depend on voting rights and participation across shareholders. A 4% holder can influence outcomes if other holders support it, particularly in dispersed ownership. Comparing activist ownership only with management ownership ignores most votes.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q313",
+    "subject": "Equity",
+    "topic": "Equity Jurisdictions, Classes, and the Voting Process",
+    "subtopic": "Jurisdiction differences",
+    "difficulty": "EXTREME",
+    "stem": "Two firms have identically labeled “ordinary shares” but are incorporated in different jurisdictions. One jurisdiction allows non-voting ordinary shares; the other generally pairs ordinary shares with votes. Which analytical practice is best?",
+    "options": [
+      "Assume identical rights because both instruments are called ordinary shares.",
+      "Ignore voting rights because jurisdiction never affects equity valuation.",
+      "Read the security- and jurisdiction-specific rights rather than infer voting or economic rights from the label alone."
+    ],
+    "correct": 2,
+    "explanation": "Equity rights can differ by jurisdiction and class. Labels are not enough to establish voting, dividend or other ownership rights. Analysts should examine the actual legal and security terms before comparing governance or value.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q314",
+    "subject": "Equity",
+    "topic": "Equity Jurisdictions, Classes, and the Voting Process",
+    "subtopic": "Proxy adviser conflict",
+    "difficulty": "EXTREME",
+    "stem": "A proxy adviser recommends voting for a transaction while also providing paid consulting to the issuer on governance design. For an asset manager using that recommendation, the most appropriate analytical response is to:",
+    "options": [
+      "ignore all proxy-adviser research whenever the adviser has any commercial relationship.",
+      "follow the recommendation automatically because proxy advisers replace the asset manager's judgment.",
+      "consider the adviser's potential conflict and independently evaluate the vote rather than treat the recommendation as dispositive."
+    ],
+    "correct": 2,
+    "explanation": "Proxy advice is an input to the voting process, not a substitute for investor judgment. A commercial relationship can create a conflict that warrants scrutiny. It does not automatically invalidate all analysis, but it reduces the case for mechanical reliance.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q315",
+    "subject": "Equity",
+    "topic": "Equity Issuance and Trading",
+    "subtopic": "Primary versus OTC secondary transactions",
+    "difficulty": "BRUTAL",
+    "stem": "A company privately places newly issued shares with an institutional investor. Six months later, the investor sells part of that position to a dealer, which resells the shares bilaterally to another investor without using a centralized exchange order book. Which classification is most accurate?",
+    "options": [
+      "Both transactions are primary-market trades because a dealer participates in the second transaction.",
+      "Both transactions are exchange trades because the security itself is publicly registered.",
+      "The initial issuance is a primary-market transaction; the later bilateral dealer trade is a secondary off-exchange/OTC transaction."
+    ],
+    "correct": 2,
+    "explanation": "The defining question for a primary market is whether the issuer is creating/selling the security and receiving the financing proceeds. The later sale transfers an existing security between investors; the issuer does not receive the resale proceeds. Because that resale is negotiated through dealers without a centralized exchange order book, it is a secondary OTC/off-exchange trade. Dealer involvement alone does not make a transaction primary.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q316",
+    "subject": "Equity",
+    "topic": "Equity Issuance and Trading",
+    "subtopic": "Float after strategic placement",
+    "difficulty": "BRUTAL",
+    "stem": "A company has 120 million shares outstanding. Founders own 28 million strategic shares and a government entity owns 12 million restricted strategic shares. The company then issues 15 million new shares entirely to public investors; neither strategic holder sells. Immediately after the issue, public float is closest to:",
+    "options": [
+      "80 million shares, because newly issued shares do not enter float until an existing holder sells.",
+      "95 million shares, because the original 80 million public shares plus 15 million newly issued public shares are freely tradable.",
+      "107 million shares, because only the government block should be excluded from float."
+    ],
+    "correct": 1,
+    "explanation": "Before the issue, public float is 120 − 28 − 12 = 80 million shares. The 15 million newly issued shares are sold to public investors and therefore increase both shares outstanding and float, giving 95 million shares of float. Strategic holdings remain excluded. The strongest distractor incorrectly treats founder strategic shares as public float.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q317",
+    "subject": "Equity",
+    "topic": "Equity Issuance and Trading",
+    "subtopic": "Liquidity measures",
+    "difficulty": "EXTREME",
+    "stem": "Stock A trades $80 million per day with a 4-basis-point bid–ask spread. Stock B trades $20 million per day with a 2-basis-point spread but very shallow quoted depth. For a fund seeking to sell a large block, which conclusion is strongest?",
+    "options": [
+      "No single measure is sufficient; spread, trading volume, depth and expected price impact all matter for block liquidity.",
+      "B is necessarily more liquid because its quoted spread is narrower.",
+      "A is necessarily more liquid because ADV alone fully measures liquidity."
+    ],
+    "correct": 0,
+    "explanation": "Liquidity is multidimensional. A narrow displayed spread can coexist with shallow depth and large market impact, while higher volume can support larger trades. A block trader should consider spread, depth, turnover/ADV and expected impact rather than rank securities from one statistic.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q318",
+    "subject": "Equity",
+    "topic": "Equity Issuance and Trading",
+    "subtopic": "Float vs liquidity",
+    "difficulty": "BRUTAL",
+    "stem": "A company has 500 million shares outstanding but only 70 million in public float because a controlling shareholder holds the rest. Which statement is most defensible?",
+    "options": [
+      "The small float can constrain tradable supply and may reduce liquidity even though total shares outstanding are large.",
+      "Float is irrelevant once a stock is listed on an exchange.",
+      "The stock must be highly liquid because shares outstanding exceed 400 million."
+    ],
+    "correct": 0,
+    "explanation": "Tradable supply is better reflected by float than by total shares outstanding when strategic blocks rarely trade. A large total share count therefore does not guarantee deep liquidity.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q319",
+    "subject": "Equity",
+    "topic": "Equity Issuance and Trading",
+    "subtopic": "Price-weighted index and stock splits",
+    "difficulty": "EXTREME",
+    "stem": "A price-weighted index contains two stocks priced at $200 and $20. The $200 stock executes a 10-for-1 split with no change in company value. The index provider adjusts the divisor appropriately. Immediately after the split, which statement is most accurate?",
+    "options": [
+      "The index must fall sharply because the sum of component prices falls from the split.",
+      "The split increases the high-priced company’s economic market capitalization tenfold and therefore increases its index weight.",
+      "The divisor adjustment prevents the split itself from changing the index level, while the stock’s lower post-split price can reduce its subsequent relative influence in a price-weighted index."
+    ],
+    "correct": 2,
+    "explanation": "A stock split changes units rather than company value. A price-weighted index provider adjusts the divisor so that this mechanical price change does not create an artificial index return. After the split, however, the component’s quoted price is much lower, so its weight in a price-weighted methodology can differ from before. The key trap is to confuse a unit change with economic value creation or an index return.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q320",
+    "subject": "Equity",
+    "topic": "Equity Issuance and Trading",
+    "subtopic": "Secondary market supports primary",
+    "difficulty": "BRUTAL",
+    "stem": "A country has weak secondary-market liquidity for listed shares. A policymaker asks why this can raise companies' cost of raising new equity. The best explanation is:",
+    "options": [
+      "primary and secondary markets are economically unrelated once an IPO closes.",
+      "secondary markets transfer all proceeds directly to issuers, so low trading volume reduces issuer cash each day.",
+      "investors may demand a higher expected return for securities that will be difficult or costly to resell, reducing primary-market pricing."
+    ],
+    "correct": 2,
+    "explanation": "Secondary-market liquidity affects investors' willingness to buy new issues and the return they require. Although secondary trades do not deliver proceeds to issuers, a liquid resale market supports primary issuance by improving investor exit and price-discovery conditions.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q321",
+    "subject": "Equity",
+    "topic": "Equity Issuance and Trading",
+    "subtopic": "ADV interpretation",
+    "difficulty": "BRUTAL",
+    "stem": "A stock's ADV doubles after inclusion in a major index, but its float is unchanged. An analyst says liquidity definitely doubled. Which critique is strongest?",
+    "options": [
+      "ADV has no relationship to liquidity and should never be used.",
+      "Higher ADV is supportive evidence, but liquidity also depends on spreads, depth and price impact; it cannot be inferred one-for-one from ADV.",
+      "Float must also double whenever ADV doubles."
+    ],
+    "correct": 1,
+    "explanation": "Trading volume is a useful liquidity measure, but it is not the entire concept. A stock can trade more while still having wide spreads or shallow depth for large orders. Float and ADV measure different things, so one need not move with the other.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q322",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Price return versus total return",
+    "difficulty": "BRUTAL",
+    "stem": "An investor buys a stock at $50 immediately after the prior dividend has gone ex-dividend. Over the next year the company pays a $2 dividend, and the stock ends at $54. A colleague reports an 8% “shareholder return” using only the price change. Ignoring taxes and reinvestment, which correction is most accurate?",
+    "options": [
+      "The colleague is correct because dividends are financing flows and excluded from equity holding-period return.",
+      "Price return is 8%, but total shareholder return is 12% because the $2 cash distribution belongs in the holding-period return.",
+      "Total return is 4% because dividends must be subtracted from the ending share price."
+    ],
+    "correct": 1,
+    "explanation": "The price return is ($54 − $50)/$50 = 8%. Total return includes distributions received during the holding period: ($54 − $50 + $2)/$50 = 12%. Because the investor bought after the previous dividend had gone ex-dividend and then held through the next dividend, that $2 is part of the investor’s economic return. The strongest distractor confuses corporate financing classification with investor return measurement.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q323",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Ex-dividend timing and holding-period return",
+    "difficulty": "BRUTAL",
+    "stem": "An investor buys a share for $80 one trading day before it goes ex-dividend. The declared dividend is $2. On the ex-dividend date the investor sells the share for $78.80. Assuming standard ex-dividend conventions, no taxes, and no other cash flows, which statement is most accurate?",
+    "options": [
+      "The investor is entitled to the $2 dividend and earns a positive total holding-period return despite the lower sale price.",
+      "The buyer loses the dividend because the shares were sold before the payment date, so the holding-period return is negative 1.5%.",
+      "The dividend must be split with the purchaser on the ex-dividend date because legal ownership changes before payment."
+    ],
+    "correct": 0,
+    "explanation": "Buying before the ex-dividend date generally gives the investor entitlement to the declared dividend even if the shares are sold on the ex-date. Total wealth received is $78.80 + $2 = $80.80, so the holding-period return is 1.0% ($0.80/$80), ignoring taxes and costs. The payment date is not the decisive ownership cut-off for entitlement; that is the trap in the second answer.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q324",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Share repurchase economics",
+    "difficulty": "EXTREME",
+    "stem": "A firm uses excess cash to repurchase shares at a price materially above a well-supported intrinsic value estimate. Operating assets and business outlook are unchanged. For continuing shareholders, the most defensible statement is:",
+    "options": [
+      "repurchasing materially overvalued shares can transfer value from continuing shareholders to selling shareholders.",
+      "repurchases can never affect per-share value because cash and equity both decline.",
+      "any repurchase automatically creates value because shares outstanding decline."
+    ],
+    "correct": 0,
+    "explanation": "A repurchase is not value-creating merely because the denominator falls. If the company pays more than intrinsic value, it gives up excessive corporate resources to departing holders. The effect depends on price relative to value and the opportunity cost of cash.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q325",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Stock split and valuation ratios",
+    "difficulty": "BRUTAL",
+    "stem": "Immediately before a 3-for-1 stock split, a company trades at $90 per share and reports EPS of $6 on a pre-split share basis. Ignoring market reaction and assuming EPS is restated consistently for the split, which post-split combination is most plausible?",
+    "options": [
+      "Price about $30, EPS still $6, and P/E falling from 15× to 5× because the split makes the stock cheaper.",
+      "Price about $30, EPS about $2, and P/E remaining about 15× because the split changes units rather than underlying value.",
+      "Price about $90, EPS about $2, and market capitalization tripling because there are three times as many shares."
+    ],
+    "correct": 1,
+    "explanation": "A 3-for-1 split roughly divides both price per share and per-share accounting quantities such as EPS by three when comparative per-share data are stated consistently. Thus $90 becomes about $30 and $6 EPS becomes about $2; P/E remains 30/2 = 15×. The split does not itself change enterprise economics or market capitalization. Treating the lower nominal price as a lower valuation multiple is the central trap.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q326",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Reverse split and ownership economics",
+    "difficulty": "BRUTAL",
+    "stem": "A shareholder owns 2,000 shares of a company with 20 million shares outstanding. The company performs a 1-for-10 reverse split, with no other issuance or repurchase and no market reaction. Which combination is mechanically correct immediately afterward?",
+    "options": [
+      "The shareholder owns 200 shares but only one-tenth of the prior ownership percentage because fewer shares are held.",
+      "The company’s market capitalization rises roughly tenfold because the quoted share price rises roughly tenfold.",
+      "The shareholder owns about 200 of 2 million shares, preserving the same ownership percentage while the price per share rises roughly tenfold."
+    ],
+    "correct": 2,
+    "explanation": "Both the investor’s share count and total company shares are divided by ten, so the ownership fraction is unchanged: 2,000/20,000,000 = 200/2,000,000. With no new information, the share price should scale roughly tenfold and market capitalization remain approximately unchanged. The trap is to mistake a change in units for a change in ownership or enterprise value.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q327",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Dividend vs repurchase",
+    "difficulty": "EXTREME",
+    "stem": "Two firms distribute the same amount of cash to shareholders. Firm D pays a pro rata dividend; Firm R repurchases shares from willing sellers. Which distinction is most accurate before considering taxes?",
+    "options": [
+      "Both transactions must have identical per-share effects because the cash amount is identical.",
+      "A repurchase is not a shareholder distribution because sellers receive cash from the company.",
+      "A dividend distributes cash to all holders per share, while a repurchase reduces shares outstanding and changes which holders remain invested."
+    ],
+    "correct": 2,
+    "explanation": "Both return cash, but the mechanics differ. Dividends are pro rata to current shares; repurchases exchange corporate cash for shares from selling holders and reduce the share count. Price relative to intrinsic value and shareholder participation can therefore matter to continuing holders.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q328",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Total return with split",
+    "difficulty": "EXTREME",
+    "stem": "An investor buys one share at $120. During the year the company executes a 2-for-1 split, pays $1.50 per post-split share in dividends, and ends at $64 per post-split share. Ignoring reinvestment, total return is closest to:",
+    "options": [
+      "4.2%",
+      "6.7%",
+      "9.2%"
+    ],
+    "correct": 2,
+    "explanation": "After the split the investor owns two shares. Ending value = 2×64 = $128; dividends = 2×1.50 = $3. Total ending wealth = $131. Return = (131−120)/120 = 9.17%. The split itself creates no return; it changes the share count used in the calculation.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q329",
+    "subject": "Equity",
+    "topic": "Sources of Equity Returns",
+    "subtopic": "Repurchase signaling vs value",
+    "difficulty": "BRUTAL",
+    "stem": "Management announces a repurchase and says the stock is undervalued. Which conclusion is most appropriate for an analyst?",
+    "options": [
+      "Accept undervaluation as a fact because management would never repurchase overvalued shares.",
+      "Treat the announcement as information to investigate, but independently estimate value and assess funding/opportunity cost rather than assume the repurchase proves undervaluation.",
+      "Conclude the shares are overvalued because all repurchases reduce book equity."
+    ],
+    "correct": 1,
+    "explanation": "Repurchases can signal management's view, but they can also be motivated by dilution offset, capital structure, compensation or poor capital allocation. Analysts should compare price with independently estimated value and consider how the repurchase is funded.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q330",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "Price vs value",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst estimates intrinsic value at $72 with a reasonable range of $60–$84. The stock trades at $70. Which conclusion is most defensible?",
+    "options": [
+      "The market price is intrinsic value by definition, so valuation analysis is unnecessary.",
+      "The stock is certainly undervalued because $72 exceeds $70.",
+      "The point estimate is above price, but model uncertainty may be too large to support a strong undervaluation conclusion."
+    ],
+    "correct": 2,
+    "explanation": "Intrinsic value is an estimate subject to input and model uncertainty. A $2 gap inside a wide reasonable range may not provide a meaningful margin of safety. Market price and value are distinct, but small differences should not be overstated as certainty.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q331",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "Enterprise value bridge and non-operating cash",
+    "difficulty": "EXTREME",
+    "stem": "A company has common equity market capitalization of $900 million, debt of $300 million, preferred stock of $50 million, and $120 million of cash. Analysts estimate that $40 million of the cash is required for normal operations and $80 million is excess cash. If the valuation convention treats only excess cash as a non-operating asset, enterprise value is closest to:",
+    "options": [
+      "$1.37 billion, because all cash must be added to equity value.",
+      "$1.17 billion, because EV ≈ equity value + debt + preferred − excess cash.",
+      "$830 million, because all contractual claims are subtracted from common equity value."
+    ],
+    "correct": 1,
+    "explanation": "Using the stated convention, EV = $900m + $300m + $50m − $80m = $1.17bn. The operating cash requirement is left with the operating business rather than deducted as excess cash. This question tests the claim bridge and the analyst’s treatment of non-operating assets, not just memorization of “subtract cash.” Deducting the full $120m would ignore the explicit operating-cash assumption.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q332",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "Book value indicator limitation",
+    "difficulty": "BRUTAL",
+    "stem": "A profitable asset-light platform has minimal book equity because much of its internally created network value is not recognized as an asset. Which valuation conclusion is strongest?",
+    "options": [
+      "Market capitalization should be replaced with book equity when intangible assets dominate.",
+      "Low book equity proves the stock has little intrinsic value.",
+      "Book equity may be a weak standalone indicator of intrinsic value for this business, so cash-flow and market-based approaches may deserve more weight."
+    ],
+    "correct": 2,
+    "explanation": "Book value can diverge from economic value when important internally generated intangibles are not recognized. Model selection should reflect company characteristics and available inputs; no single accounting measure becomes intrinsic value by definition.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q333",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "Present value model choice",
+    "difficulty": "BRUTAL",
+    "stem": "A mature utility pays stable dividends broadly aligned with its capacity to distribute cash. A young technology company pays no dividend and reinvests heavily. Which statement is most appropriate?",
+    "options": [
+      "A dividend model may be more natural for the utility, while a free-cash-flow model may be more informative for the non-dividend payer.",
+      "Dividend discount models are always superior because dividends are observable cash.",
+      "No present value model can be used for a company that currently pays no dividend."
+    ],
+    "correct": 0,
+    "explanation": "Model choice depends on the economics and available inputs. DDMs are especially intuitive when dividends track distributable capacity; free-cash-flow models can value firms that retain cash rather than distribute it. Lack of a current dividend does not imply zero intrinsic value.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q334",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "Asset-based model",
+    "difficulty": "EXTREME",
+    "stem": "An investment holding company owns separately valued marketable securities and has minimal operating synergies. Which valuation approach may be particularly informative as a cross-check?",
+    "options": [
+      "A dividend model that ignores the market value of underlying holdings.",
+      "A price/sales multiple solely because holding companies have low revenue.",
+      "An asset-based approach that values assets and liabilities separately."
+    ],
+    "correct": 2,
+    "explanation": "Asset-based valuation is often useful when assets are separable and their values are observable, such as investment holding entities. It is less naturally suited to businesses whose value is mainly from integrated future operations and intangible competitive advantages.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q335",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "Model complexity",
+    "difficulty": "EXTREME",
+    "stem": "An analyst can fit a 70-input valuation model or a simpler model using the few drivers that explain most economics. The additional 60 inputs are estimated with little evidence. Which choice best follows sound valuation practice?",
+    "options": [
+      "Prefer the simpler model unless additional complexity is supported by reliable information and materially improves the decision.",
+      "Always use the most complex model because more inputs mechanically increase accuracy.",
+      "Use no model because all intrinsic-value estimates are uncertain."
+    ],
+    "correct": 0,
+    "explanation": "Valuation is fallible and model choice should match available information. Complexity can create false precision when inputs are weak. Parsimony does not mean ignoring material drivers; it means avoiding unsupported complexity that does not improve the estimate.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q336",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "EV vs equity multiple consistency",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst compares enterprise value with net income across peers and calls the ratio “capital-structure neutral.” What is the strongest critique?",
+    "options": [
+      "Net income should always be multiplied by debt rather than equity value.",
+      "Enterprise value can never be used in a valuation multiple.",
+      "The numerator represents value to multiple capital providers while net income is after interest and belongs to common equity, creating a numerator–denominator mismatch."
+    ],
+    "correct": 2,
+    "explanation": "Valuation multiples should pair claims consistently. EV is commonly compared with pre-interest operating measures such as EBITDA, while equity price/value pairs with after-interest measures such as EPS or net income. Mixing EV with net income can distort cross-capital-structure comparisons.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q337",
+    "subject": "Equity",
+    "topic": "Introduction to Equity Valuation",
+    "subtopic": "Price-value decision threshold",
+    "difficulty": "HARD",
+    "stem": "A stock trades 3% below an analyst's value estimate, but normal estimation error is roughly ±15%. The most appropriate action inference is:",
+    "options": [
+      "the stock is definitively undervalued because any positive value-price gap is actionable.",
+      "the estimated mispricing may be too small relative to uncertainty to justify a strong conclusion.",
+      "the stock is definitively overvalued because estimation error exceeds the gap."
+    ],
+    "correct": 1,
+    "explanation": "A valuation difference should be interpreted relative to uncertainty. Small gaps within plausible estimation error often provide weak evidence of mispricing. Uncertainty does not reverse the sign automatically; it reduces confidence in the conclusion.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q338",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Gordon growth using forward dividend",
+    "difficulty": "EXTREME",
+    "stem": "A mature company has just paid a dividend of $3.00 per share. Dividends are expected to grow 4% indefinitely. The risk-free rate is 3%, the equity risk premium is 5%, and the stock’s beta is 1.2. Using CAPM for the required return and the Gordon growth model, intrinsic value is closest to:",
+    "options": [
+      "$50.00, using the just-paid dividend and a 6% capitalization spread.",
+      "$62.40, using a 5% required return after subtracting beta from the equity risk premium.",
+      "$62.40, using next year’s $3.12 dividend and a 9% required return."
+    ],
+    "correct": 2,
+    "explanation": "CAPM gives r = 3% + 1.2×5% = 9%. The Gordon model uses the next dividend, D1 = $3.00×1.04 = $3.12. Therefore V0 = 3.12/(0.09−0.04) = $62.40. The first distractor uses D0 rather than D1, while the second reaches the same number through an invalid required-return logic; the correct method matters even when a distractor is numerically tempting.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q339",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Gordon sensitivity",
+    "difficulty": "EXTREME",
+    "stem": "Two analysts agree on next year's dividend of $2.00. Analyst A uses r=9% and g=5%; Analyst B uses r=10% and g=6%. Which statement is correct?",
+    "options": [
+      "B's value is higher because its growth rate is higher.",
+      "A's value is higher because its required return is lower.",
+      "Both produce the same Gordon value of $50 because each has the same r−g spread of 4%."
+    ],
+    "correct": 2,
+    "explanation": "The Gordon denominator is r−g. Both sets give 4%, so V0=2/0.04=$50. Looking at r or g in isolation is insufficient; their interaction determines value in this setup.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q340",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Invalid constant growth",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst uses a perpetual-growth DDM with required return 8% and perpetual growth 9%. Which critique is most important?",
+    "options": [
+      "The model is not economically valid with g at or above r because the constant-growth denominator is non-positive and long-run assumptions are inconsistent.",
+      "The only issue is that the stock must be private.",
+      "The model is valid as long as next year's dividend is positive."
+    ],
+    "correct": 0,
+    "explanation": "A finite Gordon value requires r > g. A perpetual company growth rate at or above the required return creates mathematical and economic problems. The issue is not listing status or dividend positivity.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q341",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Two-stage DDM",
+    "difficulty": "EXTREME",
+    "stem": "A stock will pay dividends of $2.00 and $2.40 in years 1 and 2. From year 3 onward dividends grow 4% perpetually. Required return is 10%. Intrinsic value is closest to:",
+    "options": [
+      "$40.00",
+      "$38.18",
+      "$35.52"
+    ],
+    "correct": 1,
+    "explanation": "D3 = 2.40×1.04 = 2.496. Terminal value at t=2 = 2.496/(0.10−0.04)=41.60. Present value = 2/1.10 + 2.40/1.10² + 41.60/1.10² ≈ 1.818 + 1.983 + 34.380 = $38.18.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q342",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Preferred required return versus market price",
+    "difficulty": "BRUTAL",
+    "stem": "A non-callable, non-convertible preferred share pays a fixed $5.40 annual dividend and trades at $54. A comparable preferred issue of similar risk requires a 9% return. Which conclusion is most defensible, assuming the dividend is expected to continue indefinitely?",
+    "options": [
+      "The indicated value is about $60, so the $54 market price is below the simple perpetuity value if 9% is the appropriate required return.",
+      "The indicated value is $49.09 because preferred value is the dividend discounted for exactly one year.",
+      "The market price must be fair value by definition, so the comparable required return is irrelevant."
+    ],
+    "correct": 0,
+    "explanation": "For a perpetual fixed preferred dividend, indicated value is D/r = $5.40/0.09 = $60. At a $54 market price, the implied yield is 10%, above the stated 9% comparable required return, so the simple model indicates a lower price than its $60 value estimate. This is still an estimate dependent on risk comparability; the model does not make market price “wrong by definition.”",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q343",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Callable preferred effect",
+    "difficulty": "BRUTAL",
+    "stem": "Two preferred shares are identical except one is callable by the issuer at a fixed price. If interest rates fall sharply, the callable issue's upside is most likely:",
+    "options": [
+      "greater because the investor controls the call option.",
+      "more limited because the issuer has an incentive to call and refinance.",
+      "identical because contingency features cannot affect intrinsic value."
+    ],
+    "correct": 1,
+    "explanation": "The call is an issuer option. Falling required yields would otherwise raise preferred value, but the issuer's ability to redeem at a fixed price can cap that appreciation. The option belongs to the issuer, not the investor.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q344",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "FCFE model choice",
+    "difficulty": "EXTREME",
+    "stem": "A company pays no dividend, but it generates stable positive FCFE and has no near-term plan to initiate a payout. Which statement is strongest?",
+    "options": [
+      "Only an enterprise-value multiple can value a non-dividend-paying firm.",
+      "A present-value model based on FCFE can still estimate common-equity value because value need not depend on current dividend policy.",
+      "The equity has zero intrinsic value until a dividend is declared."
+    ],
+    "correct": 1,
+    "explanation": "FCFE represents cash available to common shareholders after operating, investment and financing needs. A company can retain rather than distribute that capacity. Therefore current dividend policy does not make equity intrinsically valueless or prohibit a present-value model.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q345",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "FCFF to equity bridge",
+    "difficulty": "BRUTAL",
+    "stem": "An FCFF model produces enterprise value of $1.8 billion. Debt is $500 million, preferred stock $100 million, and excess cash $80 million was not included in operating FCFF value. Ignoring other claims, common equity value is closest to:",
+    "options": [
+      "$1.20 billion",
+      "$1.28 billion",
+      "$2.48 billion"
+    ],
+    "correct": 1,
+    "explanation": "Common equity value = operating enterprise value − debt − preferred + non-operating excess cash = 1.8 − 0.5 − 0.1 + 0.08 = $1.28 billion. The bridge must respect which assets and claims are already included in enterprise value.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q346",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Residual income concept",
+    "difficulty": "BRUTAL",
+    "stem": "A company earns positive net income but its ROE is persistently below shareholders' required return. Under a residual-income perspective, the company is most likely:",
+    "options": [
+      "generating zero residual income because residual income applies only to firms with no debt.",
+      "generating positive residual income because net income is positive.",
+      "generating negative residual income because accounting profit does not cover the equity capital charge."
+    ],
+    "correct": 2,
+    "explanation": "Residual income deducts a charge for the opportunity cost of equity from accounting earnings. Positive net income is not enough: if ROE is below the required return, the firm earns less than the equity capital charge and residual income is negative.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q347",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Residual income with distracting payout data",
+    "difficulty": "BRUTAL",
+    "stem": "Beginning common book value is $400 million. Expected net income is $48 million, expected common dividends are $12 million, and the required return on equity is 10%. Assuming residual income is measured using beginning book value, expected residual income for the year is:",
+    "options": [
+      "$40 million, because the equity charge itself is residual income.",
+      "$36 million, because dividends must be deducted from net income before the equity charge.",
+      "$8 million, because residual income equals $48 million less a $40 million equity capital charge."
+    ],
+    "correct": 2,
+    "explanation": "The equity capital charge is 10% × $400m = $40m. Residual income is expected net income minus that charge: $48m − $40m = $8m. The $12m dividend affects ending book value through clean-surplus mechanics but is not separately deducted from current net income in the residual-income calculation. The strongest distractor confuses distributions with the opportunity cost of equity.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q348",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Model input consistency",
+    "difficulty": "EXTREME",
+    "stem": "An analyst discounts FCFF at the cost of equity and then subtracts debt to derive common value. What is the central error?",
+    "options": [
+      "FCFF belongs to all capital providers and should be discounted at an appropriate firm-wide required return, not the common-equity required return alone.",
+      "FCFF can only be valued with a price/earnings multiple.",
+      "Debt should be added rather than subtracted from enterprise value."
+    ],
+    "correct": 0,
+    "explanation": "The cash-flow claim and discount rate must match. FCFF is before distributions to debt and equity, so it is valued at a rate reflecting the firm's capital providers. FCFE is the flow appropriate to a common-equity required return. Subtracting debt after an inconsistent discount rate does not fix the mismatch.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q349",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Terminal value timing",
+    "difficulty": "EXTREME",
+    "stem": "A two-stage model forecasts explicit cash flows through year 5 and calculates a Gordon terminal value using year-6 cash flow. At what date is that terminal value located before discounting to today?",
+    "options": [
+      "At the end of year 5.",
+      "At the end of year 6.",
+      "At time 0 because it represents all future periods."
+    ],
+    "correct": 0,
+    "explanation": "The Gordon terminal value at the end of explicit year 5 equals CF6/(r−g), representing the value at t=5 of cash flows beginning in year 6. It must then be discounted five periods to time 0. Misplacing the terminal value by one year is a common valuation error.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q350",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Growth transition",
+    "difficulty": "BRUTAL",
+    "stem": "A small company currently grows dividends 25% annually because it is taking share in a new market. An analyst assumes 25% perpetual growth despite a mature economy and finite market. Which change is most defensible?",
+    "options": [
+      "Use a multistage model that transitions growth toward a sustainable long-run rate.",
+      "Set long-run growth to zero because no company can ever grow perpetually.",
+      "Keep 25% forever because historical growth is the most objective input."
+    ],
+    "correct": 0,
+    "explanation": "High current growth can be plausible for a finite period but is rarely sustainable forever. A multistage model can reflect convergence as competition and market saturation change economics. Perpetual growth need not be zero, but it must be economically sustainable relative to the broader system.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q351",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "DDM scenario sensitivity",
+    "difficulty": "EXTREME",
+    "stem": "A stable company has D1=$4, r=9%, g=5%, giving a Gordon value of $100. If r rises by 1 percentage point with g unchanged, value becomes closest to:",
+    "options": [
+      "$90",
+      "$80",
+      "$95"
+    ],
+    "correct": 1,
+    "explanation": "New value = 4/(0.10−0.05) = $80. The 1 percentage-point increase in required return reduces value 20% because the r−g spread widens from 4% to 5%. Constant-growth models can be highly sensitive when r and g are close.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools"
+  },
+  {
+    "id": "q352",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "FCFE vs dividends",
+    "difficulty": "BRUTAL",
+    "stem": "A mature company consistently generates FCFE of $8 per share but pays only $2 in dividends and accumulates excess cash without a clear reinvestment need. Which valuation observation is strongest?",
+    "options": [
+      "The company must immediately be worth exactly four times the DDM value.",
+      "FCFE is irrelevant because only dividends can ever benefit shareholders.",
+      "A dividend model may understate distributable capacity if payout policy is not aligned with FCFE; an FCFE model can be a useful cross-check."
+    ],
+    "correct": 2,
+    "explanation": "Dividends are actual distributions; FCFE measures capacity to distribute after necessary investment and financing. If payout persistently differs from capacity, DDM value can depend heavily on assumptions about eventual payout. FCFE provides another lens, but no fixed four-times relation follows.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q353",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Residual income and book value",
+    "difficulty": "EXTREME",
+    "stem": "Two firms have the same current book value and expected ROE. Firm A has required return 8%; Firm B has required return 12%; expected ROE is 10% for both. Which firm has the more favorable first-year residual-income contribution?",
+    "options": [
+      "Firm B, because a higher required return always raises residual income.",
+      "They are identical because book value and ROE are identical.",
+      "Firm A, because ROE exceeds its required return, while Firm B's ROE is below its required return."
+    ],
+    "correct": 2,
+    "explanation": "Residual income depends on earnings relative to the equity charge. At 10% ROE, A earns above its 8% required return and creates positive residual income; B earns below 12% and generates negative residual income. Required return is a cost, not a benefit.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q354",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Stable growth condition",
+    "difficulty": "EXTREME",
+    "stem": "A model assumes perpetual 4% FCFE growth while also forecasting ROE below the required return forever and no change in financing or payout. Which concern is most important?",
+    "options": [
+      "ROE and required return are unrelated to valuation once FCFE growth is specified.",
+      "Any positive perpetual growth necessarily increases value and proves competitive advantage.",
+      "Growth is not automatically value-creating; if incremental investment earns below the required return, more growth can destroy value despite higher cash-flow scale."
+    ],
+    "correct": 2,
+    "explanation": "Growth creates value only when returns on incremental capital exceed the capital's opportunity cost. A forecast can be mathematically consistent yet economically unattractive if reinvestment earns sub-required returns. The analyst should connect growth, investment and returns rather than treat growth as inherently good.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q355",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "One-stage vs multistage",
+    "difficulty": "HARD",
+    "stem": "A regulated utility has stable payout, mature demand, and expected long-run growth near the economy's nominal growth. A single-stage constant-growth model is more defensible than for a startup primarily because:",
+    "options": [
+      "the utility's cash-flow growth and payout are closer to a stable long-run state.",
+      "utilities have no business risk, so required return can be ignored.",
+      "startups cannot be valued using present value methods."
+    ],
+    "correct": 0,
+    "explanation": "Constant-growth models are most suitable when fundamentals are already near a sustainable steady state. A startup can still be valued with a multistage present-value model, but imposing stable perpetual inputs immediately is less credible.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q356",
+    "subject": "Equity",
+    "topic": "Discounted Cash Flow (DCF) and Growth Models",
+    "subtopic": "Terminal growth bound",
+    "difficulty": "EXTREME",
+    "stem": "A mature domestic company has no credible path to gain share indefinitely. An analyst's terminal model assumes the firm grows 3 percentage points faster than the nominal economy forever. Which criticism is strongest?",
+    "options": [
+      "Terminal growth can exceed the economy indefinitely as long as the discount rate is higher.",
+      "Terminal growth must always equal zero for every company.",
+      "The assumption can make the firm eventually implausibly large relative to the economy, so terminal growth should be tied to sustainable long-run economics."
+    ],
+    "correct": 2,
+    "explanation": "Mathematical validity (r>g) is not enough. A perpetual growth assumption should also be economically sustainable. A mature firm that outgrows the economy indefinitely without a mechanism for share expansion becomes implausibly dominant. Zero growth is not mandatory, but long-run consistency matters.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q357",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Forward vs trailing P/E",
+    "difficulty": "BRUTAL",
+    "stem": "A cyclical company's trailing EPS is $8 at a profit peak, but normalized next-year EPS is forecast at $4. The stock is $80. Which comparison is most accurate?",
+    "options": [
+      "Trailing P/E is 10× and forward P/E is 20×; the apparently cheap trailing multiple may be distorted by peak earnings.",
+      "Trailing P/E is 20× and forward P/E is 10× because forecast earnings are lower.",
+      "Both multiples are 10× because the price is unchanged."
+    ],
+    "correct": 0,
+    "explanation": "Trailing P/E=80/8=10×; forward P/E=80/4=20×. A low multiple based on unusually high cyclical earnings can falsely signal cheapness. Analysts must match the earnings period and assess normalization.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q358",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "P/B comparability",
+    "difficulty": "EXTREME",
+    "stem": "Two firms have the same ROE and growth outlook. Firm A carries large internally generated intangible value off balance sheet; Firm B's comparable intangibles were acquired and recognized. Which relative-valuation concern is strongest?",
+    "options": [
+      "The acquired intangible should be removed from Firm B's market price before calculating P/B.",
+      "P/B may be distorted because book-value recognition differs even if economics are similar.",
+      "P/B is always superior to earnings multiples because book value cannot depend on accounting choices."
+    ],
+    "correct": 1,
+    "explanation": "Book value can be affected by recognition differences, especially internally generated versus acquired intangibles. That can make P/B cross-company comparisons misleading without normalization. Market price itself is not adjusted by subtracting an accounting asset.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q359",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "EV/EBITDA consistency",
+    "difficulty": "BRUTAL",
+    "stem": "Company A has much more debt than Company B but similar operations. Which multiple is generally better designed to reduce the direct effect of capital-structure differences?",
+    "options": [
+      "EV/EBITDA, because both numerator and denominator are measured before common-equity financing claims.",
+      "P/E, because net income is before interest expense.",
+      "Price/book, because book equity includes debt."
+    ],
+    "correct": 0,
+    "explanation": "EV measures value to debt and equity capital providers, and EBITDA is before interest, making the pairing less directly sensitive to financing mix than P/E. Net income is after interest; book equity does not include debt as an equity claim.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q360",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Negative earnings",
+    "difficulty": "BRUTAL",
+    "stem": "A profitable-on-cash-flow startup reports negative EPS because of large noncash expenses. Which valuation observation is most appropriate?",
+    "options": [
+      "Negative EPS means the equity must have zero intrinsic value.",
+      "P/E is not economically meaningful with negative earnings, so other appropriate multiples or present-value methods may be more informative.",
+      "A negative P/E should be ranked as cheaper than any positive P/E."
+    ],
+    "correct": 1,
+    "explanation": "A negative earnings denominator makes P/E difficult to interpret as a conventional valuation multiple. Analysts may use sales, cash-flow or enterprise-value measures if economically appropriate, or a DCF. Negative accounting earnings do not imply zero value.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q361",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Peer selection",
+    "difficulty": "EXTREME",
+    "stem": "A cloud-software company is legally classified in “technology services,” but its economics depend on subscription retention, gross margin and sales efficiency. A potential peer in another classification has nearly identical drivers. Which peer approach is strongest?",
+    "options": [
+      "Use industry classification as a starting point but include firms with similar economic drivers of expected return when that improves comparability.",
+      "Exclude the economically similar firm because peer groups must never cross classification codes.",
+      "Choose peers only by market capitalization because size dominates business economics."
+    ],
+    "correct": 0,
+    "explanation": "The 2027 LOS explicitly allows peer selection based on industry classification or specific drivers of expected return. Classification is useful but imperfect, especially for diversified or novel business models. Economic comparability can justify crossing a code boundary.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q362",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Comparable multiple adjustment",
+    "difficulty": "BRUTAL",
+    "stem": "A company trades at 18× forward earnings versus peers at 14×. It also has materially higher expected growth, stronger margins and lower risk. Which conclusion is most defensible?",
+    "options": [
+      "The premium multiple may be justified by fundamentals; the raw peer median alone does not prove overvaluation.",
+      "Growth, profitability and risk cannot affect a justified multiple.",
+      "The stock is necessarily 22% overvalued because 18× exceeds 14×."
+    ],
+    "correct": 0,
+    "explanation": "Multiples reflect expected fundamentals. Higher sustainable growth and profitability and lower risk can support a premium. Relative valuation requires understanding why multiples differ, not merely ranking them against a median.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q363",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Justified P/E fundamentals",
+    "difficulty": "EXTREME",
+    "stem": "Two stable firms have the same payout ratio and required return. Firm A has a higher sustainable growth rate than Firm B, with growth still below the required return. Under a Gordon-style justified P/E relationship, Firm A should generally have:",
+    "options": [
+      "a lower justified P/E because growth always requires reinvestment.",
+      "the same justified P/E because payout and required return are identical.",
+      "a higher justified P/E because the r−g denominator is smaller."
+    ],
+    "correct": 2,
+    "explanation": "For a stable dividend framework, justified leading P/E is related to payout/(r−g). Holding payout and r constant, a higher sustainable g reduces the denominator and raises the multiple. The growth assumption must remain economically defensible.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q364",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "P/S margin trap",
+    "difficulty": "BRUTAL",
+    "stem": "Two retailers trade at the same P/S multiple. Retailer A has an 8% sustainable net margin; Retailer B has 2%, with similar growth and risk. Which inference is strongest?",
+    "options": [
+      "The same P/S does not imply equal valuation attractiveness because each dollar of A's sales converts to much more earnings.",
+      "B is necessarily cheaper because lower margins reduce the denominator of P/S.",
+      "P/S fully controls for profitability, so the firms are equally valued."
+    ],
+    "correct": 0,
+    "explanation": "Sales multiples ignore profitability directly. Firms with different margins can deserve different P/S ratios. A raw equal P/S comparison can therefore hide major differences in earnings power.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q365",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Normalized EV multiple to equity value",
+    "difficulty": "EXTREME",
+    "stem": "A peer median EV/EBITDA multiple is 9×. The subject company reports EBITDA of $120 million, including a $20 million non-recurring gain from selling an operating permit that peers do not include in EBITDA. Debt is $250 million and excess cash is $70 million. Using normalized EBITDA and no other adjustments, common equity value is closest to:",
+    "options": [
+      "$720 million",
+      "$900 million",
+      "$1.220 billion"
+    ],
+    "correct": 0,
+    "explanation": "Normalize EBITDA first: $120m − $20m = $100m. Applying 9× gives enterprise value of $900m. Bridge to common equity: $900m − $250m debt + $70m excess cash = $720m. Using reported EBITDA would embed a non-comparable one-off gain in the denominator and overstate both enterprise and equity value. The sequence—normalize, apply an EV multiple, then bridge claims—is the controlling logic.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q366",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Past vs forward multiples",
+    "difficulty": "EXTREME",
+    "stem": "A company just completed a major capacity expansion. Historical EBITDA excludes nearly all expected new output, while next year's forecast includes the ramp. Which multiple comparison is most useful if the forecast is credible?",
+    "options": [
+      "A forward EV/EBITDA can better align current enterprise value with expected post-expansion earnings, while the forecast uncertainty should be assessed.",
+      "Forward multiples are invalid because valuation cannot use estimates.",
+      "Historical EV/EBITDA must always be superior because realized data can never be stale economically."
+    ],
+    "correct": 0,
+    "explanation": "Current value reflects future expectations, so forward fundamentals can be more decision-relevant after a structural change. But forecast multiples embed estimation risk and should be tested. Historical data are observable, not automatically representative.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q367",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Different accounting policies",
+    "difficulty": "BRUTAL",
+    "stem": "Two peers use different accounting policies that materially affect reported earnings but not cash economics. An analyst compares P/E without adjustment. The main problem is:",
+    "options": [
+      "market prices must be restated under the same accounting policy.",
+      "the denominator may not be comparable, so the multiple difference can reflect accounting rather than valuation.",
+      "P/E is immune to accounting differences because price is market determined."
+    ],
+    "correct": 1,
+    "explanation": "A market-determined numerator does not make the accounting denominator comparable. When policies shift earnings timing or measurement, analysts may need normalization or a different metric before interpreting relative P/E.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q368",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "EV and excess cash",
+    "difficulty": "BRUTAL",
+    "stem": "Two firms have identical operating businesses and debt, but Firm A holds substantial excess cash. If both trade at the same enterprise value, Firm A's equity market capitalization should be, all else equal:",
+    "options": [
+      "higher, because equity value includes the excess cash after accounting for debt.",
+      "identical, because cash can never affect equity value.",
+      "lower, because enterprise value already adds cash."
+    ],
+    "correct": 0,
+    "explanation": "A common bridge is EV = equity value + debt − excess cash (plus other claims as relevant). Holding EV and debt constant, more excess cash implies higher equity value. Cash is subtracted in computing EV precisely because it is a non-operating asset available to equity/capital providers.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q369",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Multiple outlier",
+    "difficulty": "EXTREME",
+    "stem": "A stock trades at half the peer P/E. Its earnings include a large asset-sale gain that will not recur, while peers' earnings are normalized. Which adjustment is most important?",
+    "options": [
+      "Use the reported P/E because market multiples should never adjust accounting earnings.",
+      "Normalize the subject company's earnings before concluding the lower P/E represents undervaluation.",
+      "Double the stock price because its P/E is half the peer multiple."
+    ],
+    "correct": 1,
+    "explanation": "A one-off gain inflates the denominator and mechanically depresses P/E. Relative valuation requires comparable, sustainable fundamentals. Applying a peer multiple to unnormalized earnings can create a false cheapness signal.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q370",
+    "subject": "Equity",
+    "topic": "Relative Value Equity Valuation Approaches",
+    "subtopic": "Forecasted fundamentals method",
+    "difficulty": "EXTREME",
+    "stem": "A stock trades at a premium P/E despite being in the same industry as peers. An analyst wants to determine whether the premium is justified rather than merely observable. Which method is most aligned with that question?",
+    "options": [
+      "Use book value alone because fundamentals cannot justify market multiples.",
+      "Use only the peer median and assume any premium is mispricing.",
+      "Relate the multiple to forecasted fundamentals such as growth, payout, profitability and required return."
+    ],
+    "correct": 2,
+    "explanation": "The method of forecasted fundamentals explains a justified multiple from expected economic drivers. Comparables show how the market prices peers, but a premium can be rational if the company's growth, profitability, payout or risk differ materially.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q371",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Disaggregated forecast",
+    "difficulty": "BRUTAL",
+    "stem": "A 2027 equity model forecasts revenue growth at 12% and simply assumes every expense, working-capital account, capex and debt balance also grows 12%. Which improvement is most consistent with the updated curriculum?",
+    "options": [
+      "Use fewer financial statements and forecast only EPS because valuation depends only on earnings.",
+      "Forecast revenue, margins, investment and financing using separate economic drivers instead of a single proportional growth rate.",
+      "Keep all items proportional to revenue because disaggregation adds no information."
+    ],
+    "correct": 1,
+    "explanation": "The 2027 Equity revision explicitly grounds valuation in disaggregated financial-statement forecasting. Revenue, margins, investment and financing can follow different drivers; forcing all lines to one growth rate can hide capital intensity, working-capital needs and financing changes.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q372",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Revenue drivers",
+    "difficulty": "EXTREME",
+    "stem": "An airline's revenue equals passengers × average fare. A model assumes 15% revenue growth but industry seat capacity is expected to rise 2%, load factor is already near a practical ceiling, and pricing is expected to rise 3%. Which response is strongest?",
+    "options": [
+      "The 15% revenue forecast lacks a clear volume/price mechanism and should be rebuilt from capacity, load factor and fare assumptions.",
+      "Set revenue growth to exactly 2% because price never affects airline revenue.",
+      "Keep 15% because top-line growth can be forecast independently of operational drivers."
+    ],
+    "correct": 0,
+    "explanation": "Disaggregated forecasting connects revenue to operational drivers. With modest capacity and pricing growth and little load-factor headroom, 15% requires an additional mechanism such as acquisitions or mix. Neither a top-down unsupported number nor capacity alone captures the economics.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q373",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Margin forecast",
+    "difficulty": "BRUTAL",
+    "stem": "A consumer company is losing pricing power while commodity input costs are rising. An analyst forecasts flat gross margin because “revenue and costs should both inflate.” What is the key issue?",
+    "options": [
+      "The forecast should model pass-through ability and timing; weak pricing power can make costs rise faster than realized prices and compress margins.",
+      "Inflation can never affect gross margin.",
+      "Gross margin must expand whenever nominal revenue grows."
+    ],
+    "correct": 0,
+    "explanation": "Margins depend on relative price and cost movement, not inflation alone. If a company cannot pass through input inflation fully or quickly, gross margin can fall. The valuation model should connect competitive position to revenue and cost assumptions.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q374",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Investment requirements",
+    "difficulty": "EXTREME",
+    "stem": "Two analysts forecast the same revenue and operating margin for a semiconductor firm. Analyst A assumes capex remains 6% of sales; Analyst B assumes 14% because the forecast requires a new fabrication facility. All else equal, whose equity value is likely lower and why?",
+    "options": [
+      "Values must be identical because operating margin is the same.",
+      "B's, because higher required investment reduces free cash flow even with identical accounting operating margins.",
+      "A's, because lower capex automatically lowers revenue."
+    ],
+    "correct": 1,
+    "explanation": "Equity valuation depends on cash generated after necessary investment, not operating margin alone. If the growth plan requires materially more capital investment, free cash flow is lower unless offset elsewhere. The 2027 framework explicitly separates margin and investment assumptions.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q375",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Financing forecast",
+    "difficulty": "EXTREME",
+    "stem": "A model projects aggressive expansion and negative FCFE for three years but holds debt and share count unchanged and never allows cash to fall below zero. Which construction flaw is most important?",
+    "options": [
+      "The model lacks a financing mechanism to fund the projected cash deficit, making the statements internally inconsistent.",
+      "Negative FCFE automatically means the company has zero equity value.",
+      "Debt and equity financing should never be forecast in an equity model."
+    ],
+    "correct": 0,
+    "explanation": "A linked forecast must reconcile funding needs. If operations and investment consume more cash than available, the company needs borrowing, equity issuance, asset sales or reduced spending. Holding all financing variables fixed while preventing negative cash creates an impossible balance sheet.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q376",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Probability-weighted scenarios and market price",
+    "difficulty": "BRUTAL",
+    "stem": "An analyst estimates equity values of $40, $70 and $110 under bear, base and bull scenarios with probabilities of 25%, 50% and 25%. The stock trades at $75. Ignoring risk adjustments beyond those embedded in the scenario values, which statement is most accurate?",
+    "options": [
+      "The probability-weighted value is $73.33, so the stock is slightly undervalued.",
+      "The correct value is the $70 base case because scenario probabilities should not affect valuation.",
+      "The probability-weighted value is $72.50, which is below the $75 market price; the bull case alone does not establish undervaluation."
+    ],
+    "correct": 2,
+    "explanation": "Probability-weighted value = 0.25×$40 + 0.50×$70 + 0.25×$110 = $72.50. On the stated assumptions, that is below the $75 price. A simple average would be $73.33 and ignores the assigned probabilities; using only the base case ignores the information in the tails. The more important analytical point is that an attractive upside scenario does not by itself establish expected undervaluation.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q377",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Scenario dependence",
+    "difficulty": "EXTREME",
+    "stem": "A model uses a recession scenario but lowers revenue growth while leaving margins, working capital, capex, credit spreads and financing unchanged from the bull case. Which critique is strongest?",
+    "options": [
+      "Every scenario should differ in exactly one variable to preserve mathematical purity.",
+      "Scenario analysis is invalid because intrinsic value must be a single point estimate.",
+      "Scenario assumptions should be economically coherent across linked drivers; changing only revenue can understate second-order effects."
+    ],
+    "correct": 2,
+    "explanation": "Probability-weighted scenarios are useful when each scenario tells a coherent economic story. A recession can affect pricing, utilization, margins, working capital, financing and investment. Holding all those constant can create an internally inconsistent downside case.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q378",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Subject company characteristics",
+    "difficulty": "BRUTAL",
+    "stem": "A bank, a regulated utility and a software subscription company are all valued with an identical forecast template focused on EBITDA margin and capex/sales. Which statement is strongest?",
+    "options": [
+      "Only industry classification matters; company-specific economics should not alter model construction.",
+      "The model structure should reflect company characteristics and the economic drivers relevant to each business rather than force a universal template.",
+      "A universal template is preferable because comparability always requires identical drivers."
+    ],
+    "correct": 1,
+    "explanation": "The 2027 LOS asks candidates to evaluate model construction based on subject-company characteristics. Different business models have different balance-sheet, revenue, capital and regulatory drivers. Standardization can help comparison but should not override economics.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q379",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Value from model outputs",
+    "difficulty": "EXTREME",
+    "stem": "A forecast model produces rapidly growing earnings but even faster working-capital and capital-investment needs, causing FCFE to stay near zero for years. Which interpretation is most appropriate?",
+    "options": [
+      "The high earnings growth guarantees a high DCF value regardless of free cash flow.",
+      "Working capital and capex are balance-sheet items and therefore irrelevant to equity valuation.",
+      "Earnings growth alone does not establish high equity value; the cash investment required to support growth must be incorporated into valuation."
+    ],
+    "correct": 2,
+    "explanation": "Valuation connects operating forecasts to cash available to investors. Growth that absorbs large working capital and capex may create less free cash flow than the income statement suggests. The model must capture both profitability and reinvestment.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q380",
+    "subject": "Equity",
+    "topic": "Financial Statement Forecasting in Equity Valuation",
+    "subtopic": "Scenario probability discipline",
+    "difficulty": "EXTREME",
+    "stem": "An analyst sets a 70% probability on the bull case because she “likes management,” 25% on base and 5% on bear, without evidence. What is the most important improvement?",
+    "options": [
+      "Set all scenarios to 33.3% because equal probabilities are always objective.",
+      "Ground scenario probabilities in observable evidence, base rates and explicit assumptions rather than using probabilities as disguised conviction.",
+      "Remove the bear case because probabilities should sum to less than 100% when uncertainty is high."
+    ],
+    "correct": 1,
+    "explanation": "Probability weighting is only as useful as the reasoning behind the probabilities. They should reflect evidence and uncertainty, not serve as an arbitrary mechanism to force a preferred value. Equal weighting can also be unjustified; the goal is calibrated, explainable probabilities.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q381",
+    "subject": "Equity",
+    "topic": "Industry and Competitive Analysis",
+    "subtopic": "Porter supplier power with competing facts",
+    "difficulty": "EXTREME",
+    "stem": "A medical-device industry depends on a patented sensor supplied by only two vendors. Switching sensors requires a year of regulatory reapproval. The sensor is only 4% of the device’s selling price, but device makers cannot sell without it. Which conclusion about supplier power is most defensible?",
+    "options": [
+      "Supplier power is weak because the sensor represents a small percentage of the final product price.",
+      "Supplier power is likely strong because concentration, differentiation and very high switching costs can dominate the small cost share.",
+      "Supplier power is irrelevant because only end customers affect an industry’s profitability."
+    ],
+    "correct": 1,
+    "explanation": "Porter analysis weighs the structure of the bargaining relationship, not one statistic. Two concentrated suppliers control a patented, essential input, and switching requires costly regulatory reapproval. Those facts create strong supplier leverage. The sensor’s small share of the final product price can actually make buyers less willing to risk disruption over a price increase. The strongest distractor focuses on cost share while ignoring dependence and switching barriers.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/industry-and-competitive-analysis"
+  },
+  {
+    "id": "q382",
+    "subject": "Equity",
+    "topic": "Industry and Competitive Analysis",
+    "subtopic": "Porter buyer power with offsetting differentiation",
+    "difficulty": "EXTREME",
+    "stem": "Three customers account for 80% of purchases from a component industry, which points to strong buyer power. However, one supplier owns a patented design that reduces each customer’s total manufacturing cost by 15%, and switching away would require a two-year product redesign. Relative to the rest of the industry, that supplier is most likely:",
+    "options": [
+      "better protected from buyer power because differentiation and switching costs weaken customers’ bargaining leverage despite buyer concentration.",
+      "equally exposed because customer concentration mechanically determines buyer power regardless of switching costs or differentiation.",
+      "more exposed because a valuable patented design always makes backward integration easier for buyers."
+    ],
+    "correct": 0,
+    "explanation": "Buyer concentration is an important source of bargaining power, but it is not the only one. For this specific supplier, differentiated economic value and very high switching costs reduce customers’ credible alternatives and therefore offset some of their concentration-based leverage. The second answer is too mechanical; Porter analysis requires combining the relevant structural facts rather than treating one force determinant as dispositive.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/industry-and-competitive-analysis"
+  },
+  {
+    "id": "q383",
+    "subject": "Equity",
+    "topic": "Industry and Competitive Analysis",
+    "subtopic": "Threat of entry",
+    "difficulty": "EXTREME",
+    "stem": "An industry has high historical margins, but entry requires minimal capital, customers have no switching costs, technology is widely available, and incumbents lack scale advantages. Which forecast implication is strongest?",
+    "options": [
+      "High margins prove the industry has durable entry barriers.",
+      "Low capital requirements reduce threat of entry because new firms need less financing.",
+      "High current margins may attract entry and be difficult to sustain absent a new barrier or differentiation."
+    ],
+    "correct": 2,
+    "explanation": "The listed conditions all lower entry barriers. Attractive margins can invite new competitors, which can pressure price and returns. Historical profitability therefore should not be extrapolated without a mechanism that protects incumbents.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/industry-and-competitive-analysis"
+  },
+  {
+    "id": "q384",
+    "subject": "Equity",
+    "topic": "Industry and Competitive Analysis",
+    "subtopic": "PESTLE vs Porter",
+    "difficulty": "BRUTAL",
+    "stem": "A government proposes emissions rules that could force all cement producers to install expensive equipment. Which framework most directly captures the regulatory change itself, and which analysis captures how it may alter rivalry and entry economics?",
+    "options": [
+      "Neither framework can connect external regulation to valuation assumptions.",
+      "Porter identifies the legal rule, while PESTLE is used only for company financial ratios.",
+      "PESTLE identifies the political/legal external change; Porter analysis can evaluate its effects on industry structure and competitive forces."
+    ],
+    "correct": 2,
+    "explanation": "PESTLE organizes external political, economic, social, technological, legal and environmental influences. Porter examines structural competitive forces. A regulation can enter through PESTLE and then change barriers, costs or rivalry analyzed through Porter, ultimately affecting valuation drivers.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/industry-and-competitive-analysis"
+  },
+  {
+    "id": "q385",
+    "subject": "Equity",
+    "topic": "Industry and Competitive Analysis",
+    "subtopic": "Industry definition",
+    "difficulty": "EXTREME",
+    "stem": "A diversified company sells payment software, consumer lending and cloud services. A classification provider assigns it to “financial services.” For competitive analysis, the most appropriate approach is to:",
+    "options": [
+      "define relevant competitive arenas by actual products/customers and use classifications as a starting point rather than force all economics into one label.",
+      "accept the single classification as the complete industry definition.",
+      "exclude the company from industry analysis because diversified firms cannot be classified."
+    ],
+    "correct": 0,
+    "explanation": "Industry boundaries can be difficult when companies span multiple businesses. Third-party classifications are useful but have limitations. Analysts should identify the competitive sets that drive each material segment rather than assume one label captures all economics.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/industry-and-competitive-analysis"
+  },
+  {
+    "id": "q386",
+    "subject": "Equity",
+    "topic": "Industry and Competitive Analysis",
+    "subtopic": "Market-share inference from volume and price",
+    "difficulty": "BRUTAL",
+    "stem": "Industry revenue grows 6%, consisting approximately of 2% average price growth and 4% unit growth. Company A’s revenue grows 15%, with 8% average price/mix growth and no acquisition. Its unit volume therefore grows roughly 6.5%. Which inference is most defensible, assuming consistent market definitions?",
+    "options": [
+      "A is probably gaining unit market share because its approximate 6.5% volume growth exceeds the industry’s 4%, although mix and measurement should still be checked.",
+      "A must be losing share because most of its revenue growth came from price/mix rather than volume.",
+      "A’s share is necessarily unchanged because both company and industry revenue growth are positive."
+    ],
+    "correct": 0,
+    "explanation": "Approximate company volume growth is 1.15/1.08 − 1 ≈ 6.5%, which exceeds the industry’s roughly 4% unit growth. With consistent definitions and no acquisition, that supports a market-share gain. The conclusion is still approximate because price/mix and market definitions can differ. Looking only at the 15% headline revenue growth would be weaker; decomposing price and volume is the decisive step.",
+    "source": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/industry-and-competitive-analysis"
+  },
+  {
+    "id": "q387",
+    "subject": "Equity",
+    "topic": "Industry and Competitive Analysis",
+    "subtopic": "External force to valuation",
+    "difficulty": "EXTREME",
+    "stem": "A new technology sharply lowers customers' cost of switching among telecom providers. An analyst leaves churn, pricing and required marketing spending unchanged. Which valuation link is most clearly missing?",
+    "options": [
+      "Lower switching costs can intensify rivalry and buyer power, potentially raising churn/marketing costs and reducing pricing power and margins.",
+      "Lower switching costs mechanically reduce the risk-free rate.",
+      "Porter analysis should remain separate from financial forecasts to avoid double counting."
+    ],
+    "correct": 0,
+    "explanation": "The 2027 Equity curriculum explicitly links competitive frameworks to valuation narratives. Lower switching costs can weaken customer lock-in, affect price, churn and acquisition spending, and therefore change revenue and margin forecasts. The impact is operating, not a mechanical change in the risk-free rate.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q388",
+    "subject": "Equity",
+    "topic": "Company Analysis: Past, Present, and Future",
+    "subtopic": "Revenue drivers",
+    "difficulty": "BRUTAL",
+    "stem": "A subscription company reports 20% revenue growth. Customer count rises 5%, average revenue per customer rises 4%, and an acquisition accounts for the rest. Management describes all 20% as “organic momentum.” Which response is strongest?",
+    "options": [
+      "Exclude pricing from revenue analysis because only customer count is operational.",
+      "Use 20% as organic growth because total reported revenue is the only relevant driver.",
+      "Disaggregate customer, pricing/mix and acquisition effects before forecasting organic revenue growth."
+    ],
+    "correct": 2,
+    "explanation": "Company analysis should identify the mechanisms driving revenue. Customer count and revenue per customer explain only part of total growth; acquisition contribution is economically different from organic expansion. Forecasting should separate these components.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q389",
+    "subject": "Equity",
+    "topic": "Company Analysis: Past, Present, and Future",
+    "subtopic": "Pricing power",
+    "difficulty": "EXTREME",
+    "stem": "A branded consumer company raises price 8%; unit volume falls only 1% while competitors also raise prices 4%. Input costs are flat. Which observation most strongly supports company-specific pricing power?",
+    "options": [
+      "Revenue rises after any price increase, which always proves pricing power.",
+      "The company's price increase materially exceeds peers' while volume is nearly retained.",
+      "Flat input costs prove customers have no alternatives."
+    ],
+    "correct": 1,
+    "explanation": "Pricing power is the ability to raise realized prices without losing disproportionate volume or economics. Outpricing peers by four points with only a 1% volume decline is stronger evidence than revenue growth alone. Flat input costs do not establish customer alternatives.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q390",
+    "subject": "Equity",
+    "topic": "Company Analysis: Past, Present, and Future",
+    "subtopic": "Working capital and growth",
+    "difficulty": "BRUTAL",
+    "stem": "Two firms have the same revenue and margin growth. Firm A requires 5 cents of additional net working capital per incremental dollar of sales; Firm B requires 20 cents. All else equal, which has better cash conversion from growth?",
+    "options": [
+      "Firm A, because less incremental cash is tied up in working capital for each dollar of growth.",
+      "They are identical because working capital affects the balance sheet but not cash flow.",
+      "Firm B, because higher working capital automatically means higher value."
+    ],
+    "correct": 0,
+    "explanation": "Growth can consume cash through receivables and inventory net of operating liabilities. Lower incremental working-capital needs generally leave more free cash flow for the same operating growth, all else equal.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q391",
+    "subject": "Equity",
+    "topic": "Company Analysis: Past, Present, and Future",
+    "subtopic": "Capital structure resilience",
+    "difficulty": "EXTREME",
+    "stem": "Two cyclical companies have similar operating margins. Company X has net cash; Company Y has high debt and a large maturity next year. In a recession scenario, which valuation difference is most important?",
+    "options": [
+      "Y faces greater financing and equity-downside risk because fixed claims can amplify a decline in enterprise value and constrain flexibility.",
+      "Capital structure is irrelevant once operating margins are equal.",
+      "X must have lower equity value because holding cash always destroys value."
+    ],
+    "correct": 0,
+    "explanation": "Company analysis includes capital structure because equity is residual. High fixed claims and near-term refinancing needs can magnify downside to common holders and reduce strategic flexibility. Similar current operating margins do not equal similar equity risk.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q392",
+    "subject": "Equity",
+    "topic": "Equity Analyst Research Reports",
+    "subtopic": "Report completeness",
+    "difficulty": "BRUTAL",
+    "stem": "A report gives a target price and “Buy” rating but contains no investment thesis, valuation method, key assumptions, catalysts or risks. Which critique is strongest?",
+    "options": [
+      "Research reports should avoid discussing risks because they weaken the recommendation.",
+      "A target price alone is sufficient if the analyst has a strong reputation.",
+      "The conclusion is difficult to evaluate because a detailed research report should communicate the analysis, valuation assumptions, thesis and risks supporting it."
+    ],
+    "correct": 2,
+    "explanation": "The 2027 curriculum explicitly covers the elements of detailed company research reports. A recommendation without transparent assumptions, valuation logic and risks cannot be effectively evaluated or challenged by the reader.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q393",
+    "subject": "Equity",
+    "topic": "Equity Analyst Research Reports",
+    "subtopic": "Sell-side vs buy-side",
+    "difficulty": "EXTREME",
+    "stem": "A sell-side analyst publishes a 12-month target price and broad client-facing report. A buy-side analyst at a concentrated fund reaches a lower value using the same DCF framework because she assumes weaker pricing and higher reinvestment. Which statement is most appropriate?",
+    "options": [
+      "One analyst must have used the wrong DCF formula because the framework is identical.",
+      "Different conclusions can arise legitimately from different revenue, profitability, investment and financing assumptions even when the modeling framework is the same.",
+      "Sell-side and buy-side analysts are required to reach the same value when using the same company filings."
+    ],
+    "correct": 1,
+    "explanation": "A valuation framework does not determine its inputs. The 2027 curriculum emphasizes how differing assumptions can produce different values and compares sell-side and buy-side research contexts. The disagreement should be traced to assumptions, not presumed to be a formula error.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q394",
+    "subject": "Equity",
+    "topic": "Equity Analyst Research Reports",
+    "subtopic": "Activist short research",
+    "difficulty": "EXTREME",
+    "stem": "An activist short seller publishes a detailed report alleging accounting problems while holding a short position. An analyst reviewing the report should most appropriately:",
+    "options": [
+      "accept the claims as more credible because the short seller risks capital.",
+      "treat the short position as an incentive/conflict to consider, but evaluate the evidence independently rather than dismiss or accept the claims solely because of the position.",
+      "dismiss the report automatically because a short seller cannot produce useful research."
+    ],
+    "correct": 1,
+    "explanation": "Economic incentives matter to source evaluation, but they do not determine factual accuracy. The appropriate response is evidence-based verification of claims, assumptions and source quality. The 2027 curriculum includes activist short sellers within equity research-report analysis.",
+    "source": "https://www.cfainstitute.org/sites/default/files/curriculum-update-2027.pdf"
+  },
+  {
+    "id": "q395",
+    "subject": "Equity",
+    "topic": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+    "subtopic": "CAPM required return with irrelevant firm-specific risk",
+    "difficulty": "EXTREME",
+    "stem": "The risk-free rate is 4% and the expected market return is 9%. A stock’s beta is 1.3. The company also faces a binary lawsuit that greatly increases firm-specific return volatility, but the analyst believes it does not change beta. Under CAPM and assuming diversified investors, the required return is closest to:",
+    "options": [
+      "10.5%, because CAPM uses 4% + 1.3×(9%−4%); the lawsuit does not mechanically add a separate premium if it is diversifiable and beta is unchanged.",
+      "11.7%, because beta should multiply the total expected market return rather than the market risk premium.",
+      "9.0%, because firm-specific risk replaces market beta when the lawsuit is material."
+    ],
+    "correct": 0,
+    "explanation": "The market risk premium is 9% − 4% = 5%. CAPM gives 4% + 1.3×5% = 10.5%. The lawsuit can be extremely important to the company’s cash-flow scenarios, but CAPM prices systematic risk through beta rather than adding a one-for-one premium for diversifiable firm-specific volatility. The strongest numerical distractor multiplies beta by the total market return instead of the market risk premium.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q396",
+    "subject": "Equity",
+    "topic": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+    "subtopic": "Beta effect on valuation",
+    "difficulty": "EXTREME",
+    "stem": "Two analysts have identical cash-flow forecasts. Analyst A estimates beta at 0.9; Analyst B estimates 1.4 using the same risk-free rate and market risk premium. Under CAPM, all else equal, B should obtain:",
+    "options": [
+      "a higher required return and therefore a lower present value.",
+      "the same value because beta affects expected return but not discount rates.",
+      "a lower required return and therefore a higher present value."
+    ],
+    "correct": 0,
+    "explanation": "CAPM converts higher systematic beta into a higher required return when the market risk premium is positive. Discounting the same equity cash flows at a higher rate lowers present value. Beta estimation therefore matters directly to valuation context.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q397",
+    "subject": "Equity",
+    "topic": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+    "subtopic": "Market model versus CAPM",
+    "difficulty": "EXTREME",
+    "stem": "An analyst estimates a stock's historical market-model regression and obtains an intercept that is materially positive. She then claims the intercept should be added to the CAPM required return because both models use beta. Which response is most accurate?",
+    "options": [
+      "The intercept must always replace the risk-free rate in CAPM.",
+      "The market-model intercept is an empirical return parameter; it is not an automatic extra risk premium in the CAPM required-return equation.",
+      "Any positive intercept proves the stock is undervalued and should reduce the required return."
+    ],
+    "correct": 1,
+    "explanation": "The market model describes the statistical relation between a security's return and market return, while CAPM is an equilibrium required-return model using the risk-free rate, beta, and market risk premium. A historical regression intercept is not mechanically added to CAPM. Treating it as a guaranteed alpha or pricing adjustment confuses two related but distinct uses of beta.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q398",
+    "subject": "Equity",
+    "topic": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+    "subtopic": "Historical beta relevance",
+    "difficulty": "BRUTAL",
+    "stem": "A utility sold its regulated network business last year and now earns most revenue from a volatile merchant-power operation. An analyst estimates cost of equity using the company's five-year historical beta without examining the business change. Which critique is strongest?",
+    "options": [
+      "CAPM does not use company-specific risk information, so any historical beta is equally appropriate.",
+      "The historical beta may no longer represent the company's current systematic risk, so its relevance should be reassessed before using it in CAPM.",
+      "Beta is a legal characteristic of the share class and cannot change when business mix changes."
+    ],
+    "correct": 1,
+    "explanation": "CAPM requires an estimate of current systematic risk. A major change in operating mix can alter sensitivity to market conditions, making a long historical estimate stale even if it is statistically precise. The issue is not that CAPM rewards diversifiable risk; it is whether the beta input is economically representative of the company being valued now.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q399",
+    "subject": "Equity",
+    "topic": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+    "subtopic": "Systematic versus idiosyncratic risk",
+    "difficulty": "BRUTAL",
+    "stem": "Two stocks have the same estimated beta. Stock A has much higher firm-specific return volatility because it faces a binary patent lawsuit. Under the CAPM framework, which statement is most accurate, assuming investors are well diversified?",
+    "options": [
+      "The lawsuit volatility does not by itself raise CAPM required return unless it changes the stock's systematic beta; CAPM prices systematic rather than diversifiable risk.",
+      "Stock A must have a higher CAPM required return because total volatility is always priced one-for-one.",
+      "Stock A must have a lower required return because firm-specific risk is rewarded with a diversification premium."
+    ],
+    "correct": 0,
+    "explanation": "CAPM links required return to systematic market risk measured by beta, not total standalone volatility. A severe company-specific event can matter enormously to valuation cash flows, but if it is diversifiable and does not change beta, it does not mechanically increase the CAPM discount rate. The strongest distractor confuses total risk with priced systematic risk.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  },
+  {
+    "id": "q400",
+    "subject": "Equity",
+    "topic": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+    "subtopic": "Why multifactor models matter",
+    "difficulty": "EXTREME",
+    "stem": "Two companies have similar market betas, but one is highly exposed to energy-price shocks and the other to a persistent size-related factor. An analyst concludes that CAPM therefore guarantees the two securities have identical risk-adjusted expected returns in every useful model. Which response is strongest?",
+    "options": [
+      "Multifactor models are used only to forecast accounting earnings and cannot inform equity returns.",
+      "CAPM uses a single market factor, while APT and multifactor models can incorporate additional systematic factor exposures that may help explain return differences.",
+      "Similar market beta proves all systematic risks are identical by definition."
+    ],
+    "correct": 1,
+    "explanation": "The 2027 Equity curriculum asks candidates to understand APT and the importance of multifactor models. Similar CAPM betas mean similar exposure to the market factor, not necessarily identical exposure to other systematic factors. Multifactor models can therefore provide a richer return-risk description without implying that every observed factor premium is permanent or known with certainty.",
+    "source": "https://www.cfainstitute.org/sites/default/files/2027levelitopicoutline_online.pdf"
+  }
+];
