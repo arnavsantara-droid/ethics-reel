@@ -1,0 +1,18 @@
+{
+  "name": "CFA Doomscroll",
+  "short_name": "CFA Doomscroll",
+  "description": "CFA Level I 2027 practice: Ethics, FSA and Equity.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "./app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
