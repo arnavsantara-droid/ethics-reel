@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#050505">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CFA Doomscroll">
+<title>CFA Doomscroll</title>
+<link rel="apple-touch-icon" href="./doomscroll-icon-20260818.png?v=20260818-iconfix1">
+<link rel="icon" type="image/png" href="./doomscroll-icon-20260818.png?v=20260818-iconfix1">
+<link rel="manifest" href="./manifest.webmanifest?v=20260818-fifo1">
+<style>
+:root{--bg:#050505;--panel:#151515;--line:rgba(255,255,255,.10);--text:#f7f7f7;--muted:#919196;--red:#ff3b3f;--green:#27d980;--violet:#9f7cff;--shadow:0 24px 60px rgba(0,0,0,.55)}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body{min-height:100dvh;background:radial-gradient(900px 550px at 105% -10%,rgba(255,59,63,.13),transparent 58%),radial-gradient(700px 500px at -12% 98%,rgba(39,217,128,.10),transparent 60%),#050505;overflow-x:hidden}
+button{font:inherit}.app{max-width:760px;margin:0 auto;min-height:100dvh;position:relative}.screen{display:none;min-height:100dvh}.screen.active{display:block}
+.home{padding:calc(22px + env(safe-area-inset-top)) 18px calc(30px + env(safe-area-inset-bottom))}
+.brand-row{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin:10px 4px 24px}.brand h1{margin:0;font-size:clamp(36px,9vw,58px);line-height:.9;letter-spacing:-2.5px;font-weight:900}.doom{background:linear-gradient(180deg,#fff,#cfcfd4 45%,#74747a);-webkit-background-clip:text;background-clip:text;color:transparent}.brand p{margin:12px 0 0;color:#8b8b90;font-size:15px;font-weight:650}.logo-dot{width:62px;height:62px;border-radius:20px;display:grid;place-items:center;font-weight:1000;font-size:19px;background:linear-gradient(145deg,#242426,#0b0b0c);border:1px solid rgba(255,255,255,.13);box-shadow:inset 0 1px 0 rgba(255,255,255,.16),0 12px 34px rgba(0,0,0,.65)}
+.glass{background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.018)),var(--panel);border:1px solid var(--line);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),var(--shadow)}
+.today{border-radius:28px;padding:20px;margin-bottom:18px}.eyebrow{font-size:12px;font-weight:900;letter-spacing:1.7px;text-transform:uppercase;color:#a8a8ad}.today-title{display:flex;justify-content:space-between;align-items:center;margin-top:7px;gap:12px}.today-title strong{font-size:26px;letter-spacing:-.9px}.today-total{font-size:13px;color:var(--muted);font-weight:750;text-align:right}.today-list{margin-top:14px;display:grid;gap:9px}.today-row{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 0;border-top:1px solid rgba(255,255,255,.07)}.today-row:first-child{border-top:0}.today-name{font-weight:800}.today-stats{font-size:13px;color:#aaaab0;text-align:right}.good{color:var(--green)}.bad{color:var(--red)}
+.subjects-label{margin:26px 4px 12px;display:flex;justify-content:space-between;align-items:end}.subjects-label h2{margin:0;font-size:20px}.subjects-label span{font-size:12px;color:var(--muted);font-weight:700}.subjects{display:grid;gap:14px}
+.subject{width:100%;border:0;color:var(--text);text-align:left;cursor:pointer;border-radius:24px;padding:20px;min-height:96px;background:radial-gradient(220px 100px at 85% -30%,var(--glow),transparent 68%),linear-gradient(145deg,#202022,#121213 54%,#0d0d0e);border:1px solid rgba(255,255,255,.105);box-shadow:inset 0 1px 0 rgba(255,255,255,.11),0 13px 34px rgba(0,0,0,.44)}.subject:active{transform:translateY(2px)}.subject-top{display:flex;justify-content:space-between;align-items:center}.subject-name{font-size:20px;font-weight:900}.subject-arrow{width:34px;height:34px;border-radius:13px;display:grid;place-items:center;background:rgba(255,255,255,.07)}.subject-meta{margin-top:7px;color:#8f8f95;font-size:12px;font-weight:700}.bar{height:4px;background:#262629;border-radius:999px;margin-top:14px;overflow:hidden}.bar i{display:block;height:100%;width:var(--progress,0%);background:linear-gradient(90deg,var(--accent),rgba(255,255,255,.72))}.subject[data-color=red]{--accent:#ff3b3f;--glow:rgba(255,59,63,.23)}.subject[data-color=violet]{--accent:#9f7cff;--glow:rgba(159,124,255,.18)}.subject[data-color=green]{--accent:#26d980;--glow:rgba(38,217,128,.20)}
+.quiz{padding-bottom:calc(112px + env(safe-area-inset-bottom))}.quiz-head{position:sticky;top:0;z-index:10;padding:calc(12px + env(safe-area-inset-top)) 18px 13px;background:rgba(5,5,5,.96);border-bottom:1px solid rgba(255,255,255,.08);backdrop-filter:blur(14px)}.head-top{display:flex;align-items:center;justify-content:space-between}.back{border:0;color:#fff;background:transparent;padding:5px 0;font-size:15px;font-weight:850;cursor:pointer}.mini-score{font-size:12px;color:#8e8e93;font-weight:800}.head-metrics{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;margin-top:12px}.metric{font-size:12px;font-weight:950;letter-spacing:1.35px;text-transform:uppercase;color:#babac0}.metric:last-child{text-align:right}.timer{min-width:77px;text-align:center;border-radius:14px;padding:7px 10px;font-variant-numeric:tabular-nums;font-size:15px;font-weight:1000;background:linear-gradient(180deg,#ff4b50,#b81721);border:1px solid rgba(255,255,255,.17)}.timer.warning{animation:pulse .9s infinite alternate}.timer.expired{opacity:.7}@keyframes pulse{to{filter:brightness(1.2)}}
+.quiz-body{padding:26px 18px 30px}.stem{font-size:clamp(21px,5.4vw,29px);line-height:1.38;letter-spacing:-.5px;font-weight:830;margin:4px 0 22px}.answers{display:grid;gap:13px}.answer{width:100%;border:0;color:#f3f3f4;text-align:left;cursor:pointer;display:grid;grid-template-columns:42px 1fr;gap:13px;align-items:start;padding:17px 16px;border-radius:22px;background:#171719;border:1px solid rgba(255,255,255,.115);box-shadow:0 12px 28px rgba(0,0,0,.30)}.answer:disabled{cursor:default}.letter{width:38px;height:38px;border-radius:14px;display:grid;place-items:center;font-weight:1000;background:#29292c}.answer-text{font-size:17px;line-height:1.42;padding-top:5px;font-weight:620}.answer.correct{background:#121a16;border-color:rgba(39,217,128,.75)}.answer.correct .letter{background:#0f8d52}.answer.wrong{background:#1a1112;border-color:rgba(255,59,63,.76)}.answer.wrong .letter{background:#b81721}
+.explanation{display:none;margin-top:20px;border-radius:24px;padding:18px;background:#171719;border:1px solid rgba(255,255,255,.10)}.explanation.show{display:block}.explanation h3{font-size:13px;letter-spacing:1.3px;text-transform:uppercase;margin:0 0 10px;color:#bdbdc2}.explanation p{margin:0;color:#dddddf;font-size:15px;line-height:1.55}.source{display:inline-block;margin-top:13px;color:#a9a9ae;font-size:12px;text-decoration:none;border-bottom:1px solid #555}
+.bottom{position:fixed;z-index:20;left:50%;transform:translateX(-50%);bottom:0;width:min(760px,100%);padding:12px 18px calc(12px + env(safe-area-inset-bottom));background:rgba(5,5,5,.97);border-top:1px solid rgba(255,255,255,.075)}.bottom-row{display:flex;align-items:center;justify-content:space-between;gap:12px}.score-pills{display:flex;gap:13px;align-items:center;font-size:13px;font-weight:900;color:#9a9aa0}.next{border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:15px 18px;color:#fff;font-weight:1000;cursor:pointer;background:linear-gradient(180deg,#ff4d52,#b81721)}.next:disabled{opacity:.28}.empty{margin:40px 18px;padding:24px;border-radius:25px;background:#151517;border:1px solid rgba(255,255,255,.09)}.empty p{color:#aaaab0;line-height:1.5}
+@media(min-width:620px){.home,.quiz-body,.quiz-head,.bottom{padding-left:28px;padding-right:28px}}
+</style>
+</head>
+<body>
+<div class="app">
+<section id="homeScreen" class="screen active home">
+  <div class="brand-row"><div class="brand"><h1>CFA<br><span class="doom">DOOMSCROLL</span></h1><p>One hard question instead of one useless scroll.</p></div><div class="logo-dot">CFA</div></div>
+  <div class="today glass">
+    <div class="eyebrow">Questions Today</div>
+    <div class="today-title"><strong id="todayHeadline">0 attempted</strong><span id="todayTotal" class="today-total">0 correct · 0 wrong</span></div>
+    <div id="todayList" class="today-list"><div style="color:#85858a;font-size:13px;margin-top:7px">No questions attempted yet today.</div></div>
+  </div>
+  <div class="subjects-label"><h2>Subjects</h2><span>2027 Level I</span></div>
+  <div id="subjects" class="subjects"></div>
+</section>
+
+<section id="quizScreen" class="screen quiz">
+  <header class="quiz-head">
+    <div class="head-top"><button class="back" id="backBtn">‹ <span id="quizSubject">ETHICS</span></button><div class="mini-score" id="miniScore">✓ 0 · × 0</div></div>
+    <div class="head-metrics"><div class="metric" id="questionNumber">QUESTION 1</div><div class="timer" id="timer">01:00</div><div class="metric" id="bankCount">0 QUESTIONS</div></div>
+  </header>
+  <main id="quizBody" class="quiz-body">
+    <div class="stem" id="stem"></div><div id="answers" class="answers"></div>
+    <div id="explanation" class="explanation"><h3>Why</h3><p id="explanationText"></p><a id="sourceLink" class="source" target="_blank" rel="noopener">Official source ↗</a></div>
+  </main>
+  <div id="emptyState" class="empty" style="display:none"><h2>Question bank not found</h2><p id="emptyText"></p><button class="next" id="emptyBack">BACK</button></div>
+  <footer class="bottom" id="bottomBar"><div class="bottom-row"><div class="score-pills"><span>🔥 <b id="streak">0</b></span><span class="good">✓ <b id="correct">0</b></span><span class="bad">× <b id="wrong">0</b></span></div><button id="nextBtn" class="next" disabled>NEXT QUESTION →</button></div></footer>
+</section>
+</div>
+
+<script>
+const BUILD="20260818-fifo-v01";
+const RESET_VERSION="20260818-fifo-reset-v01";
+const SUBJECTS=[
+ {key:"ethics",name:"Ethics",color:"red",count:115},
+ {key:"fsa",name:"FSA",color:"violet",count:100},
+ {key:"equity",name:"Equity Investments",color:"green",count:100}
+];
+const REQUIRED_SEEN_FLOORS={};
+
+const els={
+ home:document.getElementById("homeScreen"),quiz:document.getElementById("quizScreen"),subjects:document.getElementById("subjects"),
+ todayHeadline:document.getElementById("todayHeadline"),todayTotal:document.getElementById("todayTotal"),todayList:document.getElementById("todayList"),
+ quizSubject:document.getElementById("quizSubject"),miniScore:document.getElementById("miniScore"),qNum:document.getElementById("questionNumber"),
+ timer:document.getElementById("timer"),bankCount:document.getElementById("bankCount"),stem:document.getElementById("stem"),answers:document.getElementById("answers"),
+ explanation:document.getElementById("explanation"),explanationText:document.getElementById("explanationText"),sourceLink:document.getElementById("sourceLink"),
+ next:document.getElementById("nextBtn"),streak:document.getElementById("streak"),correct:document.getElementById("correct"),wrong:document.getElementById("wrong"),
+ back:document.getElementById("backBtn"),empty:document.getElementById("emptyState"),emptyText:document.getElementById("emptyText"),
+ emptyBack:document.getElementById("emptyBack"),quizBody:document.getElementById("quizBody"),bottomBar:document.getElementById("bottomBar")
+};
+const runtimeBanks={};let subjectBanksPromise=null,ethicsPromise=null,activeSubject=null,bank=[],bankIndex=0,visibleSessionNo=1,timerId=null,seconds=60,answered=false;
+
+function dayKey(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`}
+function getJSON(k,f){try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}}
+function setJSON(k,v){localStorage.setItem(k,JSON.stringify(v))}
+function progressKey(k){return `doomscroll.progress.${k}`}
+function scoreKey(k){return `doomscroll.score.${k}`}
+function todayKey(){return `doomscroll.today.${dayKey()}`}
+function getScore(k){return getJSON(scoreKey(k),{correct:0,wrong:0,streak:0,bestStreak:0})}
+function getProgress(k){return getJSON(progressKey(k),{nextIndex:0})}
+
+function applyRefreshMigration(){
+ const mk=`doomscroll.refresh.${RESET_VERSION}`;if(localStorage.getItem(mk)==="done")return;
+ SUBJECTS.forEach(s=>setJSON(progressKey(s.key),{nextIndex:0}));
+ SUBJECTS.forEach(s=>setJSON(scoreKey(s.key),{correct:0,wrong:0,streak:0,bestStreak:0}));
+ localStorage.removeItem(todayKey());
+ localStorage.setItem(mk,"done");
+}
+function escapeHTML(v=""){return String(v).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]))}
+function updateScoreUI(){if(!activeSubject)return;const s=getScore(activeSubject.key);els.correct.textContent=s.correct;els.wrong.textContent=s.wrong;els.streak.textContent=s.streak;els.miniScore.textContent=`✓ ${s.correct} · × ${s.wrong}`}
+function recordToday(subject,ok){const all=getJSON(todayKey(),{}),r=all[subject.key]||{name:subject.name,attempted:0,correct:0,wrong:0};r.name=subject.name;r.attempted++;ok?r.correct++:r.wrong++;all[subject.key]=r;setJSON(todayKey(),all);renderToday()}
+function renderToday(){const all=getJSON(todayKey(),{}),rows=Object.values(all).filter(x=>x.attempted>0),a=rows.reduce((n,x)=>n+x.attempted,0),c=rows.reduce((n,x)=>n+x.correct,0),w=rows.reduce((n,x)=>n+x.wrong,0);els.todayHeadline.textContent=`${a} attempted`;els.todayTotal.innerHTML=`<span class="good">${c} correct</span> · <span class="bad">${w} wrong</span>`;if(!rows.length){els.todayList.innerHTML='<div style="color:#85858a;font-size:13px;margin-top:7px">No questions attempted yet today.</div>';return}els.todayList.innerHTML=rows.map(r=>`<div class="today-row"><div class="today-name">${escapeHTML(r.name)}</div><div class="today-stats">${r.attempted} questions — <span class="good">${r.correct} correct</span>, <span class="bad">${r.wrong} wrong</span></div></div>`).join("")}
+function renderSubjects(){els.subjects.innerHTML=SUBJECTS.map(s=>{const p=getProgress(s.key),count=runtimeBanks[s.key]?.length||s.count,done=Math.min(Number(p.nextIndex)||0,count),pct=count?Math.min(100,done/count*100):0;return `<button class="subject" data-key="${s.key}" data-color="${s.color}" style="--progress:${pct}%"><div class="subject-top"><div class="subject-name">${escapeHTML(s.name)}</div><div class="subject-arrow">›</div></div><div class="subject-meta">${count} questions · ${done} completed</div><div class="bar"><i></i></div></button>`}).join("");els.subjects.querySelectorAll(".subject").forEach(b=>b.addEventListener("click",()=>startSubject(b.dataset.key)))}
+function loadScriptOnce(src){return new Promise((res,rej)=>{const s=document.createElement("script");s.src=`${src}?v=${BUILD}`;s.async=true;s.onload=res;s.onerror=()=>{s.remove();rej(new Error(`Could not load ${src}`))};document.head.appendChild(s)})}
+async function loadEthics(){if(runtimeBanks.ethics)return runtimeBanks.ethics;if(!ethicsPromise)ethicsPromise=(async()=>{window.QUESTIONS=undefined;await loadScriptOnce("./questions.js");if(window.__ETHICS_BANK_READY__?.then)await window.__ETHICS_BANK_READY__;if(!Array.isArray(window.QUESTIONS)||!window.QUESTIONS.length)throw new Error("Ethics bank missing");return runtimeBanks.ethics=window.QUESTIONS})();return ethicsPromise}
+async function loadSubjectBanks(){if(subjectBanksPromise)return subjectBanksPromise;subjectBanksPromise=(async()=>{window.FSA_QUESTIONS=undefined;window.EQUITY_QUESTIONS=undefined;await loadScriptOnce("./subject-banks.js");if(window.__SUBJECT_BANKS_READY__?.then)await window.__SUBJECT_BANKS_READY__;if(!Array.isArray(window.FSA_QUESTIONS)||!window.FSA_QUESTIONS.length)throw new Error("FSA bank missing");if(!Array.isArray(window.EQUITY_QUESTIONS)||!window.EQUITY_QUESTIONS.length)throw new Error("Equity bank missing");runtimeBanks.fsa=window.FSA_QUESTIONS;runtimeBanks.equity=window.EQUITY_QUESTIONS;return true})();return subjectBanksPromise}
+async function loadBank(s){if(runtimeBanks[s.key])return runtimeBanks[s.key];if(s.key==="ethics")return loadEthics();await loadSubjectBanks();return runtimeBanks[s.key]}
+
+async function startSubject(key){
+ activeSubject=SUBJECTS.find(s=>s.key===key);if(!activeSubject)return;visibleSessionNo=1;answered=false;stopTimer();
+ els.home.classList.remove("active");els.quiz.classList.add("active");els.quizSubject.textContent=activeSubject.name.toUpperCase();els.quizBody.style.display="block";els.bottomBar.style.display="block";els.empty.style.display="none";els.stem.textContent="Loading question bank…";els.answers.innerHTML="";els.explanation.classList.remove("show");els.bankCount.textContent="… QUESTIONS";els.qNum.textContent="QUESTION 1";
+ try{bank=await loadBank(activeSubject);if(!bank?.length)throw new Error("Question bank empty");const p=getProgress(activeSubject.key);bankIndex=Number.isInteger(p.nextIndex)?p.nextIndex:0;if(bankIndex>=bank.length)bankIndex=0;renderQuestion();renderSubjects()}catch(e){showMissingBank(e)}
+}
+function showMissingBank(e){stopTimer();els.quizBody.style.display="none";els.bottomBar.style.display="none";els.empty.style.display="block";els.emptyText.textContent=`${e?.message||"Required bank file is missing."} Keep all five files in the repository root and make sure you are online.`}
+function renderQuestion(){const q=bank[bankIndex];if(!q)return;answered=false;seconds=60;els.qNum.textContent=`QUESTION ${visibleSessionNo}`;els.bankCount.textContent=`${bank.length} QUESTIONS`;els.stem.textContent=q.stem||"";els.explanation.classList.remove("show");els.explanationText.textContent="";els.sourceLink.style.display=q.source?"inline-block":"none";if(q.source)els.sourceLink.href=q.source;els.next.disabled=true;els.answers.innerHTML=(q.options||[]).map((o,i)=>`<button class="answer" data-index="${i}"><span class="letter">${String.fromCharCode(65+i)}</span><span class="answer-text">${escapeHTML(o)}</span></button>`).join("");els.answers.querySelectorAll(".answer").forEach(b=>b.addEventListener("click",()=>answerQuestion(Number(b.dataset.index))));updateScoreUI();window.scrollTo({top:0,behavior:"instant"});startTimer()}
+function startTimer(){stopTimer();seconds=60;updateTimer();timerId=setInterval(()=>{if(seconds>0)seconds--;updateTimer();if(seconds<=0){seconds=0;stopTimer()}},1000)}
+function stopTimer(){if(timerId){clearInterval(timerId);timerId=null}}
+function updateTimer(){const s=Math.max(0,seconds);els.timer.textContent=`00:${String(s).padStart(2,"0")}`;els.timer.classList.toggle("warning",s>0&&s<=10);els.timer.classList.toggle("expired",s===0)}
+function answerQuestion(chosen){if(answered)return;answered=true;stopTimer();const q=bank[bankIndex],correct=Number(q.correct),ok=chosen===correct;[...els.answers.querySelectorAll(".answer")].forEach((b,i)=>{b.disabled=true;if(i===correct)b.classList.add("correct");if(i===chosen&&i!==correct)b.classList.add("wrong")});const s=getScore(activeSubject.key);if(ok){s.correct++;s.streak++;s.bestStreak=Math.max(Number(s.bestStreak)||0,s.streak)}else{s.wrong++;s.streak=0}setJSON(scoreKey(activeSubject.key),s);recordToday(activeSubject,ok);setJSON(progressKey(activeSubject.key),{nextIndex:Math.min(bankIndex+1,bank.length)});els.explanationText.textContent=q.explanation||"No explanation supplied.";els.explanation.classList.add("show");els.next.disabled=false;updateScoreUI();renderSubjects()}
+function nextQuestion(){if(!answered)return;const p=getProgress(activeSubject.key);bankIndex=Number.isInteger(p.nextIndex)?p.nextIndex:bankIndex+1;if(bankIndex>=bank.length){bankIndex=0;setJSON(progressKey(activeSubject.key),{nextIndex:0})}visibleSessionNo++;renderQuestion()}
+function goHome(){stopTimer();els.quiz.classList.remove("active");els.home.classList.add("active");renderToday();renderSubjects();window.scrollTo({top:0,behavior:"instant"})}
+els.next.addEventListener("click",nextQuestion);els.back.addEventListener("click",goHome);els.emptyBack.addEventListener("click",goHome);
+applyRefreshMigration();renderToday();renderSubjects();
+</script>
+</body>
+</html>
